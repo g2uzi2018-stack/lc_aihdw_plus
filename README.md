@@ -8,14 +8,15 @@
 | --- | --- | --- |
 | [嘉立创 EDA 专业版客户端](https://lceda.cn/page/download) | `4.1.105.0339a6cd`，与官方下载页当前 `4.1.105` 一致 | 编辑原理图和 PCB；内置 `lceda-pro` CLI 与 MCP 服务 |
 | [官方 `easyeda-cli` Skill](https://github.com/easyeda/easyeda-cli-skill) | 已装在 `C:\Users\kuang\.codex\skills\easyeda-cli\` | 指导 AI 检测客户端，并按本机 `--help` 与 `doc` 查询接口 |
+| [官方 `easyeda-eprj3` Skill](https://github.com/easyeda/easyeda-eprj3-skill) | 当前源码 `2.2.7`，已装在 `C:\Users\kuang\.codex\skills\easyeda-eprj3\` | 从结构化设计数据生成并检查一个本地 `.eprj3` 工程 |
 | Codex MCP 配置 | 已写入 `C:\Users\kuang\.codex\config.toml` | 通过客户端内置的 `--mcp stdio` 连接 EDA |
 
-这条路径是 **Codex → 客户端内置 MCP/CLI → 编辑器扩展 API → 本地工程**。客户端还内置 API 与工程格式查询命令；无需单独部署服务。先前安装的 `easyeda-api` Skill 已移至 `C:\Users\kuang\.codex\skills-disabled\easyeda-api\`，不会再引导当前设计流程。重启 Codex 后加载 Skill 和 MCP 配置。
+当前测试让两个 Skill 在**同一个工程**里顺序分工：`easyeda-eprj3` 负责结构化生成，`easyeda-cli` 通过客户端内置 MCP/CLI 操作、查询和核对编辑器。客户端还内置 API 与工程格式查询命令；无需单独部署服务。先前安装的 `easyeda-api` Skill 已移至 `C:\Users\kuang\.codex\skills-disabled\easyeda-api\`，不会再引导当前设计流程。重启 Codex 后加载 Skill 和 MCP 配置。
 
 ## 安装或重装
 
 1. 从[官方下载页](https://lceda.cn/page/download)安装专业版客户端；确认版本不低于官方 [`easyeda-cli` Skill](https://github.com/easyeda/easyeda-cli-skill)要求的 `4.1.70`。
-2. 将 [`easyeda-cli-skill`](https://github.com/easyeda/easyeda-cli-skill) 的仓库内容放进 `C:\Users\<用户名>\.codex\skills\easyeda-cli\`，使 `SKILL.md` 直接位于该目录下。
+2. 将 [`easyeda-cli-skill`](https://github.com/easyeda/easyeda-cli-skill) 与 [`easyeda-eprj3-skill`](https://github.com/easyeda/easyeda-eprj3-skill) 的仓库内容分别放进 `C:\Users\<用户名>\.codex\skills\easyeda-cli\`、`...\easyeda-eprj3\`，使 `SKILL.md` 直接位于各自目录下。`easyeda-eprj3` 的脚本需 Node.js；本机 Windows 已安装 Node.js 24，WSL 中没有 `node` 命令。
 3. Codex 若运行在 WSL，在 `~/.codex/config.toml` 中加入以下配置，并按实际安装路径修改用户名：
 
    ```toml
@@ -36,7 +37,7 @@ cd my-extension
 npm install
 ```
 
-官方另有 [`easyeda-eprj3-skill`](https://github.com/easyeda/easyeda-eprj3-skill)，适合按结构化设计数据批量生成 `.eprj3` 工程；当前源码为 `2.2.7`，最新 GitHub Release 是 `v2.2.4`。它是后续复杂工程的可选工作流。底层文件格式生成可参考 [`easyeda-format-skill`](https://github.com/easyeda/easyeda-format-skill)。当前首次实验先使用客户端内置 CLI/MCP，避免叠加多套生成流程。
+`easyeda-eprj3` 的当前源码版本为 `2.2.7`，最新 GitHub Release 是 `v2.2.4`；本机安装的是当前源码。底层文件格式生成还可参考 [`easyeda-format-skill`](https://github.com/easyeda/easyeda-format-skill)。两个已安装 Skill 应作用于同一个工程，避免各自创建一份工程。
 
 ## 第一次画电路
 
