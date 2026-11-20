@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "value": {
+    "ok": true,
+    "status": {
+      "jobId": "autoroute-1",
+      "state": "canceled",
+      "progress": 3
+    }
+  },
+  "logs": [],
+  "durationMs": 30
+}

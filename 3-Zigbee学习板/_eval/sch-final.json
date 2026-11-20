@@ -1,0 +1,786 @@
+{
+  "ok": true,
+  "value": {
+    "parts": [
+      {
+        "ref": "USB1",
+        "uuid": "145a802b7cff0382",
+        "pins": {
+          "13": "GND",
+          "14": "GND",
+          "A1B12": "GND",
+          "A4B9": "VBUS",
+          "B8": "",
+          "A5": "CC1",
+          "B7": "USB_D-",
+          "A6": "USB_D+",
+          "A7": "USB_D-",
+          "B6": "USB_D+",
+          "A8": "",
+          "B5": "CC2",
+          "B4A9": "VBUS",
+          "B1A12": "GND"
+        },
+        "supplier": "C2765186",
+        "fp": "USB-C-SMD_TYPE-C-16PIN-2MD-073"
+      },
+      {
+        "ref": "R1",
+        "uuid": "a659c1ec79a5896a",
+        "pins": {
+          "1": "CC2",
+          "2": "GND"
+        },
+        "supplier": "C23186",
+        "fp": "R0603"
+      },
+      {
+        "ref": "R2",
+        "uuid": "a659c1ec79a5896a",
+        "pins": {
+          "1": "CC1",
+          "2": "GND"
+        },
+        "supplier": "C23186",
+        "fp": "R0603"
+      },
+      {
+        "ref": "U1",
+        "uuid": "f370ec907eaaf99b",
+        "pins": {
+          "1": "GND",
+          "2": "+3V3",
+          "3": "VBUS",
+          "4": "+3V3"
+        },
+        "supplier": "C347222",
+        "fp": "SOT-223-4_L6.5-W3.5-P2.30-LS7.0-BR"
+      },
+      {
+        "ref": "C1",
+        "uuid": "4b3c04d5d99cea1d",
+        "pins": {
+          "1": "VBUS",
+          "2": "GND"
+        },
+        "supplier": "C7177",
+        "fp": "CASE-A_3216"
+      },
+      {
+        "ref": "C2",
+        "uuid": "4b3c04d5d99cea1d",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        },
+        "supplier": "C7177",
+        "fp": "CASE-A_3216"
+      },
+      {
+        "ref": "U2",
+        "uuid": "66b9c46d686da83a",
+        "pins": {
+          "1": "USB_D+",
+          "2": "USB_D-",
+          "3": "GND",
+          "4": "",
+          "5": "+3V3",
+          "6": "P0_2",
+          "7": "P0_3",
+          "8": "+3V3"
+        },
+        "supplier": "C2977777",
+        "fp": "SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
+      },
+      {
+        "ref": "C3",
+        "uuid": "5955580c0a9cd67d",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        },
+        "supplier": "C1591",
+        "fp": "C0603"
+      },
+      {
+        "ref": "C4",
+        "uuid": "5955580c0a9cd67d",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        },
+        "supplier": "C1591",
+        "fp": "C0603"
+      },
+      {
+        "ref": "LED1",
+        "uuid": "a0b67450d879203b",
+        "pins": {
+          "1": "GND",
+          "2": "LED1_A"
+        },
+        "supplier": "C84263",
+        "fp": "LED0603-RD_RED"
+      },
+      {
+        "ref": "LED2",
+        "uuid": "dd373c382b89adb5",
+        "pins": {
+          "1": "P1_0",
+          "2": "LED2_A"
+        },
+        "supplier": "C84267",
+        "fp": "LED0603-RD_1"
+      },
+      {
+        "ref": "LED3",
+        "uuid": "dd373c382b89adb5",
+        "pins": {
+          "1": "P1_1",
+          "2": "LED3_A"
+        },
+        "supplier": "C84267",
+        "fp": "LED0603-RD_1"
+      },
+      {
+        "ref": "R3",
+        "uuid": "50d908aec9138a44",
+        "pins": {
+          "1": "+3V3",
+          "2": "LED1_A"
+        },
+        "supplier": "C21190",
+        "fp": "R0603"
+      },
+      {
+        "ref": "R4",
+        "uuid": "50d908aec9138a44",
+        "pins": {
+          "1": "+3V3",
+          "2": "LED2_A"
+        },
+        "supplier": "C21190",
+        "fp": "R0603"
+      },
+      {
+        "ref": "R5",
+        "uuid": "50d908aec9138a44",
+        "pins": {
+          "1": "+3V3",
+          "2": "LED3_A"
+        },
+        "supplier": "C21190",
+        "fp": "R0603"
+      },
+      {
+        "ref": "BUZZER1",
+        "uuid": "196ce6c243fb0122",
+        "pins": {
+          "1": "+3V3",
+          "2": "Q1_C",
+          "3": ""
+        },
+        "supplier": "C94598",
+        "fp": "BUZ-SMD_L5.0-W5.5-P4.60"
+      },
+      {
+        "ref": "Q1",
+        "uuid": "450aaa5b0cb159a3",
+        "pins": {
+          "1": "Q1_B",
+          "2": "Q1_E",
+          "3": "Q1_C"
+        },
+        "supplier": "C20069125",
+        "fp": "SOT-23-3_L2.9-W1.3-P1.90-LS2.3-BR"
+      },
+      {
+        "ref": "C5",
+        "uuid": "5955580c0a9cd67d",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        },
+        "supplier": "C1591",
+        "fp": "C0603"
+      },
+      {
+        "ref": "D1",
+        "uuid": "d91f08215f613d96",
+        "pins": {
+          "1": "+3V3",
+          "2": "Q1_C"
+        },
+        "supplier": "C963381",
+        "fp": "SOD-123_L2.7-W1.6-LS3.7-RD"
+      },
+      {
+        "ref": "R6",
+        "uuid": "50d908aec9138a44",
+        "pins": {
+          "1": "P0_4",
+          "2": "Q1_B"
+        },
+        "supplier": "C21190",
+        "fp": "R0603"
+      },
+      {
+        "ref": "R7",
+        "uuid": "17437fa3dbba2375",
+        "pins": {
+          "1": "Q1_B",
+          "2": "GND"
+        },
+        "supplier": "C25804",
+        "fp": "R0603"
+      },
+      {
+        "ref": "R8",
+        "uuid": "8f70694a8c815227",
+        "pins": {
+          "1": "Q1_E",
+          "2": "GND"
+        },
+        "supplier": "C22775",
+        "fp": "R0603"
+      },
+      {
+        "ref": "U3",
+        "uuid": "4d57b0de93fe6ebc",
+        "pins": {
+          "1": "GND",
+          "2": "GND",
+          "3": "GND",
+          "4": "GND",
+          "5": "P1_5",
+          "6": "P1_4",
+          "7": "P1_3",
+          "8": "P1_2",
+          "9": "P1_1",
+          "10": "VDD",
+          "11": "P1_0",
+          "12": "P0_7",
+          "13": "P0_6",
+          "14": "",
+          "15": "P0_4",
+          "16": "P0_3",
+          "17": "P0_2",
+          "18": "P0_1",
+          "19": "P0_0",
+          "20": "RESET",
+          "21": "VDD",
+          "22": "XOSC_Q1",
+          "23": "XOSC_Q2",
+          "24": "VDD",
+          "25": "RF_P",
+          "26": "RF_N",
+          "27": "VDD",
+          "28": "VDD",
+          "29": "VDD",
+          "30": "RBIAS",
+          "31": "VDD",
+          "32": "XOSC32K_Q1",
+          "33": "XOSC32K_Q2",
+          "34": "P2_2",
+          "35": "P2_1",
+          "36": "P2_0",
+          "37": "",
+          "38": "P1_6",
+          "39": "VDD",
+          "40": "DCOUPL",
+          "41": "GND"
+        },
+        "supplier": "C9120",
+        "fp": "QFN-40_L6.0-W6.0-P0.50-TL-EP4.1"
+      },
+      {
+        "ref": "C12",
+        "uuid": "7df002d8f9ea0509",
+        "pins": {
+          "1": "VDD",
+          "2": "GND"
+        },
+        "supplier": "C23630",
+        "fp": "C0603"
+      },
+      {
+        "ref": "C13",
+        "uuid": "7df002d8f9ea0509",
+        "pins": {
+          "1": "VDD",
+          "2": "GND"
+        },
+        "supplier": "C23630",
+        "fp": "C0603"
+      },
+      {
+        "ref": "C14",
+        "uuid": "5955580c0a9cd67d",
+        "pins": {
+          "1": "VDD",
+          "2": "GND"
+        },
+        "supplier": "C1591",
+        "fp": "C0603"
+      },
+      {
+        "ref": "C15",
+        "uuid": "5955580c0a9cd67d",
+        "pins": {
+          "1": "VDD",
+          "2": "GND"
+        },
+        "supplier": "C1591",
+        "fp": "C0603"
+      },
+      {
+        "ref": "C16",
+        "uuid": "5955580c0a9cd67d",
+        "pins": {
+          "1": "VDD",
+          "2": "GND"
+        },
+        "supplier": "C1591",
+        "fp": "C0603"
+      },
+      {
+        "ref": "C17",
+        "uuid": "5955580c0a9cd67d",
+        "pins": {
+          "1": "VDD",
+          "2": "GND"
+        },
+        "supplier": "C1591",
+        "fp": "C0603"
+      },
+      {
+        "ref": "C18",
+        "uuid": "5955580c0a9cd67d",
+        "pins": {
+          "1": "VDD",
+          "2": "GND"
+        },
+        "supplier": "C1591",
+        "fp": "C0603"
+      },
+      {
+        "ref": "C19",
+        "uuid": "5955580c0a9cd67d",
+        "pins": {
+          "1": "VDD",
+          "2": "GND"
+        },
+        "supplier": "C1591",
+        "fp": "C0603"
+      },
+      {
+        "ref": "C6",
+        "uuid": "4384ec60486b2663",
+        "pins": {
+          "1": "DCOUPL",
+          "2": "GND"
+        },
+        "supplier": "C15849",
+        "fp": "C0603"
+      },
+      {
+        "ref": "L1",
+        "uuid": "6e987bb3880eac4d",
+        "pins": {
+          "1": "+3V3",
+          "2": "VDD"
+        },
+        "supplier": "C395081",
+        "fp": "L0603"
+      },
+      {
+        "ref": "R9",
+        "uuid": "7f43f1c3fc15ffd7",
+        "pins": {
+          "1": "RBIAS",
+          "2": "GND"
+        },
+        "supplier": "C23206",
+        "fp": "R0603"
+      },
+      {
+        "ref": "C10",
+        "uuid": "5ae4c9cc99817ff2",
+        "pins": {
+          "1": "RF_P_MATCH",
+          "2": "RF_COMB"
+        },
+        "supplier": "C37117",
+        "fp": "C0603"
+      },
+      {
+        "ref": "C11",
+        "uuid": "5fbfd8b26ac2c626",
+        "pins": {
+          "1": "RF_COMB",
+          "2": "SMA_FEED"
+        },
+        "supplier": "C1651",
+        "fp": "C0603"
+      },
+      {
+        "ref": "C7",
+        "uuid": "1a171b824fb55930",
+        "pins": {
+          "1": "RF_N",
+          "2": "RF_N_MATCH"
+        },
+        "supplier": "C1647",
+        "fp": "C0603"
+      },
+      {
+        "ref": "C8",
+        "uuid": "1a171b824fb55930",
+        "pins": {
+          "1": "RF_P",
+          "2": "RF_P_MATCH"
+        },
+        "supplier": "C1647",
+        "fp": "C0603"
+      },
+      {
+        "ref": "C9",
+        "uuid": "5ae4c9cc99817ff2",
+        "pins": {
+          "1": "RF_N_MATCH",
+          "2": "GND"
+        },
+        "supplier": "C37117",
+        "fp": "C0603"
+      },
+      {
+        "ref": "L2",
+        "uuid": "6e987bb3880eac4d",
+        "pins": {
+          "1": "RF_N_MATCH",
+          "2": "RF_COMB"
+        },
+        "supplier": "C395081",
+        "fp": "L0603"
+      },
+      {
+        "ref": "L3",
+        "uuid": "6e987bb3880eac4d",
+        "pins": {
+          "1": "RF_P_MATCH",
+          "2": "GND"
+        },
+        "supplier": "C395081",
+        "fp": "L0603"
+      },
+      {
+        "ref": "RF1",
+        "uuid": "2f13f1ac4f5ae925",
+        "pins": {
+          "1": "GND",
+          "2": "GND",
+          "3": "GND",
+          "4": "GND",
+          "5": "SMA_FEED"
+        },
+        "supplier": "C496550",
+        "fp": "SMA-SMD_BWSMA-KE-P001"
+      },
+      {
+        "ref": "X1",
+        "uuid": "6dd067c7b83fc23f",
+        "pins": {
+          "1": "XOSC_Q1",
+          "2": "GND",
+          "3": "XOSC_Q2",
+          "4": "GND"
+        },
+        "supplier": "C9009",
+        "fp": "CRYSTAL-SMD_4P-L3.2-W2.5-BL"
+      },
+      {
+        "ref": "C20",
+        "uuid": "1a171b824fb55930",
+        "pins": {
+          "1": "XOSC_Q1",
+          "2": "GND"
+        },
+        "supplier": "C1647",
+        "fp": "C0603"
+      },
+      {
+        "ref": "C21",
+        "uuid": "1a171b824fb55930",
+        "pins": {
+          "1": "XOSC_Q2",
+          "2": "GND"
+        },
+        "supplier": "C1647",
+        "fp": "C0603"
+      },
+      {
+        "ref": "C22",
+        "uuid": "1a171b824fb55930",
+        "pins": {
+          "1": "XOSC32K_Q1",
+          "2": "GND"
+        },
+        "supplier": "C1647",
+        "fp": "C0603"
+      },
+      {
+        "ref": "C23",
+        "uuid": "1a171b824fb55930",
+        "pins": {
+          "1": "XOSC32K_Q2",
+          "2": "GND"
+        },
+        "supplier": "C1647",
+        "fp": "C0603"
+      },
+      {
+        "ref": "X2",
+        "uuid": "e3ba8644c625e379",
+        "pins": {
+          "1": "XOSC32K_Q1",
+          "2": "XOSC32K_Q2"
+        },
+        "supplier": "C5213671",
+        "fp": "CRYSTAL-SMD_L3.2-W1.5-1"
+      },
+      {
+        "ref": "P1",
+        "uuid": "54f6435c35a6defb",
+        "pins": {
+          "1": "GND",
+          "2": "+3V3",
+          "3": "P2_2",
+          "4": "P2_1",
+          "5": "",
+          "6": "",
+          "7": "RESET",
+          "8": "",
+          "9": "",
+          "10": ""
+        },
+        "supplier": "C5665",
+        "fp": "IDC-TH_10P-P2.54_C5665"
+      },
+      {
+        "ref": "C24",
+        "uuid": "5955580c0a9cd67d",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        },
+        "supplier": "C1591",
+        "fp": "C0603"
+      },
+      {
+        "ref": "R10",
+        "uuid": "17437fa3dbba2375",
+        "pins": {
+          "1": "+3V3",
+          "2": "P2_2"
+        },
+        "supplier": "C25804",
+        "fp": "R0603"
+      },
+      {
+        "ref": "U4",
+        "uuid": "b114b92e9108dbf1",
+        "pins": {
+          "1": "",
+          "2": "+3V3",
+          "3": "P0_7",
+          "4": "P0_6",
+          "5": "GND",
+          "6": ""
+        },
+        "supplier": "C2757850",
+        "fp": "SENSOR-SMD_L3.0-W3.0-P1.00-BR"
+      },
+      {
+        "ref": "C25",
+        "uuid": "5955580c0a9cd67d",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        },
+        "supplier": "C1591",
+        "fp": "C0603"
+      },
+      {
+        "ref": "R11",
+        "uuid": "17437fa3dbba2375",
+        "pins": {
+          "1": "+3V3",
+          "2": "P0_7"
+        },
+        "supplier": "C25804",
+        "fp": "R0603"
+      },
+      {
+        "ref": "R12",
+        "uuid": "17437fa3dbba2375",
+        "pins": {
+          "1": "+3V3",
+          "2": "P0_6"
+        },
+        "supplier": "C25804",
+        "fp": "R0603"
+      },
+      {
+        "ref": "R13",
+        "uuid": "17437fa3dbba2375",
+        "pins": {
+          "1": "+3V3",
+          "2": "RESET"
+        },
+        "supplier": "C25804",
+        "fp": "R0603"
+      },
+      {
+        "ref": "R14",
+        "uuid": "17437fa3dbba2375",
+        "pins": {
+          "1": "+3V3",
+          "2": "P0_0"
+        },
+        "supplier": "C25804",
+        "fp": "R0603"
+      },
+      {
+        "ref": "R15",
+        "uuid": "17437fa3dbba2375",
+        "pins": {
+          "1": "+3V3",
+          "2": "P2_0"
+        },
+        "supplier": "C25804",
+        "fp": "R0603"
+      },
+      {
+        "ref": "SW1",
+        "uuid": "885ca4197d866726",
+        "pins": {
+          "1": "GND",
+          "2": "GND",
+          "3": "RESET",
+          "4": "RESET"
+        },
+        "supplier": "C7528752",
+        "fp": "SW-SMD_4P-L6.0-W6.0-P4.50-LS8.2"
+      },
+      {
+        "ref": "SW2",
+        "uuid": "885ca4197d866726",
+        "pins": {
+          "1": "GND",
+          "2": "GND",
+          "3": "P0_0",
+          "4": "P0_0"
+        },
+        "supplier": "C7528752",
+        "fp": "SW-SMD_4P-L6.0-W6.0-P4.50-LS8.2"
+      },
+      {
+        "ref": "SW3",
+        "uuid": "885ca4197d866726",
+        "pins": {
+          "1": "GND",
+          "2": "GND",
+          "3": "P2_0",
+          "4": "P2_0"
+        },
+        "supplier": "C7528752",
+        "fp": "SW-SMD_4P-L6.0-W6.0-P4.50-LS8.2"
+      },
+      {
+        "ref": "OLED1",
+        "uuid": "407e5486b4cfa600",
+        "pins": {
+          "1": "GND",
+          "2": "+3V3",
+          "3": "P1_5",
+          "4": "P1_6",
+          "5": "P1_4",
+          "6": "P1_3",
+          "7": "P1_2"
+        },
+        "supplier": "C5139759",
+        "fp": "OLED-TH_HS96L01B4S03"
+      },
+      {
+        "ref": "C26",
+        "uuid": "5955580c0a9cd67d",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        },
+        "supplier": "C1591",
+        "fp": "C0603"
+      },
+      {
+        "ref": "R16",
+        "uuid": "17437fa3dbba2375",
+        "pins": {
+          "1": "+3V3",
+          "2": "P0_1"
+        },
+        "supplier": "C25804",
+        "fp": "R0603"
+      },
+      {
+        "ref": "R17",
+        "uuid": "f725ca2a5f7bb978",
+        "pins": {
+          "1": "P0_1",
+          "2": "GND"
+        },
+        "supplier": "C2904880",
+        "fp": "RES-SMD_L3.6-W2.4"
+      },
+      {
+        "ref": "SCREW1",
+        "uuid": "95bfc1e76d991f9f",
+        "pins": {
+          "1": ""
+        },
+        "supplier": "",
+        "fp": "M3螺丝"
+      },
+      {
+        "ref": "SCREW2",
+        "uuid": "95bfc1e76d991f9f",
+        "pins": {
+          "1": ""
+        },
+        "supplier": "",
+        "fp": "M3螺丝"
+      },
+      {
+        "ref": "SCREW3",
+        "uuid": "95bfc1e76d991f9f",
+        "pins": {
+          "1": ""
+        },
+        "supplier": "",
+        "fp": "M3螺丝"
+      },
+      {
+        "ref": "SCREW4",
+        "uuid": "95bfc1e76d991f9f",
+        "pins": {
+          "1": ""
+        },
+        "supplier": "",
+        "fp": "M3螺丝"
+      }
+    ],
+    "bom": "No.\tQuantity\tComment\tDesignator\tFootprint\tValue\tManufacturer Part\tManufacturer\tSupplier Part\tSupplier\n1\t1\t4kHz\tBUZZER1\tBUZ-SMD_L5.0-W5.5-P4.60\t4kHz\tMLT-5020\t华能\tC94598\tLCSC\n2\t2\t10uF\tC1,C2\tCASE-A_3216\t10uF\tTAJA106K010RNJ\tKyocera AVX\tC7177\tLCSC\n3\t12\t100nF\tC3,C4,C5,C14,C15,C16,C17,C18,C19,C24,C25,C26\tC0603\t100nF\tCL10B104KB8NNNC\tSAMSUNG(三星)\tC1591\tLCSC\n4\t1\t1uF\tC6\tC0603\t1uF\tCL10A105KB8NNNC\tSAMSUNG(三星)\tC15849\tLCSC\n5\t6\t18pF\tC7,C8,C20,C21,C22,C23\tC0603\t18pF\tCL10C180JB8NNNC\tSAMSUNG(三星)\tC1647\tLCSC\n6\t2\t1pF\tC9,C10\tC0603\t1pF\t0603CG1R0C500NT\tFH(风华)\tC37117\tLCSC\n7\t1\t2.2pF\tC11\tC0603\t2.2pF\t0603CG2R2C500NT\tFH(风华)\tC1651\tLCSC\n8\t2\t2.2uF\tC12,C13\tC0603\t2.2uF\tCL10A225KO8NNNC\tSAMSUNG(三星)\tC23630\tLCSC\n9\t1\t1N5819W\tD1\tSOD-123_L2.7-W1.6-LS3.7-RD\t\t1N5819W\tJSMSEMI(杰盛微)\tC963381\tLCSC\n10\t3\t2nH\tL1,L2,L3\tL0603\t2nH\tVHF160808H2N0ST\tFH(风华)\tC395081\tLCSC\n11\t1\tNCD0603R1\tLED1\tLED0603-RD_RED\t\tNCD0603R1\t国星光电\tC84263\tLCSC\n12\t2\tNCD0603G1\tLED2,LED3\tLED0603-RD_1\t\tNCD0603G1\t国星光电\tC84267\tLCSC\n13\t1\tHS96L01B4S03\tOLED1\tOLED-TH_HS96L01B4S03\t\tHS96L01B4S03\tHS(汉昇)\tC5139759\tLCSC\n14\t1\t2.54-2*5P简牛\tP1\tIDC-TH_10P-P2.54_C5665\t\t2.54-2*5P简牛\tBOOMELE(博穆精密)\tC5665\tLCSC\n15\t1\tS8050\tQ1\tSOT-23-3_L2.9-W1.3-P1.90-LS2.3-BR\t\tS8050\tR+O(宏嘉诚)\tC20069125\tLCSC\n16\t2\t5.1kΩ\tR1,R2\tR0603\t5.1kΩ\t0603WAF5101T5E\tUNI-ROYAL(厚声)\tC23186\tLCSC\n17\t4\t1kΩ\tR3,R4,R5,R6\tR0603\t1kΩ\t0603WAF1001T5E\tUNI-ROYAL(厚声)\tC21190\tLCSC\n18\t8\t10kΩ\tR7,R10,R11,R12,R13,R14,R15,R16\tR0603\t10kΩ\t0603WAF1002T5E\tUNI-ROYAL(厚声)\tC25804\tLCSC\n19\t1\t100Ω\tR8\tR0603\t100Ω\t0603WAF1000T5E\tUNI-ROYAL(厚声)\tC22775\tLCSC\n20\t1\t56kΩ\tR9\tR0603\t56kΩ\t0603WAF5602T5E\tUNI-ROYAL(厚声)\tC23206\tLCSC\n21\t1\tGT36516\tR17\tRES-SMD_L3.6-W2.4\t\tGT36516\tJCHL(晶创和立)\tC2904880\tLCSC\n22\t1\t-\tRF1\tSMA-SMD_BWSMA-KE-P001\t-\tBWSMA-KE-P001\tBAT WIRELESS(蝙蝠无线)\tC496550\tLCSC\n23\t4\tM3螺丝\tSCREW1,SCREW2,SCREW3,SCREW4\tM3螺丝\t\t\t\t\t\n24\t3\tTC-6601-5.0-260-8.3\tSW1,SW2,SW3\tSW-SMD_4P-L6.0-W6.0-P4.50-LS8.2\t\tTC-6601-5.0-260-8.3\tFG(富港)\tC7528752\tLCSC\n25\t1\tAMS1117-3.3\tU1\tSOT-223-4_L6.5-W3.5-P2.30-LS7.0-BR\t\tAMS1117-3.3\tUMW(友台半导体)\tC347222\tLCSC\n26\t1\tCH340N\tU2\tSOP-8_L4.9-W3.9-P1.27-LS6.0-BL\t\tCH340N\tWCH(南京沁恒)\tC2977777\tLCSC\n27\t1\tCC2530F256RHAR\tU3\tQFN-40_L6.0-W6.0-P0.50-TL-EP4.1\t\tCC2530F256RHAR\tTI(德州仪器)\tC9120\tLCSC\n28\t1\tAHT20\tU4\tSENSOR-SMD_L3.0-W3.0-P1.00-BR\t\tAHT20\t广州奥松\tC2757850\tLCSC\n29\t1\tTYPE-C 16PIN 2MD(073)\tUSB1\tUSB-C-SMD_TYPE-C-16PIN-2MD-073\t\tTYPE-C 16PIN 2MD(073)\tSHOU HAN(首韩)\tC2765186\tLCSC\n30\t1\t32MHz\tX1\tCRYSTAL-SMD_4P-L3.2-W2.5-BL\t32MHz\tX322532MOB4SI\tYXC(扬兴晶振)\tC9009\tLCSC\n31\t1\t32.768kHz\tX2\tCRYSTAL-SMD_L3.2-W1.5-1\t32.768kHz\tXKXGI-SUA-32.768K\tYXC(扬兴晶振)\tC5213671\tLCSC\n",
+    "drc": []
+  },
+  "logs": [],
+  "durationMs": 1841
+}

@@ -1,0 +1,52 @@
+{
+  "project": "cca2f43ef988075e75d9fa44f0b99f7df28ef2946b32f8736fe738b0bca791c8",
+  "schematicPage": "710b8052ef26c189",
+  "pcb": "0d423a3a93f1744c",
+  "schematicPartCount": 69,
+  "pcbPartCount": 69,
+  "schPinCount": 223,
+  "pcbExportLogicalPinCount": 223,
+  "netCount": 44,
+  "schDifferencesVsExam": [],
+  "pcbDifferencesVsExam": [],
+  "nativeExportToExportComparison": {
+    "error": "Error: TypeError: Cannot read properties of undefined (reading 'components')"
+  },
+  "nativeSchematicDrc": [],
+  "supplierDifferences": [],
+  "U1": {
+    "1": "GND",
+    "2": "+3V3",
+    "3": "VBUS",
+    "4": "+3V3"
+  },
+  "OLED1": {
+    "1": "GND",
+    "2": "+3V3",
+    "3": "P1_5",
+    "4": "P1_6",
+    "5": "P1_4",
+    "6": "P1_3",
+    "7": "P1_2"
+  },
+  "intentionalOpens": [
+    "BUZZER1.3",
+    "P1.10",
+    "P1.5",
+    "P1.6",
+    "P1.8",
+    "P1.9",
+    "SCREW1.1",
+    "SCREW2.1",
+    "SCREW3.1",
+    "SCREW4.1",
+    "U2.4",
+    "U3.14",
+    "U3.37",
+    "U4.1",
+    "U4.6",
+    "USB1.A8",
+    "USB1.B8"
+  ],
+  "note": "采用同一工程的两份原生 JLCEDA 网表文件对比；不使用曾丢失 PCB 引脚列的 UUID 形式。"
+}

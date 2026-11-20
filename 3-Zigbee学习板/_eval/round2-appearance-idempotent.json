@@ -1,0 +1,13 @@
+{
+  "applied": true,
+  "files": [
+    {
+      "path": "sch/Schematic1/P1.esch2",
+      "changedRecords": 0
+    },
+    {
+      "path": "pcb/PCB1.epcb2",
+      "changedRecords": 0
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "board": "PCB1",
+  "placed": 69,
+  "copperPads": 225,
+  "netAssignmentsChanged": [],
+  "componentPlacementChanges": [],
+  "protectedNets": [
+    "P0_2",
+    "P0_3",
+    "RF_COMB",
+    "RF_N",
+    "RF_N_MATCH",
+    "RF_P",
+    "RF_P_MATCH",
+    "SMA_FEED",
+    "USB_D+",
+    "USB_D-",
+    "XOSC32K_Q1",
+    "XOSC32K_Q2",
+    "XOSC_Q1",
+    "XOSC_Q2"
+  ],
+  "baselineProtectedSegments": 77,
+  "finalProtectedSegments": 77,
+  "protectedGeometryChanges": [],
+  "protectedVias": {},
+  "viaDistribution": {
+    "P0_0": 2,
+    "P0_7": 2,
+    "P2_0": 2,
+    "P2_2": 1,
+    "P0_1": 2,
+    "P1_2": 2,
+    "P2_1": 1,
+    "P1_3": 1,
+    "P1_1": 2,
+    "RESET": 4,
+    "P1_6": 2,
+    "P1_4": 1,
+    "P1_5": 2,
+    "+3V3": 5,
+    "P1_0": 2,
+    "GND": 5,
+    "VDD": 12
+  },
+  "viaSizesMil": [
+    {
+      "diameterMil": 24,
+      "holeMil": 12,
+      "count": 2
+    },
+    {
+      "diameterMil": 24.0157,
+      "holeMil": 12.0079,
+      "count": 46
+    }
+  ],
+  "rawRecordTraceCount": 565,
+  "rawRecordTraceLayers": {
+    "1": 471,
+    "2": 94
+  },
+  "rawCountNote": "文件内有效图元记录可能包含客户端打开时合并的微小线段。完工段数以重开客户端为准。",
+  "powerNetTrackWidthsMil": {
+    "+3V3": {
+      "20": 79,
+      "17.7165": 4
+    },
+    "GND": {
+      "20": 144,
+      "17.7165": 3,
+      "19.4886": 12,
+      "10": 1
+    },
+    "VDD": {
+      "20": 54,
+      "10": 11
+    },
+    "VBUS": {
+      "20": 2
+    }
+  },
+  "groundPourLayersAndFillCounts": {
+    "fb856b2cd8dcec0a": [
+      "GND",
+      1,
+      150
+    ],
+    "1646eee009da61f9": [
+      "GND",
+      2,
+      29
+    ]
+  },
+  "outlineChanges": [],
+  "ruleChanges": [],
+  "appearanceAfterFullSync": {
+    "sch/Schematic1/P1.esch2": {
+      "SYMBOL": {
+        "uuid": "b9705bd06a71a9d3",
+        "changedPrimitiveRows": [],
+        "changedDocumentHeaderFields": []
+      },
+      "FOOTPRINT": {
+        "uuid": "1eee9eef2eda364d",
+        "changedPrimitiveRows": [],
+        "changedDocumentHeaderFields": []
+      }
+    },
+    "pcb/PCB1.epcb2": {
+      "SYMBOL": {
+        "uuid": "b9705bd06a71a9d3",
+        "changedPrimitiveRows": [],
+        "changedDocumentHeaderFields": [
+          "client",
+          "updateTime"
+        ]
+      },
+      "FOOTPRINT": {
+        "uuid": "1eee9eef2eda364d",
+        "changedPrimitiveRows": [],
+        "changedDocumentHeaderFields": [
+          "client",
+          "updateTime"
+        ]
+      }
+    }
+  }
+}

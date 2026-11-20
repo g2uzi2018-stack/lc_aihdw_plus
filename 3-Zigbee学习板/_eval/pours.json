@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "value": {
+    "out": [
+      {
+        "layer": 1,
+        "id": "fb856b2cd8dcec0a",
+        "filled": true,
+        "pouredId": "fb856b2cd8dcec0a"
+      },
+      {
+        "layer": 2,
+        "id": "1646eee009da61f9",
+        "filled": true,
+        "pouredId": "1646eee009da61f9"
+      }
+    ],
+    "saved": true
+  },
+  "logs": [],
+  "durationMs": 3804
+}

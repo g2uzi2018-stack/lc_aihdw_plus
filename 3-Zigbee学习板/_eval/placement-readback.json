@@ -1,0 +1,696 @@
+{
+  "ok": true,
+  "value": {
+    "outlines": [
+      {
+        "id": "06bf6d5071462681",
+        "layer": 11,
+        "width": 10,
+        "locked": true,
+        "path": [
+          "R",
+          0,
+          1574.8031,
+          3228.3465,
+          1574.8031,
+          0,
+          118.1102
+        ]
+      }
+    ],
+    "stack": {
+      "layers": [
+        {
+          "layerId": 3,
+          "layerName": "Top Silkscreen Layer",
+          "layerType": "TOP_SILK",
+          "kind": "other",
+          "material": null,
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1
+        },
+        {
+          "layerId": 7,
+          "layerName": "Top Paste Mask Layer",
+          "layerType": "TOP_PASTE_MASK",
+          "kind": "other",
+          "material": null,
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 2
+        },
+        {
+          "layerId": 5,
+          "layerName": "Top Solder Mask Layer",
+          "layerType": "TOP_SOLDER_MASK",
+          "kind": "other",
+          "material": "",
+          "thickness": 0.394,
+          "permittivity": 3.3,
+          "lossTangent": 0.02,
+          "isKeepIsland": true,
+          "zIndex": 3
+        },
+        {
+          "layerId": 1,
+          "layerName": "Top Layer",
+          "layerType": "TOP",
+          "kind": "copper",
+          "material": null,
+          "thickness": 1.379,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1000
+        },
+        {
+          "layerId": 361,
+          "layerName": "Dielectric1",
+          "layerType": "SUBSTRATE",
+          "kind": "dielectric",
+          "material": "FR4",
+          "thickness": 59.449,
+          "permittivity": 4.5,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1001
+        },
+        {
+          "layerId": 2,
+          "layerName": "Bottom Layer",
+          "layerType": "BOTTOM",
+          "kind": "copper",
+          "material": null,
+          "thickness": 1.3779999999999997,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 9000
+        },
+        {
+          "layerId": 6,
+          "layerName": "Bottom Solder Mask Layer",
+          "layerType": "BOT_SOLDER_MASK",
+          "kind": "other",
+          "material": "",
+          "thickness": 0.394,
+          "permittivity": 3.3,
+          "lossTangent": 0.02,
+          "isKeepIsland": true,
+          "zIndex": 10000
+        },
+        {
+          "layerId": 8,
+          "layerName": "Bottom Paste Mask Layer",
+          "layerType": "BOT_PASTE_MASK",
+          "kind": "other",
+          "material": null,
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 10001
+        },
+        {
+          "layerId": 4,
+          "layerName": "Bottom Silkscreen Layer",
+          "layerType": "BOT_SILK",
+          "kind": "other",
+          "material": null,
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 10002
+        }
+      ],
+      "totalThickness": 62.994,
+      "unit": "mil"
+    },
+    "origin": {
+      "offsetX": 0,
+      "offsetY": 0
+    },
+    "parts": [
+      {
+        "ref": "OLED1",
+        "x": 885.8268,
+        "y": 1488.189,
+        "r": 0,
+        "layer": 1,
+        "locked": true
+      },
+      {
+        "ref": "C26",
+        "x": 267.7165,
+        "y": 1181.1024,
+        "r": 90,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "P1",
+        "x": 1889.7638000000002,
+        "y": 1362.2047,
+        "r": 180,
+        "layer": 1,
+        "locked": true
+      },
+      {
+        "ref": "R10",
+        "x": 2086.6142,
+        "y": 1129.9213,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "C24",
+        "x": 2259.8425,
+        "y": 1108.2677,
+        "r": 90,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "USB1",
+        "x": 1870.0787,
+        "y": 212.5984,
+        "r": 0,
+        "layer": 1,
+        "locked": true
+      },
+      {
+        "ref": "R1",
+        "x": 2141.7323,
+        "y": 330.7087,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "R2",
+        "x": 1586.6142,
+        "y": 399.6062999999999,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "U2",
+        "x": 1937.0079,
+        "y": 559.0551,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "C3",
+        "x": 1870.0787,
+        "y": 775.5906,
+        "r": 90,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "C4",
+        "x": 2007.8739999999998,
+        "y": 775.5906,
+        "r": 90,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "U1",
+        "x": 1622.0472,
+        "y": 629.9213,
+        "r": -90.00000000000001,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "C1",
+        "x": 1732.2835,
+        "y": 389.7638,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "C2",
+        "x": 1586.6142,
+        "y": 854.3307,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "BUZZER1",
+        "x": 165.35429999999997,
+        "y": 669.2913,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "D1",
+        "x": 177.16540000000003,
+        "y": 503.937,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "Q1",
+        "x": 177.16540000000003,
+        "y": 381.88980000000004,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "R6",
+        "x": 279.5276,
+        "y": 314.9606,
+        "r": 90,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "R7",
+        "x": 303.1496,
+        "y": 468.5039,
+        "r": 90,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "R8",
+        "x": 62.99210000000001,
+        "y": 381.88980000000004,
+        "r": 90,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "C5",
+        "x": 169.2913,
+        "y": 826.7717,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "R17",
+        "x": 137.7953,
+        "y": 1035.4331,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "R16",
+        "x": 299.2126,
+        "y": 1015.748,
+        "r": 90,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "U4",
+        "x": 3094.4882,
+        "y": 1094.4882,
+        "r": 90,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "C25",
+        "x": 2952.7559,
+        "y": 1129.9213,
+        "r": 90,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "R11",
+        "x": 2874.0157,
+        "y": 1177.1654,
+        "r": 90,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "R12",
+        "x": 2980.315,
+        "y": 976.3779999999999,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "LED1",
+        "x": 2393.7008,
+        "y": 1484.252,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "LED2",
+        "x": 2610.2362,
+        "y": 1484.252,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "LED3",
+        "x": 2826.7717,
+        "y": 1484.252,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "R3",
+        "x": 2393.7008,
+        "y": 1393.7008,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "R4",
+        "x": 2610.2362,
+        "y": 1393.7008,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "R5",
+        "x": 2826.7717,
+        "y": 1393.7008,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "SW1",
+        "x": 531.4961,
+        "y": 208.6614,
+        "r": 180,
+        "layer": 1,
+        "locked": true
+      },
+      {
+        "ref": "SW2",
+        "x": 976.3779999999999,
+        "y": 208.6614,
+        "r": 180,
+        "layer": 1,
+        "locked": true
+      },
+      {
+        "ref": "SW3",
+        "x": 1417.3228,
+        "y": 208.6614,
+        "r": 180,
+        "layer": 1,
+        "locked": true
+      },
+      {
+        "ref": "R13",
+        "x": 531.4961,
+        "y": 385.82679999999993,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "R14",
+        "x": 976.3779999999999,
+        "y": 385.82679999999993,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "R15",
+        "x": 1366.1417000000001,
+        "y": 385.82679999999993,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "U3",
+        "x": 2409.4488,
+        "y": 787.4016,
+        "r": -45.00000000000001,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "RF1",
+        "x": 3122.0472,
+        "y": 606.2992,
+        "r": 0,
+        "layer": 1,
+        "locked": true
+      },
+      {
+        "ref": "C7",
+        "x": 2673.2283,
+        "y": 649.6063000000001,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "C8",
+        "x": 2673.2283,
+        "y": 547.2441,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "L2",
+        "x": 2807.0866,
+        "y": 651.5747999999999,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "C10",
+        "x": 2807.0866,
+        "y": 547.2441,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "C11",
+        "x": 2952.7559,
+        "y": 606.2992,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "C9",
+        "x": 2732.2834999999995,
+        "y": 771.6535,
+        "r": 90,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "L3",
+        "x": 2732.2834999999995,
+        "y": 417.3228,
+        "r": 90,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "X1",
+        "x": 2417.3228,
+        "y": 417.3228,
+        "r": 90,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "C20",
+        "x": 2295.2756,
+        "y": 444.8819,
+        "r": 90,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "C21",
+        "x": 2539.3701,
+        "y": 448.8189,
+        "r": 90,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "X2",
+        "x": 2700.7874,
+        "y": 964.5669,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "C22",
+        "x": 2633.8583,
+        "y": 1114.1732,
+        "r": 90,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "C23",
+        "x": 2834.6457,
+        "y": 944.8819000000001,
+        "r": 90,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "R9",
+        "x": 2948.8189,
+        "y": 858.2677,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "L1",
+        "x": 2137.7953,
+        "y": 956.6929,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "C12",
+        "x": 2137.7953,
+        "y": 1035.4331,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "C13",
+        "x": 2641.7322999999997,
+        "y": 757.874,
+        "r": 90,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "C14",
+        "x": 2818.8976,
+        "y": 755.9055,
+        "r": 90,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "C15",
+        "x": 2173.2283,
+        "y": 807.0866,
+        "r": 90,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "C16",
+        "x": 2275.5906,
+        "y": 557.0866,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "C17",
+        "x": 2539.3701,
+        "y": 557.0866,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "C18",
+        "x": 2523.622,
+        "y": 1068.8976,
+        "r": 90,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "C19",
+        "x": 2385.8268,
+        "y": 1114.1732,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "C6",
+        "x": 2385.8268,
+        "y": 1037.4016,
+        "r": 0,
+        "layer": 1,
+        "locked": false
+      },
+      {
+        "ref": "SCREW3",
+        "x": 157.4803,
+        "y": 157.4803,
+        "r": 0,
+        "layer": 1,
+        "locked": true
+      },
+      {
+        "ref": "SCREW4",
+        "x": 3070.8661,
+        "y": 157.4803,
+        "r": 0,
+        "layer": 1,
+        "locked": true
+      },
+      {
+        "ref": "SCREW1",
+        "x": 157.4803,
+        "y": 1417.3228,
+        "r": 0,
+        "layer": 1,
+        "locked": true
+      },
+      {
+        "ref": "SCREW2",
+        "x": 3070.8661,
+        "y": 1417.3228,
+        "r": 0,
+        "layer": 1,
+        "locked": true
+      }
+    ]
+  },
+  "logs": [],
+  "durationMs": 3032
+}

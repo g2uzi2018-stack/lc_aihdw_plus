@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "value": {
+    "doc": "0d423a3a93f1744c",
+    "config": true,
+    "class": true,
+    "select": true,
+    "saved": true
+  },
+  "logs": [],
+  "durationMs": 899
+}

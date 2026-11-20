@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "value": {
+    "out": [
+      {
+        "ok": true,
+        "value": {
+          "primitiveId": "315aa5123f915c15",
+          "designator": "SCREW1"
+        }
+      },
+      {
+        "ok": true,
+        "value": {
+          "primitiveId": "0e8fbd371483e287",
+          "designator": "SCREW2"
+        }
+      },
+      {
+        "ok": true,
+        "value": {
+          "primitiveId": "df812c4a99491254",
+          "designator": "SCREW3"
+        }
+      },
+      {
+        "ok": true,
+        "value": {
+          "primitiveId": "eb33e158a444d4b4",
+          "designator": "SCREW4"
+        }
+      }
+    ],
+    "nc": [
+      "SCREW1",
+      "SCREW2",
+      "SCREW3",
+      "SCREW4"
+    ],
+    "saved": true
+  },
+  "logs": [],
+  "durationMs": 4227
+}

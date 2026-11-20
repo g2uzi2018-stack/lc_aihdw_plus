@@ -1,0 +1,15 @@
+{
+  "sourceRows": 31,
+  "sourceRefs": 69,
+  "actualRows": 30,
+  "actualRefs": 65,
+  "missing": [
+    "SCREW1",
+    "SCREW2",
+    "SCREW3",
+    "SCREW4"
+  ],
+  "extra": [],
+  "mismatch": [],
+  "criterion": "位号、商品编号、数量、商品对应现行官方封装。部分物料题目中的封装名为简写。"
+}

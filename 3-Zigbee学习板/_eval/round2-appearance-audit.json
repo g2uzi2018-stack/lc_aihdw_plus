@@ -1,0 +1,987 @@
+{
+  "reopenedVia": "JLCEDA Pro desktop 4.1.105 — same .eprj3 after SCH_Document.save/PCB_Document.save and closing the original process session",
+  "sch": {
+    "deviceCount": 69,
+    "referenceSetsMatch": true,
+    "pinDiffs": [],
+    "materialDiffs": [],
+    "footprintDiffs": [],
+    "allPinMapSources": "sch-final.json vs round2-appearance-native.json, sch_ManufactureData.getNetlistFile JLCEDA",
+    "U1_nets": {
+      "1": "GND",
+      "2": "+3V3",
+      "3": "VBUS",
+      "4": "+3V3"
+    },
+    "U1_definition": [
+      {
+        "pinId": "e5",
+        "pinNumber": "1",
+        "pinName": "ADJ(GND)",
+        "x": 0,
+        "y": -30,
+        "rotation": 270,
+        "side": "bottom",
+        "length": 10,
+        "direction": "Undefined"
+      },
+      {
+        "pinId": "e9",
+        "pinNumber": "2",
+        "pinName": "VOUT(TAB)",
+        "x": 50,
+        "y": 0,
+        "rotation": 0,
+        "side": "right",
+        "length": 10,
+        "direction": "Undefined"
+      },
+      {
+        "pinId": "e13",
+        "pinNumber": "3",
+        "pinName": "VIN",
+        "x": -60,
+        "y": 0,
+        "rotation": 180,
+        "side": "left",
+        "length": 10,
+        "direction": "Undefined"
+      },
+      {
+        "pinId": "e17",
+        "pinNumber": "4",
+        "pinName": "TAB",
+        "x": 50,
+        "y": 15,
+        "rotation": 0,
+        "side": "right",
+        "length": 10,
+        "direction": "Undefined"
+      }
+    ],
+    "DRC": []
+  },
+  "oled": {
+    "clientGeometry": {
+      "uuid": "1eee9eef2eda364d",
+      "bodyBBox": {
+        "minX": -542.4,
+        "minY": -1040.431,
+        "maxX": 542.401,
+        "maxY": 64.055
+      },
+      "fullBBox": {
+        "minX": -542.4,
+        "minY": -1040.431,
+        "maxX": 542.401,
+        "maxY": 64.055
+      },
+      "pads": [
+        {
+          "padId": "e13",
+          "padNumber": "1",
+          "shape": "RECT",
+          "type": "NORMAL",
+          "plated": true,
+          "x": -300,
+          "y": 0,
+          "rotation": 0,
+          "width": 70.866,
+          "height": 70.866,
+          "layerIds": [
+            1,
+            2,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "bbox": {
+            "minX": -335.433,
+            "minY": -35.433,
+            "maxX": -264.567,
+            "maxY": 35.433
+          },
+          "holeType": "ROUND",
+          "holeDiameter": 39.37
+        },
+        {
+          "padId": "e14",
+          "padNumber": "2",
+          "shape": "ELLIPSE",
+          "type": "NORMAL",
+          "plated": true,
+          "x": -200,
+          "y": 0,
+          "rotation": 0,
+          "width": 70.866,
+          "height": 70.866,
+          "layerIds": [
+            1,
+            2,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "bbox": {
+            "minX": -235.433,
+            "minY": -35.433,
+            "maxX": -164.567,
+            "maxY": 35.433
+          },
+          "holeType": "ROUND",
+          "holeDiameter": 39.37
+        },
+        {
+          "padId": "e15",
+          "padNumber": "3",
+          "shape": "ELLIPSE",
+          "type": "NORMAL",
+          "plated": true,
+          "x": -100,
+          "y": 0,
+          "rotation": 0,
+          "width": 70.866,
+          "height": 70.866,
+          "layerIds": [
+            1,
+            2,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "bbox": {
+            "minX": -135.433,
+            "minY": -35.433,
+            "maxX": -64.56700000000001,
+            "maxY": 35.433
+          },
+          "holeType": "ROUND",
+          "holeDiameter": 39.37
+        },
+        {
+          "padId": "e16",
+          "padNumber": "4",
+          "shape": "ELLIPSE",
+          "type": "NORMAL",
+          "plated": true,
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "width": 70.866,
+          "height": 70.866,
+          "layerIds": [
+            1,
+            2,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "bbox": {
+            "minX": -35.433,
+            "minY": -35.433,
+            "maxX": 35.433,
+            "maxY": 35.433
+          },
+          "holeType": "ROUND",
+          "holeDiameter": 39.37
+        },
+        {
+          "padId": "e17",
+          "padNumber": "5",
+          "shape": "ELLIPSE",
+          "type": "NORMAL",
+          "plated": true,
+          "x": 100,
+          "y": 0,
+          "rotation": 0,
+          "width": 70.866,
+          "height": 70.866,
+          "layerIds": [
+            1,
+            2,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "bbox": {
+            "minX": 64.56700000000001,
+            "minY": -35.433,
+            "maxX": 135.433,
+            "maxY": 35.433
+          },
+          "holeType": "ROUND",
+          "holeDiameter": 39.37
+        },
+        {
+          "padId": "e18",
+          "padNumber": "6",
+          "shape": "ELLIPSE",
+          "type": "NORMAL",
+          "plated": true,
+          "x": 200,
+          "y": 0,
+          "rotation": 0,
+          "width": 70.866,
+          "height": 70.866,
+          "layerIds": [
+            1,
+            2,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "bbox": {
+            "minX": 164.567,
+            "minY": -35.433,
+            "maxX": 235.433,
+            "maxY": 35.433
+          },
+          "holeType": "ROUND",
+          "holeDiameter": 39.37
+        },
+        {
+          "padId": "e19",
+          "padNumber": "7",
+          "shape": "ELLIPSE",
+          "type": "NORMAL",
+          "plated": true,
+          "x": 300,
+          "y": 0,
+          "rotation": 0,
+          "width": 70.866,
+          "height": 70.866,
+          "layerIds": [
+            1,
+            2,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "bbox": {
+            "minX": 264.567,
+            "minY": -35.433,
+            "maxX": 335.433,
+            "maxY": 35.433
+          },
+          "holeType": "ROUND",
+          "holeDiameter": 39.37
+        }
+      ]
+    },
+    "officialDocumentExport": {
+      "outline": [
+        [
+          "e1",
+          9,
+          true
+        ],
+        [
+          "e2",
+          9,
+          true
+        ],
+        [
+          "e3",
+          9,
+          true
+        ],
+        [
+          "e4",
+          9,
+          true
+        ],
+        [
+          "e5",
+          9,
+          true
+        ],
+        [
+          "e6",
+          9,
+          true
+        ],
+        [
+          "e7",
+          9,
+          true
+        ],
+        [
+          "e8",
+          9,
+          true
+        ]
+      ],
+      "pads": [
+        [
+          "e13",
+          "1",
+          true
+        ],
+        [
+          "e14",
+          "2",
+          true
+        ],
+        [
+          "e15",
+          "3",
+          true
+        ],
+        [
+          "e16",
+          "4",
+          true
+        ],
+        [
+          "e17",
+          "5",
+          true
+        ],
+        [
+          "e18",
+          "6",
+          true
+        ],
+        [
+          "e19",
+          "7",
+          true
+        ]
+      ],
+      "holes": [
+        [
+          "e9",
+          [
+            "CIRCLE",
+            -458.66,
+            -19.69,
+            45.276
+          ],
+          true
+        ],
+        [
+          "e10",
+          [
+            "CIRCLE",
+            458.66,
+            -19.69,
+            45.276
+          ],
+          true
+        ],
+        [
+          "e11",
+          [
+            "CIRCLE",
+            458.66,
+            -956.69,
+            45.276
+          ],
+          true
+        ],
+        [
+          "e12",
+          [
+            "CIRCLE",
+            -458.66,
+            -956.69,
+            45.276
+          ],
+          true
+        ]
+      ],
+      "legend": [
+        [
+          "GND",
+          "Arial",
+          45,
+          3
+        ],
+        [
+          "VCC",
+          "Arial",
+          45,
+          3
+        ],
+        [
+          "SCL",
+          "Arial",
+          45,
+          3
+        ],
+        [
+          "SDA",
+          "Arial",
+          45,
+          3
+        ],
+        [
+          "RES",
+          "Arial",
+          45,
+          3
+        ],
+        [
+          "DC",
+          "Arial",
+          45,
+          3
+        ],
+        [
+          "CS",
+          "Arial",
+          45,
+          3
+        ]
+      ],
+      "otherRecordChanges": []
+    }
+  },
+  "nativeFiles": {
+    "pcb/PCB1.epcb2": {
+      "outline": [
+        [
+          "e1",
+          9,
+          true
+        ],
+        [
+          "e2",
+          9,
+          true
+        ],
+        [
+          "e3",
+          9,
+          true
+        ],
+        [
+          "e4",
+          9,
+          true
+        ],
+        [
+          "e5",
+          9,
+          true
+        ],
+        [
+          "e6",
+          9,
+          true
+        ],
+        [
+          "e7",
+          9,
+          true
+        ],
+        [
+          "e8",
+          9,
+          true
+        ]
+      ],
+      "pads": [
+        [
+          "e13",
+          "1",
+          true
+        ],
+        [
+          "e14",
+          "2",
+          true
+        ],
+        [
+          "e15",
+          "3",
+          true
+        ],
+        [
+          "e16",
+          "4",
+          true
+        ],
+        [
+          "e17",
+          "5",
+          true
+        ],
+        [
+          "e18",
+          "6",
+          true
+        ],
+        [
+          "e19",
+          "7",
+          true
+        ]
+      ],
+      "holes": [
+        [
+          "e9",
+          [
+            "CIRCLE",
+            -458.66,
+            -19.69,
+            45.276
+          ],
+          true
+        ],
+        [
+          "e10",
+          [
+            "CIRCLE",
+            458.66,
+            -19.69,
+            45.276
+          ],
+          true
+        ],
+        [
+          "e11",
+          [
+            "CIRCLE",
+            458.66,
+            -956.69,
+            45.276
+          ],
+          true
+        ],
+        [
+          "e12",
+          [
+            "CIRCLE",
+            -458.66,
+            -956.69,
+            45.276
+          ],
+          true
+        ]
+      ],
+      "legend": [
+        [
+          "GND",
+          "Arial",
+          45,
+          3
+        ],
+        [
+          "VCC",
+          "Arial",
+          45,
+          3
+        ],
+        [
+          "SCL",
+          "Arial",
+          45,
+          3
+        ],
+        [
+          "SDA",
+          "Arial",
+          45,
+          3
+        ],
+        [
+          "RES",
+          "Arial",
+          45,
+          3
+        ],
+        [
+          "DC",
+          "Arial",
+          45,
+          3
+        ],
+        [
+          "CS",
+          "Arial",
+          45,
+          3
+        ]
+      ],
+      "otherRecordChanges": []
+    },
+    "sch/Schematic1/P1.esch2": {
+      "outline": [
+        [
+          "e1",
+          9,
+          true
+        ],
+        [
+          "e2",
+          9,
+          true
+        ],
+        [
+          "e3",
+          9,
+          true
+        ],
+        [
+          "e4",
+          9,
+          true
+        ],
+        [
+          "e5",
+          9,
+          true
+        ],
+        [
+          "e6",
+          9,
+          true
+        ],
+        [
+          "e7",
+          9,
+          true
+        ],
+        [
+          "e8",
+          9,
+          true
+        ]
+      ],
+      "pads": [
+        [
+          "e13",
+          "1",
+          true
+        ],
+        [
+          "e14",
+          "2",
+          true
+        ],
+        [
+          "e15",
+          "3",
+          true
+        ],
+        [
+          "e16",
+          "4",
+          true
+        ],
+        [
+          "e17",
+          "5",
+          true
+        ],
+        [
+          "e18",
+          "6",
+          true
+        ],
+        [
+          "e19",
+          "7",
+          true
+        ]
+      ],
+      "holes": [
+        [
+          "e9",
+          [
+            "CIRCLE",
+            -458.66,
+            -19.69,
+            45.276
+          ],
+          true
+        ],
+        [
+          "e10",
+          [
+            "CIRCLE",
+            458.66,
+            -19.69,
+            45.276
+          ],
+          true
+        ],
+        [
+          "e11",
+          [
+            "CIRCLE",
+            458.66,
+            -956.69,
+            45.276
+          ],
+          true
+        ],
+        [
+          "e12",
+          [
+            "CIRCLE",
+            -458.66,
+            -956.69,
+            45.276
+          ],
+          true
+        ]
+      ],
+      "legend": [
+        [
+          "GND",
+          "Arial",
+          45,
+          3
+        ],
+        [
+          "VCC",
+          "Arial",
+          45,
+          3
+        ],
+        [
+          "SCL",
+          "Arial",
+          45,
+          3
+        ],
+        [
+          "SDA",
+          "Arial",
+          45,
+          3
+        ],
+        [
+          "RES",
+          "Arial",
+          45,
+          3
+        ],
+        [
+          "DC",
+          "Arial",
+          45,
+          3
+        ],
+        [
+          "CS",
+          "Arial",
+          45,
+          3
+        ]
+      ],
+      "otherRecordChanges": []
+    }
+  },
+  "images": {
+    "U1": "round2-appearance-u1.png: cropped from official 3961 x 2661 sch_ManufactureData.getPngFile; pixel bounds x692..947, y2347..2517, displayed at 3x.",
+    "OLED1": "round2-appearance-oled.png: cropped at vector resolution from pcb_ManufactureData.getPdfFile, page 5 [26,1,104,25] points.",
+    "oledPdfPageFirstTextLine": "GNDVCCSCL SDA RES DC CS",
+    "fullSchematicExportSha256": "6f91bd5fd6e3730184d130c206d6ea87b6d7aa458e7227ea145a03353c627adc"
+  }
+}

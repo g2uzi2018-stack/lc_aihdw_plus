@@ -1,0 +1,3146 @@
+{
+  "ok": true,
+  "value": {
+    "state": "failed",
+    "totalCount": 209,
+    "failedItems": 0,
+    "violations": [
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 3122.0512000000003,
+          "y": 706.6942
+        },
+        "obj1": "f5e3acaef208de75e31",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err1"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          2
+        ],
+        "position": {
+          "x": 3122.0512000000003,
+          "y": 706.6942
+        },
+        "obj1": "f5e3acaef208de75e1",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err2"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          2
+        ],
+        "position": {
+          "x": 3122.0512000000003,
+          "y": 505.90420000000006
+        },
+        "obj1": "f5e3acaef208de75e2",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err3"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 3122.0512000000003,
+          "y": 505.91420000000005
+        },
+        "obj1": "f5e3acaef208de75e30",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err4"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2374.6520752978104,
+          "y": 919.6376391496962
+        },
+        "obj1": "2bcd2944c5e7b7b1e95",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err5"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2388.5679367515613,
+          "y": 933.5535006034474
+        },
+        "obj1": "2bcd2944c5e7b7b1e94",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err6"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2346.8132813224956,
+          "y": 891.7988451743821
+        },
+        "obj1": "2bcd2944c5e7b7b1e97",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err7"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2360.729142776247,
+          "y": 905.714706628133
+        },
+        "obj1": "2bcd2944c5e7b7b1e96",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err8"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1996.0637,
+          "y": 306.1034
+        },
+        "obj1": "7be21882e4861132e39",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err9"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          12
+        ],
+        "position": {
+          "x": 2040.3537000000001,
+          "y": 284.4534
+        },
+        "obj1": "7be21882e4861132e43",
+        "obj1Type": "TH Pad",
+        "explanation": "Common",
+        "globalIndex": "err10"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          12
+        ],
+        "position": {
+          "x": 1699.8037,
+          "y": 284.4534
+        },
+        "obj1": "7be21882e4861132e42",
+        "obj1Type": "TH Pad",
+        "explanation": "Common",
+        "globalIndex": "err11"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1744.0937,
+          "y": 306.1034
+        },
+        "obj1": "7be21882e4861132e28",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err12"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2413.3867999999998,
+          "y": 1037.4016
+        },
+        "obj1": "19f03810120eb7ade14",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err13"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2413.3867999999998,
+          "y": 1114.1732
+        },
+        "obj1": "d361f1d77c2d6411e14",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err14"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2295.2756000000004,
+          "y": 472.44190000000003
+        },
+        "obj1": "887e66683d72f611e14",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err15"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2303.1506,
+          "y": 557.0866
+        },
+        "obj1": "070d58029ccb46dfe14",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err16"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2539.3701000000005,
+          "y": 476.3789
+        },
+        "obj1": "29c5dc0888624317e14",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err17"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2566.9301,
+          "y": 557.0866
+        },
+        "obj1": "0ce170dca62decf9e14",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err18"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2732.2834999999995,
+          "y": 799.2135000000002
+        },
+        "obj1": "eedf3caf2e4f63e3e14",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err19"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2818.8976,
+          "y": 783.4654999999998
+        },
+        "obj1": "96d9eab9109868a4e14",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err20"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2450.7877999999996,
+          "y": 460.6327999999999
+        },
+        "obj1": "ffabe7a815a6e357e14",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err21"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1779.5235,
+          "y": 389.7638
+        },
+        "obj1": "ba204b94e32703f1ie9",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err22"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2641.7322999999997,
+          "y": 785.4340000000002
+        },
+        "obj1": "327e3c74209fea2be14",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err23"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2383.8578,
+          "y": 374.01279999999986
+        },
+        "obj1": "ffabe7a815a6e357e16",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err24"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2523.622,
+          "y": 1096.4576
+        },
+        "obj1": "e632241388629151e14",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err25"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2633.858300000001,
+          "y": 1141.7332
+        },
+        "obj1": "c0d83a3b14010735e14",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err26"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2409.4488,
+          "y": 787.4016000000001
+        },
+        "obj1": "2bcd2944c5e7b7b1e134",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err27"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1574.8028,
+          "y": 120.08139999999997
+        },
+        "obj1": "837c4dd6cd639f38e6",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err28"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          12
+        ],
+        "position": {
+          "x": 1699.8037,
+          "y": 119.0934
+        },
+        "obj1": "7be21882e4861132e44",
+        "obj1Type": "TH Pad",
+        "explanation": "Common",
+        "globalIndex": "err29"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1133.858,
+          "y": 120.08139999999997
+        },
+        "obj1": "3dc4cdafa911f9cee6",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err30"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1259.8428,
+          "y": 120.08140000000019
+        },
+        "obj1": "837c4dd6cd639f38e3",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err31"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 688.9760999999999,
+          "y": 120.08139999999997
+        },
+        "obj1": "d100a2fe4e3c8bf7e6",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err32"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 818.8979999999999,
+          "y": 120.08139999999997
+        },
+        "obj1": "3dc4cdafa911f9cee3",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err33"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1870.0787,
+          "y": 803.1506
+        },
+        "obj1": "44e8108ec83906a6e14",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err34"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2007.8739999999996,
+          "y": 803.1506
+        },
+        "obj1": "4023d0fa957bc5a8e14",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err35"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2165.3553,
+          "y": 1035.4331
+        },
+        "obj1": "a71effdc3271640ae14",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err36"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2259.8425,
+          "y": 1135.8277
+        },
+        "obj1": "ce30c9bb532e7b33e14",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err37"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2171.3923000000004,
+          "y": 330.7087
+        },
+        "obj1": "a08213a42deeb499e7",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err38"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1616.2742,
+          "y": 399.6062999999999
+        },
+        "obj1": "e97435e7add6753ce7",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err39"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1531.4972,
+          "y": 518.3113000000001
+        },
+        "obj1": "2c0313304dfbae00e5",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err40"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1962.0079,
+          "y": 453.4451000000001
+        },
+        "obj1": "7c03535ee9e0c04ce27",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err41"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          12
+        ],
+        "position": {
+          "x": 2040.3537000000001,
+          "y": 119.0934
+        },
+        "obj1": "7be21882e4861132e45",
+        "obj1Type": "TH Pad",
+        "explanation": "Common",
+        "globalIndex": "err42"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2173.2283,
+          "y": 834.6465999999998
+        },
+        "obj1": "861faf3a546a32b8e14",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err43"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2952.755900000001,
+          "y": 1157.4813
+        },
+        "obj1": "15232ef9565e0f9ae14",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err44"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 3094.4871999999996,
+          "y": 1055.1172000000001
+        },
+        "obj1": "7e5cae1efcc90a71e17",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err45"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2978.4789,
+          "y": 858.2677
+        },
+        "obj1": "d058e64bcc148c1ee7",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err46"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2834.6457,
+          "y": 972.4419
+        },
+        "obj1": "a88a61e7c481fdb7e14",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err47"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 198.5153,
+          "y": 1035.4331
+        },
+        "obj1": "9bffa04388abd8c2e6",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err48"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 267.71649999999994,
+          "y": 1208.6624000000002
+        },
+        "obj1": "bc13f5704360d45ae14",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err49"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2732.2834999999995,
+          "y": 444.87779999999987
+        },
+        "obj1": "af666bb990e1e49be8",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err50"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 196.8513,
+          "y": 826.7717
+        },
+        "obj1": "3c95a8403306cc24e14",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err51"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1633.8541999999998,
+          "y": 854.3307
+        },
+        "obj1": "01bcccf263b184d1ie9",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err52"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 62.99210000000002,
+          "y": 411.5498
+        },
+        "obj1": "5cdfed1072e086f7e7",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err53"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 303.14959999999996,
+          "y": 498.1639
+        },
+        "obj1": "4e7d300c6b504fa0e7",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err54"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          12
+        ],
+        "position": {
+          "x": 2089.7638,
+          "y": 1412.2047
+        },
+        "obj1": "dbcde0111279e10fe21",
+        "obj1Type": "TH Pad",
+        "explanation": "Common",
+        "globalIndex": "err55"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2364.2128,
+          "y": 1484.117
+        },
+        "obj1": "b8890700de7837e7e21",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err56"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 374.01609999999994,
+          "y": 120.0814
+        },
+        "obj1": "d100a2fe4e3c8bf7e3",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err57"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          12
+        ],
+        "position": {
+          "x": 585.8268,
+          "y": 1488.189
+        },
+        "obj1": "00d30e3a4782a05ae13",
+        "obj1Type": "TH Pad",
+        "explanation": "Common",
+        "globalIndex": "err58"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2007.8740000000003,
+          "y": 748.0306
+        },
+        "obj1": "4023d0fa957bc5a8e15",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err59"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2012.0079,
+          "y": 664.6650999999999
+        },
+        "obj1": "7c03535ee9e0c04ce32",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err60"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1862.0079,
+          "y": 664.6650999999999
+        },
+        "obj1": "7c03535ee9e0c04ce29",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err61"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1870.0787,
+          "y": 748.0306
+        },
+        "obj1": "44e8108ec83906a6e15",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err62"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2874.0157,
+          "y": 1147.5054
+        },
+        "obj1": "d7bc71dce992144ce8",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err63"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2952.755900000001,
+          "y": 1102.3613
+        },
+        "obj1": "15232ef9565e0f9ae15",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err64"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 74.80429999999998,
+          "y": 600.3963
+        },
+        "obj1": "6731eb0027630270e17",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err65"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 112.79140000000001,
+          "y": 503.937
+        },
+        "obj1": "9ad82cd691dcc1b8e14",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err66"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2950.6549999999997,
+          "y": 976.3779999999999
+        },
+        "obj1": "d364d0b12e3ba1a7e8",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err67"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1539.3742,
+          "y": 854.3307
+        },
+        "obj1": "01bcccf263b184d1ie8",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err68"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1622.0472,
+          "y": 741.5313000000001
+        },
+        "obj1": "2c0313304dfbae00e8",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err69"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 3094.4871999999996,
+          "y": 1133.8572
+        },
+        "obj1": "7e5cae1efcc90a71e14",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err70"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 267.71649999999994,
+          "y": 1153.5424
+        },
+        "obj1": "bc13f5704360d45ae15",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err71"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 299.21260000000007,
+          "y": 986.0880000000003
+        },
+        "obj1": "21d240c1ad5e0828e8",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err72"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2056.9541999999997,
+          "y": 1129.9213
+        },
+        "obj1": "25b65f28d1c7e3a9e8",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err73"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2110.2403,
+          "y": 956.6929
+        },
+        "obj1": "0ea95bfb8c37b977e7",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err74"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          12
+        ],
+        "position": {
+          "x": 2089.7638,
+          "y": 1312.2047
+        },
+        "obj1": "dbcde0111279e10fe22",
+        "obj1Type": "TH Pad",
+        "explanation": "Common",
+        "globalIndex": "err75"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2259.8425,
+          "y": 1080.7077000000002
+        },
+        "obj1": "ce30c9bb532e7b33e15",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err76"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2364.0407999999998,
+          "y": 1393.7008
+        },
+        "obj1": "110c211d528154abe8",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err77"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2580.5762,
+          "y": 1393.7008
+        },
+        "obj1": "43511ba61ea7645ee8",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err78"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2797.1117,
+          "y": 1393.7008
+        },
+        "obj1": "195821b6dffdee91e8",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err79"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1622.0472,
+          "y": 518.3113000000001
+        },
+        "obj1": "2c0313304dfbae00e6",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err80"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 141.7313,
+          "y": 826.7717
+        },
+        "obj1": "3c95a8403306cc24e15",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err81"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1336.4816999999998,
+          "y": 385.82679999999993
+        },
+        "obj1": "cc05b053f6632a9fe8",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err82"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 946.7180000000001,
+          "y": 385.82679999999993
+        },
+        "obj1": "91e9bd9e1141d605e8",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err83"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 501.83609999999993,
+          "y": 385.82679999999993
+        },
+        "obj1": "aec1b5b6c4f9df3ae8",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err84"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          12
+        ],
+        "position": {
+          "x": 685.8268,
+          "y": 1488.189
+        },
+        "obj1": "00d30e3a4782a05ae14",
+        "obj1Type": "TH Pad",
+        "explanation": "Common",
+        "globalIndex": "err85"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          12
+        ],
+        "position": {
+          "x": 785.8268,
+          "y": 1488.189
+        },
+        "obj1": "00d30e3a4782a05ae15",
+        "obj1Type": "TH Pad",
+        "explanation": "Common",
+        "globalIndex": "err86"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2332.8903488009328,
+          "y": 877.8759126528188
+        },
+        "obj1": "2bcd2944c5e7b7b1e98",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err87"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          12
+        ],
+        "position": {
+          "x": 885.8268,
+          "y": 1488.189
+        },
+        "obj1": "00d30e3a4782a05ae16",
+        "obj1Type": "TH Pad",
+        "explanation": "Common",
+        "globalIndex": "err88"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2458.168457223753,
+          "y": 905.7147066281333
+        },
+        "obj1": "2bcd2944c5e7b7b1e131",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err89"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          12
+        ],
+        "position": {
+          "x": 985.8268,
+          "y": 1488.189
+        },
+        "obj1": "00d30e3a4782a05ae17",
+        "obj1Type": "TH Pad",
+        "explanation": "Common",
+        "globalIndex": "err90"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2318.9744873471814,
+          "y": 863.9600511990677
+        },
+        "obj1": "2bcd2944c5e7b7b1e99",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err91"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          12
+        ],
+        "position": {
+          "x": 1085.8268,
+          "y": 1488.189
+        },
+        "obj1": "00d30e3a4782a05ae18",
+        "obj1Type": "TH Pad",
+        "explanation": "Common",
+        "globalIndex": "err92"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2305.0515548256185,
+          "y": 850.0371186775044
+        },
+        "obj1": "2bcd2944c5e7b7b1e100",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err93"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          12
+        ],
+        "position": {
+          "x": 1185.8268,
+          "y": 1488.189
+        },
+        "obj1": "00d30e3a4782a05ae19",
+        "obj1Type": "TH Pad",
+        "explanation": "Common",
+        "globalIndex": "err94"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2291.135693371867,
+          "y": 836.1212572237532
+        },
+        "obj1": "2bcd2944c5e7b7b1e101",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err95"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          12
+        ],
+        "position": {
+          "x": 1989.7638000000002,
+          "y": 1412.2047
+        },
+        "obj1": "dbcde0111279e10fe23",
+        "obj1Type": "TH Pad",
+        "explanation": "Common",
+        "globalIndex": "err96"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2116.2742,
+          "y": 1129.9213
+        },
+        "obj1": "25b65f28d1c7e3a9e7",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err97"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2513.8460451743817,
+          "y": 850.0371186775044
+        },
+        "obj1": "2bcd2944c5e7b7b1e127",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err98"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          12
+        ],
+        "position": {
+          "x": 1989.7638000000002,
+          "y": 1312.2047
+        },
+        "obj1": "dbcde0111279e10fe24",
+        "obj1Type": "TH Pad",
+        "explanation": "Common",
+        "globalIndex": "err99"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2499.923112652819,
+          "y": 863.9600511990676
+        },
+        "obj1": "2bcd2944c5e7b7b1e128",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err100"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 561.1560999999999,
+          "y": 385.82679999999993
+        },
+        "obj1": "aec1b5b6c4f9df3ae7",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err101"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 688.9760999999999,
+          "y": 297.24140000000006
+        },
+        "obj1": "d100a2fe4e3c8bf7e5",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err102"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 374.01609999999994,
+          "y": 297.2414
+        },
+        "obj1": "d100a2fe4e3c8bf7e4",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err103"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          12
+        ],
+        "position": {
+          "x": 1789.7638000000002,
+          "y": 1412.2047
+        },
+        "obj1": "dbcde0111279e10fe27",
+        "obj1Type": "TH Pad",
+        "explanation": "Common",
+        "globalIndex": "err104"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2388.567936751561,
+          "y": 641.2496993965523
+        },
+        "obj1": "2bcd2944c5e7b7b1e113",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err105"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1685.0435000000002,
+          "y": 389.7638
+        },
+        "obj1": "ba204b94e32703f1ie8",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err106"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1775.5937,
+          "y": 306.1034
+        },
+        "obj1": "7be21882e4861132e29",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err107"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1712.5972000000002,
+          "y": 518.3113000000001
+        },
+        "obj1": "2c0313304dfbae00e7",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err108"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1964.5737,
+          "y": 306.1034
+        },
+        "obj1": "7be21882e4861132e38",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err109"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1556.9542,
+          "y": 399.6062999999999
+        },
+        "obj1": "e97435e7add6753ce8",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err110"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1820.8736999999999,
+          "y": 306.1034
+        },
+        "obj1": "7be21882e4861132e31",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err111"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1840.5537000000002,
+          "y": 306.1034
+        },
+        "obj1": "7be21882e4861132e32",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err112"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1879.9236999999998,
+          "y": 306.1034
+        },
+        "obj1": "7be21882e4861132e34",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err113"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1912.0079,
+          "y": 453.4451000000001
+        },
+        "obj1": "7c03535ee9e0c04ce26",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err114"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1860.2337,
+          "y": 306.1034
+        },
+        "obj1": "7be21882e4861132e33",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err115"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1899.6037,
+          "y": 306.1034
+        },
+        "obj1": "7be21882e4861132e35",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err116"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1862.0079,
+          "y": 453.4451000000001
+        },
+        "obj1": "7c03535ee9e0c04ce25",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err117"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1938.9837,
+          "y": 306.1034
+        },
+        "obj1": "7be21882e4861132e37",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err118"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2112.0723000000003,
+          "y": 330.7087
+        },
+        "obj1": "a08213a42deeb499e8",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err119"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1912.0079,
+          "y": 664.6650999999999
+        },
+        "obj1": "7c03535ee9e0c04ce30",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err120"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2332.8903488009328,
+          "y": 696.9272873471813
+        },
+        "obj1": "2bcd2944c5e7b7b1e109",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err121"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1962.0079,
+          "y": 664.6650999999999
+        },
+        "obj1": "7c03535ee9e0c04ce31",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err122"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2346.8132813224956,
+          "y": 683.0043548256181
+        },
+        "obj1": "2bcd2944c5e7b7b1e110",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err123"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 241.53940000000003,
+          "y": 503.937
+        },
+        "obj1": "9ad82cd691dcc1b8e13",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err124"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 255.90429999999998,
+          "y": 600.3963
+        },
+        "obj1": "6731eb0027630270e16",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err125"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 138.18040000000002,
+          "y": 381.88980000000004
+        },
+        "obj1": "1f179b82506c948de4",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err126"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 62.99210000000002,
+          "y": 352.2298
+        },
+        "obj1": "5cdfed1072e086f7e8",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err127"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 216.1504,
+          "y": 419.2898
+        },
+        "obj1": "1f179b82506c948de5",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err128"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 216.1504,
+          "y": 344.4898
+        },
+        "obj1": "1f179b82506c948de6",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err129"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 279.52760000000006,
+          "y": 344.6206
+        },
+        "obj1": "712ee3b7b25da4bae7",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err130"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 303.14959999999996,
+          "y": 438.84389999999996
+        },
+        "obj1": "4e7d300c6b504fa0e8",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err131"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 279.52760000000006,
+          "y": 285.3006
+        },
+        "obj1": "712ee3b7b25da4bae8",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err132"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2318.9744873471814,
+          "y": 710.8431488009328
+        },
+        "obj1": "2bcd2944c5e7b7b1e108",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err133"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 77.0753,
+          "y": 1035.4331
+        },
+        "obj1": "9bffa04388abd8c2e5",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err134"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 299.21260000000007,
+          "y": 1045.4080000000001
+        },
+        "obj1": "21d240c1ad5e0828e7",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err135"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2360.729142776247,
+          "y": 669.0884933718669
+        },
+        "obj1": "2bcd2944c5e7b7b1e111",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err136"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2874.0157,
+          "y": 1206.8254000000002
+        },
+        "obj1": "d7bc71dce992144ce7",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err137"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 3055.1171999999997,
+          "y": 1133.8572
+        },
+        "obj1": "7e5cae1efcc90a71e15",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err138"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2277.2127608503033,
+          "y": 752.6048752978102
+        },
+        "obj1": "2bcd2944c5e7b7b1e105",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err139"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 3009.975,
+          "y": 976.3779999999999
+        },
+        "obj1": "d364d0b12e3ba1a7e7",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err140"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 3055.1171999999997,
+          "y": 1055.1172000000001
+        },
+        "obj1": "7e5cae1efcc90a71e16",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err141"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2291.1356933718666,
+          "y": 738.681942776247
+        },
+        "obj1": "2bcd2944c5e7b7b1e106",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err142"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2423.1888,
+          "y": 1484.3869999999997
+        },
+        "obj1": "b8890700de7837e7e22",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err143"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2423.3608,
+          "y": 1393.7008
+        },
+        "obj1": "110c211d528154abe7",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err144"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2639.8962,
+          "y": 1393.7008
+        },
+        "obj1": "43511ba61ea7645ee7",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err145"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2641.7111999999997,
+          "y": 1484.3899999999999
+        },
+        "obj1": "0efa8ce890ce88ace8",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err146"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2263.2968993965524,
+          "y": 766.5207367515615
+        },
+        "obj1": "2bcd2944c5e7b7b1e104",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err147"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2578.7612,
+          "y": 1484.1100000000001
+        },
+        "obj1": "0efa8ce890ce88ace9",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err148"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2856.4317,
+          "y": 1393.7008
+        },
+        "obj1": "195821b6dffdee91e7",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err149"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2858.2466999999997,
+          "y": 1484.3899999999999
+        },
+        "obj1": "05546dd63895d8bee8",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err150"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2277.2127608503038,
+          "y": 822.19832470219
+        },
+        "obj1": "2bcd2944c5e7b7b1e102",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err151"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2795.2967,
+          "y": 1484.1100000000001
+        },
+        "obj1": "05546dd63895d8bee9",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err152"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1006.0379999999999,
+          "y": 385.82679999999993
+        },
+        "obj1": "91e9bd9e1141d605e7",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err153"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1133.858,
+          "y": 297.24140000000006
+        },
+        "obj1": "3dc4cdafa911f9cee5",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err154"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 818.8980000000001,
+          "y": 297.2413999999999
+        },
+        "obj1": "3dc4cdafa911f9cee4",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err155"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2374.65207529781,
+          "y": 655.1655608503038
+        },
+        "obj1": "2bcd2944c5e7b7b1e112",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err156"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1259.8428000000001,
+          "y": 297.2414
+        },
+        "obj1": "837c4dd6cd639f38e4",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err157"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1395.8017,
+          "y": 385.82679999999993
+        },
+        "obj1": "cc05b053f6632a9fe7",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err158"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 1574.8028,
+          "y": 297.24140000000006
+        },
+        "obj1": "837c4dd6cd639f38e5",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err159"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2486.0072511990675,
+          "y": 877.8759126528188
+        },
+        "obj1": "2bcd2944c5e7b7b1e129",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err160"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2513.8460451743817,
+          "y": 724.7660813224957
+        },
+        "obj1": "2bcd2944c5e7b7b1e120",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err161"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2527.761906628133,
+          "y": 738.6819427762471
+        },
+        "obj1": "2bcd2944c5e7b7b1e121",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err162"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2541.6848391496965,
+          "y": 752.6048752978099
+        },
+        "obj1": "2bcd2944c5e7b7b1e122",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err163"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2555.600700603448,
+          "y": 808.2824632484386
+        },
+        "obj1": "2bcd2944c5e7b7b1e124",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err164"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2430.329663248439,
+          "y": 641.2496993965526
+        },
+        "obj1": "2bcd2944c5e7b7b1e114",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err165"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2472.0843186775046,
+          "y": 683.0043548256178
+        },
+        "obj1": "2bcd2944c5e7b7b1e117",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err166"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2173.2283,
+          "y": 779.5265999999998
+        },
+        "obj1": "861faf3a546a32b8e15",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err167"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2263.2968993965524,
+          "y": 808.282463248439
+        },
+        "obj1": "2bcd2944c5e7b7b1e103",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err168"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2110.2353000000003,
+          "y": 1035.4331
+        },
+        "obj1": "a71effdc3271640ae15",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err169"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2165.3503000000005,
+          "y": 956.6929
+        },
+        "obj1": "0ea95bfb8c37b977e8",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err170"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2641.7322999999997,
+          "y": 730.3140000000002
+        },
+        "obj1": "327e3c74209fea2be15",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err171"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2511.8101,
+          "y": 557.0866
+        },
+        "obj1": "0ce170dca62decf9e15",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err172"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2444.24552470219,
+          "y": 919.6376391496966
+        },
+        "obj1": "2bcd2944c5e7b7b1e132",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err173"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2523.622,
+          "y": 1041.3375999999998
+        },
+        "obj1": "e632241388629151e15",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err174"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2818.8976,
+          "y": 728.3454999999998
+        },
+        "obj1": "96d9eab9109868a4e15",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err175"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2358.2668,
+          "y": 1114.1732
+        },
+        "obj1": "d361f1d77c2d6411e15",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err176"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2248.0306,
+          "y": 557.0866
+        },
+        "obj1": "070d58029ccb46dfe15",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err177"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2295.2756000000004,
+          "y": 417.3219
+        },
+        "obj1": "887e66683d72f611e15",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err178"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2450.7878,
+          "y": 374.01279999999986
+        },
+        "obj1": "ffabe7a815a6e357e13",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err179"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2444.2455247021903,
+          "y": 655.1655608503039
+        },
+        "obj1": "2bcd2944c5e7b7b1e115",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err180"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2383.8577999999998,
+          "y": 460.6327999999999
+        },
+        "obj1": "ffabe7a815a6e357e15",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err181"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2539.3701000000005,
+          "y": 421.2589
+        },
+        "obj1": "29c5dc0888624317e15",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err182"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2458.168457223753,
+          "y": 669.0884933718671
+        },
+        "obj1": "2bcd2944c5e7b7b1e116",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err183"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2486.0072511990675,
+          "y": 696.9272873471813
+        },
+        "obj1": "2bcd2944c5e7b7b1e118",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err184"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2645.6683000000003,
+          "y": 547.2441
+        },
+        "obj1": "96bb7ea726ee626fe15",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err185"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2499.923112652819,
+          "y": 710.8431488009323
+        },
+        "obj1": "2bcd2944c5e7b7b1e119",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err186"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2645.6683000000003,
+          "y": 649.6063000000001
+        },
+        "obj1": "d63f1206ef731b13e15",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err187"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2555.600700603448,
+          "y": 766.5207367515615
+        },
+        "obj1": "2bcd2944c5e7b7b1e123",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err188"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2919.1589,
+          "y": 858.2677
+        },
+        "obj1": "d058e64bcc148c1ee8",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err189"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2633.858300000001,
+          "y": 1086.6131999999998
+        },
+        "obj1": "c0d83a3b14010735e15",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err190"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2650.5914000000002,
+          "y": 964.5619
+        },
+        "obj1": "3f6a4ec6f3f2afa6e4",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err191"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2541.6848391496965,
+          "y": 822.1983247021901
+        },
+        "obj1": "2bcd2944c5e7b7b1e125",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err192"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2750.9814000000006,
+          "y": 964.5619
+        },
+        "obj1": "3f6a4ec6f3f2afa6e3",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err193"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2834.6457,
+          "y": 917.3219
+        },
+        "obj1": "a88a61e7c481fdb7e15",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err194"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2527.761906628133,
+          "y": 836.1212572237531
+        },
+        "obj1": "2bcd2944c5e7b7b1e126",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err195"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2358.2668,
+          "y": 1037.4016
+        },
+        "obj1": "19f03810120eb7ade15",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err196"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2430.329663248439,
+          "y": 933.5535006034478
+        },
+        "obj1": "2bcd2944c5e7b7b1e133",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err197"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2980.3159,
+          "y": 606.2992
+        },
+        "obj1": "64d4e0c6947e6ff6e14",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err198"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 3122.0512000000003,
+          "y": 606.3042
+        },
+        "obj1": "f5e3acaef208de75e32",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err199"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2700.7882999999997,
+          "y": 649.6063000000001
+        },
+        "obj1": "d63f1206ef731b13e14",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err200"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2779.5316000000003,
+          "y": 651.5747999999999
+        },
+        "obj1": "6cd561285daa0958e7",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err201"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2732.2834999999995,
+          "y": 744.0935000000002
+        },
+        "obj1": "eedf3caf2e4f63e3e15",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err202"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2700.7882999999997,
+          "y": 547.2441
+        },
+        "obj1": "96bb7ea726ee626fe14",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err203"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2779.5266,
+          "y": 547.2441
+        },
+        "obj1": "e1941caba533d1fee15",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err204"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2732.2834999999995,
+          "y": 389.7678000000002
+        },
+        "obj1": "af666bb990e1e49be7",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err205"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2834.6416,
+          "y": 651.5747999999999
+        },
+        "obj1": "6cd561285daa0958e8",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err206"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2925.1959000000006,
+          "y": 606.2992
+        },
+        "obj1": "64d4e0c6947e6ff6e15",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err207"
+      },
+      {
+        "ruleName": "Common",
+        "errorType": "No Connection",
+        "layerIds": [
+          1
+        ],
+        "position": {
+          "x": 2834.6466,
+          "y": 547.2441
+        },
+        "obj1": "e1941caba533d1fee14",
+        "obj1Type": "SMD Pad",
+        "explanation": "Common",
+        "globalIndex": "err208"
+      },
+      {
+        "ruleName": "",
+        "errorType": "Netlist Error",
+        "layerIds": [],
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "obj1": "",
+        "obj1Type": "",
+        "explanation": "",
+        "globalIndex": "err0"
+      }
+    ],
+    "checkedAt": 1795064189906
+  },
+  "logs": [],
+  "durationMs": 6935
+}

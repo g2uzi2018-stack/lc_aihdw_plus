@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "path": "doctor",
+  "data": {
+    "endpoint": "JLCEDAPro9b0ed962",
+    "connected": true,
+    "bridgeVersion": "4.1.105.0339a6cd",
+    "versionMatch": true,
+    "resultChannel": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "value": {
+    "accountPresent": false,
+    "online": false,
+    "offline": false,
+    "halfOffline": true,
+    "privateDeployment": false,
+    "workspace": {
+      "itemType": "Workspace",
+      "uuid": "Personal",
+      "name": "Personal"
+    },
+    "workspaces": [
+      {
+        "itemType": "Workspace",
+        "uuid": "Personal",
+        "name": "Personal"
+      }
+    ],
+    "libraries": [],
+    "libraryState": "ready",
+    "personal": null
+  },
+  "logs": [],
+  "durationMs": 1257
+}

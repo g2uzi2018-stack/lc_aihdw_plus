@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "value": {
+    "pcb": "0d423a3a93f1744c",
+    "imported": true,
+    "saved": true,
+    "count": 69,
+    "mounts": [
+      {
+        "ref": "SCREW1",
+        "id": "63c235cd84832809"
+      },
+      {
+        "ref": "SCREW2",
+        "id": "e76e63b9ffaa4fb2"
+      },
+      {
+        "ref": "SCREW3",
+        "id": "68fc3d4733e8f419"
+      },
+      {
+        "ref": "SCREW4",
+        "id": "63ee608c0d1cffec"
+      }
+    ]
+  },
+  "logs": [],
+  "durationMs": 7121
+}

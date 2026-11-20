@@ -1,0 +1,154 @@
+{
+  "ok": true,
+  "value": {
+    "sys": "0819f05c4eef4c71ace90d822a990e87",
+    "device": {
+      "libraryType": "3",
+      "uuid": "659127e4dead4bc0abbb368bcde868b6",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "M3螺丝",
+      "classification": [],
+      "association": {
+        "symbolType": 2,
+        "symbolUuid": "235e4baaddda448d81b8d004f741a7a9",
+        "symbol": {
+          "type": 2,
+          "uuid": "235e4baaddda448d81b8d004f741a7a9",
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+        },
+        "footprintUuid": "bd03124fccdf4684aa7e05d3f3be0b19",
+        "footprint": {
+          "uuid": "bd03124fccdf4684aa7e05d3f3be0b19",
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+        },
+        "images": [
+          ""
+        ]
+      },
+      "description": "",
+      "property": {
+        "name": "M3螺丝",
+        "designator": "SCREW?",
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "otherProperty": {
+          "Convert to PCB": "yes",
+          "Add into BOM": "yes",
+          "Designator": "SCREW?",
+          "Name": "",
+          "Supplier Footprint": "插件",
+          "Symbol": "235e4baaddda448d81b8d004f741a7a9",
+          "Footprint": "bd03124fccdf4684aa7e05d3f3be0b19",
+          "Description": ""
+        }
+      },
+      "subPartNames": [
+        "M3螺丝.1"
+      ]
+    },
+    "pins": {
+      "uuid": "235e4baaddda448d81b8d004f741a7a9",
+      "bodyBBox": {
+        "minX": -10,
+        "minY": -13,
+        "maxX": 10,
+        "maxY": 11
+      },
+      "fullBBox": {
+        "minX": -10,
+        "minY": -13,
+        "maxX": 10,
+        "maxY": 11
+      },
+      "pins": [
+        {
+          "pinId": "e27",
+          "pinNumber": "1",
+          "pinName": "1",
+          "x": 0,
+          "y": -12,
+          "rotation": 270,
+          "side": "bottom",
+          "length": 2,
+          "direction": "IN"
+        }
+      ],
+      "textAnchors": []
+    },
+    "fp": {
+      "uuid": "bd03124fccdf4684aa7e05d3f3be0b19",
+      "bodyBBox": {
+        "minX": -110,
+        "minY": -110,
+        "maxX": 110,
+        "maxY": 110
+      },
+      "fullBBox": {
+        "minX": -110,
+        "minY": -110,
+        "maxX": 110,
+        "maxY": 110
+      },
+      "pads": [
+        {
+          "padId": "e2-e2",
+          "padNumber": "1",
+          "shape": "ELLIPSE",
+          "type": "NORMAL",
+          "plated": true,
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "width": 126,
+          "height": 126,
+          "layerIds": [
+            1,
+            2,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "bbox": {
+            "minX": -63,
+            "minY": -63,
+            "maxX": 63,
+            "maxY": 63
+          },
+          "holeType": "ROUND",
+          "holeDiameter": 126
+        }
+      ]
+    }
+  },
+  "logs": [],
+  "durationMs": 500
+}

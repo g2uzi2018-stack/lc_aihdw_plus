@@ -1,0 +1,14 @@
+{
+ "session": "6d085639-769b-40c0-9827-50854f84b3f0",
+ "success": {
+  "ok": true,
+  "value": {
+   "sessionId": "6d085639-769b-40c0-9827-50854f84b3f0",
+   "status": "closed",
+   "headless": false
+  },
+  "logs": [],
+  "durationMs": 7
+ },
+ "exclusiveWriterReleased": true
+}

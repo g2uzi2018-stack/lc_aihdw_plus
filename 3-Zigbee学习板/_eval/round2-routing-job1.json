@@ -1,0 +1,62 @@
+{
+ "job": {
+  "jobId": "autoroute-1"
+ },
+ "props": {
+  "layers": [
+   1,
+   2
+  ],
+  "RoutingNets": [
+   "+3V3",
+   "GND",
+   "P0_0",
+   "P0_1",
+   "P0_4",
+   "P0_6",
+   "P0_7",
+   "P1_0",
+   "P1_1",
+   "P1_2",
+   "P1_3",
+   "P1_4",
+   "P1_5",
+   "P1_6",
+   "P2_0",
+   "P2_1",
+   "P2_2",
+   "RESET",
+   "VBUS",
+   "VDD"
+  ],
+  "ignoreNets": [
+   "CC1",
+   "CC2",
+   "DCOUPL",
+   "LED1_A",
+   "LED2_A",
+   "LED3_A",
+   "P0_2",
+   "P0_3",
+   "Q1_B",
+   "Q1_C",
+   "Q1_E",
+   "RBIAS",
+   "RF_COMB",
+   "RF_N",
+   "RF_N_MATCH",
+   "RF_P",
+   "RF_P_MATCH",
+   "SMA_FEED",
+   "USB_D+",
+   "USB_D-",
+   "XOSC32K_Q1",
+   "XOSC32K_Q2",
+   "XOSC_Q1",
+   "XOSC_Q2"
+  ],
+  "existingPrimitiveMode": "keep",
+  "optimization": 0,
+  "cornerStyle": 0
+ }
+}

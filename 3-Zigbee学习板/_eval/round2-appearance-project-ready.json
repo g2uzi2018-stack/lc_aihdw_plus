@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "value": {
+    "privateDeployment": false,
+    "personal": null,
+    "ready": "ready",
+    "libraries": [],
+    "online": false,
+    "user": false
+  },
+  "logs": [],
+  "durationMs": 1265
+}

@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "value": {
+    "name": "Zigbee-BOM.csv",
+    "size": 206,
+    "text": "No.\tQuantity\tComment\tDesignator\tFootprint\tValue\tManufacturer Part\tManufacturer\tSupplier Part\tSupplier\n"
+  },
+  "logs": [],
+  "durationMs": 1691
+}

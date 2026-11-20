@@ -1,0 +1,74 @@
+{
+  "bridge": {
+    "ok": true,
+    "value": {
+      "endpoint": "JLCEDAPro9b0ed962",
+      "connected": true,
+      "bridgeVersion": "4.1.105.0339a6cd",
+      "versionMatch": true,
+      "resultChannel": true
+    },
+    "logs": [],
+    "durationMs": 59
+  },
+  "account": {
+    "ok": true,
+    "value": {
+      "client": true,
+      "online": true,
+      "halfOffline": false,
+      "offline": false,
+      "hasUserUuid": true,
+      "hasUsername": true
+    },
+    "logs": [],
+    "durationMs": 1
+  },
+  "close": {
+    "ok": true,
+    "value": {
+      "sessionId": "fd7001c7-b719-430b-a707-d0cc6cf8a965",
+      "status": "closed",
+      "headless": true
+    },
+    "logs": [],
+    "durationMs": 3
+  },
+  "sessions-after": {
+    "ok": true,
+    "value": [
+      {
+        "sessionId": "fd7001c7-b719-430b-a707-d0cc6cf8a965",
+        "renderId": 1,
+        "status": "closed",
+        "headless": true,
+        "origin": "cli",
+        "path": null,
+        "title": null
+      }
+    ],
+    "logs": [],
+    "durationMs": 0
+  },
+  "initialDoctorObserved": {
+    "endpoint": "JLCEDAPro9b0ed962",
+    "connected": false,
+    "bridgeVersion": null,
+    "versionMatch": null
+  },
+  "runtime": {
+    "path": "C:\\Users\\kuang\\Apps\\node\\node-v24.20.0-win-x64\\node.exe",
+    "platform": "win32",
+    "version": "v24.20.0"
+  },
+  "skillVersion": "2.2.7",
+  "inputCandidates": [
+    "1-USB简易电流表",
+    "2-USB集线器检测板",
+    "3-Zigbee学习板",
+    "4-STM32G474RET6 开发板",
+    "5-STM32F405RGT6开发板",
+    "6-0-20mA电流输出板",
+    "7-STM32L151RET6开发板"
+  ]
+}

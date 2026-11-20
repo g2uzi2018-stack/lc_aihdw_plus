@@ -1,0 +1,418 @@
+{
+  "client": "JLCEDA Pro 4.1.105.0339a6cd",
+  "bridge": {
+    "connected": true,
+    "versionMatch": true,
+    "endpoint": "JLCEDAPro9b0ed962"
+  },
+  "scope": "在既有修正工程验证两份官方 CLI 补丁的免写入路径。补丁写入分支的依据为首轮实际修复。",
+  "first_round_repair_evidence": [
+    "board-before.json",
+    "board-edit.json",
+    "board-reopen.json",
+    "nc-source-removal.json",
+    "nc-pcb-import.json",
+    "netlist-audit.json",
+    "final-bom-net-audit.json"
+  ],
+  "initial_readonly_session": {
+    "open": {
+      "ok": true,
+      "value": {
+        "sessionId": "20449584-e6e1-4072-9505-47c7be69e9fb",
+        "renderId": 25,
+        "path": "C:/Zzkuang/workspace/lc_aihdw_plus/3-Zigbee学习板/Zigbee学习板.eprj3",
+        "headless": true
+      },
+      "logs": [],
+      "durationMs": 1144
+    },
+    "pcb_state": "notLoaded",
+    "schematic_state": "notLoaded",
+    "current_document": null,
+    "engineering_writes": 0,
+    "close": {
+      "ok": true,
+      "value": {
+        "sessionId": "20449584-e6e1-4072-9505-47c7be69e9fb",
+        "status": "closed",
+        "headless": true
+      },
+      "logs": [],
+      "durationMs": 11
+    }
+  },
+  "validation_status": "both_idempotent_paths_verified",
+  "calls": [
+    {
+      "invocation": "read current project and document UUIDs",
+      "result": {
+        "ok": true,
+        "value": {
+          "projectUuid": "cca2f43ef988075e75d9fa44f0b99f7df28ef2946b32f8736fe738b0bca791c8",
+          "pageUuid": "710b8052ef26c189",
+          "pcbUuid": "0d423a3a93f1744c"
+        },
+        "logs": [],
+        "durationMs": 11
+      }
+    },
+    {
+      "invocation": "invoke --ext-uuid eda --code-file patch-board-outline.js",
+      "sessionId": "2c09f372-ea3d-4065-b734-52617e6acc5d",
+      "args": {
+        "projectUuid": "cca2f43ef988075e75d9fa44f0b99f7df28ef2946b32f8736fe738b0bca791c8",
+        "pcbUuid": "0d423a3a93f1744c",
+        "apply": false,
+        "outlineId": "06bf6d5071462681",
+        "widthMm": 82,
+        "heightMm": 40,
+        "radiusMm": 3,
+        "leftBottomMm": [
+          0,
+          0
+        ],
+        "lineWidthMil": 10,
+        "locked": true,
+        "originMil": [
+          0,
+          0
+        ],
+        "copperLayers": 2
+      },
+      "sha256": "f8987ac38e37fcfef9ccd187072f5b537255fe2a0889a64ebe5a497ad48c6497",
+      "result": {
+        "ok": false,
+        "error": {
+          "code": "EXECUTION_ERROR",
+          "message": "Specify the unique target outlineId on board outline layer 11",
+          "cause": {
+            "name": "Error"
+          }
+        }
+      }
+    },
+    {
+      "invocation": "invoke --ext-uuid eda --code-file patch-board-outline.js",
+      "sessionId": "2c09f372-ea3d-4065-b734-52617e6acc5d",
+      "args": {
+        "projectUuid": "cca2f43ef988075e75d9fa44f0b99f7df28ef2946b32f8736fe738b0bca791c8",
+        "pcbUuid": "0d423a3a93f1744c",
+        "apply": false,
+        "outlineId": "06bf6d5071462681",
+        "widthMm": 82,
+        "heightMm": 40,
+        "radiusMm": 3,
+        "leftBottomMm": [
+          0,
+          0
+        ],
+        "lineWidthMil": 10,
+        "locked": true,
+        "originMil": [
+          0,
+          0
+        ],
+        "copperLayers": 2
+      },
+      "sha256": "105102e7bca5c00eccf60994d5210d7661bd1975d023ecdbe6f8099da17240a8",
+      "result": {
+        "ok": true,
+        "value": {
+          "status": "already-correct",
+          "saved": false,
+          "reopened": true,
+          "projectUuid": "cca2f43ef988075e75d9fa44f0b99f7df28ef2946b32f8736fe738b0bca791c8",
+          "pcbUuid": "0d423a3a93f1744c",
+          "before": {
+            "id": "06bf6d5071462681",
+            "path": [
+              "R",
+              0,
+              1574.8031,
+              3228.3465,
+              1574.8031,
+              0,
+              118.1102
+            ],
+            "locked": true,
+            "lineWidthMil": 10,
+            "originMil": [
+              0,
+              0
+            ],
+            "copperLayers": 2
+          },
+          "after": {
+            "id": "06bf6d5071462681",
+            "path": [
+              "R",
+              0,
+              1574.8031,
+              3228.3465,
+              1574.8031,
+              0,
+              118.1102
+            ],
+            "locked": true,
+            "lineWidthMil": 10,
+            "originMil": [
+              0,
+              0
+            ],
+            "copperLayers": 2
+          },
+          "changes": []
+        },
+        "logs": [],
+        "durationMs": 2593
+      }
+    },
+    {
+      "invocation": "invoke --ext-uuid eda --code-file patch-nc-open-pins.js",
+      "sessionId": "2c09f372-ea3d-4065-b734-52617e6acc5d",
+      "args": {
+        "projectUuid": "cca2f43ef988075e75d9fa44f0b99f7df28ef2946b32f8736fe738b0bca791c8",
+        "pageUuid": "710b8052ef26c189",
+        "pcbUuid": "0d423a3a93f1744c",
+        "apply": false,
+        "openPins": [
+          "BUZZER1.3",
+          "P1.10",
+          "P1.5",
+          "P1.6",
+          "P1.8",
+          "P1.9",
+          "U2.4",
+          "U3.14",
+          "U3.37",
+          "U4.1",
+          "U4.6",
+          "USB1.A8",
+          "USB1.B8",
+          "SCREW1.1",
+          "SCREW2.1",
+          "SCREW3.1",
+          "SCREW4.1"
+        ]
+      },
+      "sha256": "5766f1fb9688d846663106ef7f0cc2a9c01ee3fd6978b5764ac8c244abf7c1e5",
+      "result": {
+        "ok": false,
+        "error": {
+          "code": "SYNTAX_ERROR",
+          "message": "Expected ',' or '}' after property value in JSON at position 280 (line 1 column 281)",
+          "cause": {
+            "name": "SyntaxError"
+          }
+        }
+      }
+    },
+    {
+      "invocation": "invoke --ext-uuid eda --code-file patch-nc-open-pins.js",
+      "sessionId": "2c09f372-ea3d-4065-b734-52617e6acc5d",
+      "args": {
+        "projectUuid": "cca2f43ef988075e75d9fa44f0b99f7df28ef2946b32f8736fe738b0bca791c8",
+        "pageUuid": "710b8052ef26c189",
+        "pcbUuid": "0d423a3a93f1744c",
+        "apply": false,
+        "openPins": [
+          "BUZZER1.3",
+          "P1.10",
+          "P1.5",
+          "P1.6",
+          "P1.8",
+          "P1.9",
+          "U2.4",
+          "U3.14",
+          "U3.37",
+          "U4.1",
+          "U4.6",
+          "USB1.A8",
+          "USB1.B8",
+          "SCREW1.1",
+          "SCREW2.1",
+          "SCREW3.1",
+          "SCREW4.1"
+        ]
+      },
+      "sha256": "1026385ae0e34af3b455bd78fbe8144e130a5db8446863a6b413956736480e69",
+      "result": {
+        "ok": true,
+        "value": {
+          "status": "already-correct",
+          "projectUuid": "cca2f43ef988075e75d9fa44f0b99f7df28ef2946b32f8736fe738b0bca791c8",
+          "pcbUuid": "0d423a3a93f1744c",
+          "pageUuid": "710b8052ef26c189",
+          "reopened": true,
+          "removedStubs": [],
+          "addedMarkers": [],
+          "imported": false,
+          "untouchedSchematicWires": 165,
+          "preservedPcbTracksArcsVias": 611,
+          "logicalPins": 223,
+          "openPins": [
+            {
+              "pin": "BUZZER1.3",
+              "marker": true,
+              "schematicNet": "",
+              "pcbNets": [
+                ""
+              ]
+            },
+            {
+              "pin": "P1.10",
+              "marker": true,
+              "schematicNet": "",
+              "pcbNets": [
+                ""
+              ]
+            },
+            {
+              "pin": "P1.5",
+              "marker": true,
+              "schematicNet": "",
+              "pcbNets": [
+                ""
+              ]
+            },
+            {
+              "pin": "P1.6",
+              "marker": true,
+              "schematicNet": "",
+              "pcbNets": [
+                ""
+              ]
+            },
+            {
+              "pin": "P1.8",
+              "marker": true,
+              "schematicNet": "",
+              "pcbNets": [
+                ""
+              ]
+            },
+            {
+              "pin": "P1.9",
+              "marker": true,
+              "schematicNet": "",
+              "pcbNets": [
+                ""
+              ]
+            },
+            {
+              "pin": "U2.4",
+              "marker": true,
+              "schematicNet": "",
+              "pcbNets": [
+                ""
+              ]
+            },
+            {
+              "pin": "U3.14",
+              "marker": true,
+              "schematicNet": "",
+              "pcbNets": [
+                ""
+              ]
+            },
+            {
+              "pin": "U3.37",
+              "marker": true,
+              "schematicNet": "",
+              "pcbNets": [
+                ""
+              ]
+            },
+            {
+              "pin": "U4.1",
+              "marker": true,
+              "schematicNet": "",
+              "pcbNets": [
+                ""
+              ]
+            },
+            {
+              "pin": "U4.6",
+              "marker": true,
+              "schematicNet": "",
+              "pcbNets": [
+                ""
+              ]
+            },
+            {
+              "pin": "USB1.A8",
+              "marker": true,
+              "schematicNet": "",
+              "pcbNets": [
+                ""
+              ]
+            },
+            {
+              "pin": "USB1.B8",
+              "marker": true,
+              "schematicNet": "",
+              "pcbNets": [
+                ""
+              ]
+            },
+            {
+              "pin": "SCREW1.1",
+              "marker": true,
+              "schematicNet": "",
+              "pcbNets": [
+                ""
+              ]
+            },
+            {
+              "pin": "SCREW2.1",
+              "marker": true,
+              "schematicNet": "",
+              "pcbNets": [
+                ""
+              ]
+            },
+            {
+              "pin": "SCREW3.1",
+              "marker": true,
+              "schematicNet": "",
+              "pcbNets": [
+                ""
+              ]
+            },
+            {
+              "pin": "SCREW4.1",
+              "marker": true,
+              "schematicNet": "",
+              "pcbNets": [
+                ""
+              ]
+            }
+          ]
+        },
+        "logs": [],
+        "durationMs": 6437
+      }
+    }
+  ],
+  "before_design_sha256": {
+    "P1.esch2": "028cad7dd7bd6be64ac6f1f4f744de4f543407b1732f86544eb3abab5cef638f",
+    "PCB1.epcb2": "f724c59108432ff6e8c79ad4f948326ab0e395d492d8c9885e1be4f1a7ac130d"
+  },
+  "after_design_sha256": {
+    "P1.esch2": "028cad7dd7bd6be64ac6f1f4f744de4f543407b1732f86544eb3abab5cef638f",
+    "PCB1.epcb2": "f724c59108432ff6e8c79ad4f948326ab0e395d492d8c9885e1be4f1a7ac130d"
+  },
+  "design_bytes_unchanged": true,
+  "applied_project_repairs_this_round": false,
+  "recovered_issues": [
+    "板框图元的网络属性实读为 null；先按层读取，再过滤未命名图元，避免传空字符串时结果为空。",
+    "本机 getDocumentSource() 返回的最后一条活动原理图记录没有尾部竖线；源码解析仅在确有该字符时剥除。"
+  ],
+  "handoff": {
+    "sessionId": "2c09f372-ea3d-4065-b734-52617e6acc5d",
+    "activeDocument": "0d423a3a93f1744c",
+    "sessionLeftOpenForParent": true
+  },
+  "coverage_limit": "本轮真实执行已修工程的重复调用分支；改写损坏工程的操作来自前轮同工程修复记录。"
+}

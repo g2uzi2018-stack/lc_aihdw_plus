@@ -1,0 +1,64 @@
+{
+  "description": "Zigbee exam pages 2–3. U1’s four pin tips, associated name/number labels and existing power wires move together. OLED1 retains the eight outline paths on layer 9 and gains the seven specified legends on layer 3. No pad, device association or other footprint body is replaced.",
+  "files": {
+    "sch/Schematic1/P1.esch2": ["SYMBOL/b9705bd06a71a9d3", "FOOTPRINT/1eee9eef2eda364d", "SCH_PAGE/710b8052ef26c189"],
+    "pcb/PCB1.epcb2": ["SYMBOL/b9705bd06a71a9d3", "FOOTPRINT/1eee9eef2eda364d"]
+  },
+  "sections": {
+    "SYMBOL/b9705bd06a71a9d3": [
+      {"type": "PART", "id": "AMS1117-3.3_C347222.1", "from": {"BBOX": [-50, -15, 40, 20]}, "to": {"BBOX": [-50, -20, 40, 25]}, "match": {"title": "AMS1117-3.3_C347222.1"}},
+      {"type": "RECT", "id": "e3", "match": {"partId": "AMS1117-3.3_C347222.1", "rotation": 0, "dotX1": -50, "dotX2": 40, "radiusX": 0, "radiusY": 0}, "from": {"dotY1": 20, "dotY2": -15}, "to": {"dotY1": 25, "dotY2": -20}},
+      {"remove": {"h": {"type": "ELLIPSE", "ticket": 8, "id": "e4"}, "b": {"partId": "AMS1117-3.3_C347222.1", "groupId": "", "locked": false, "zIndex": 4, "centerX": -45, "centerY": 15, "radiusX": 1.5, "radiusY": -1.5, "rotation": 0, "strokeColor": null, "strokeStyle": null, "fillColor": null, "strokeWidth": null, "fillStyle": null, "yAxisDirection": "up"}}},
+      {"type": "PIN", "id": "e5", "match": {"partId": "AMS1117-3.3_C347222.1", "length": 10, "pinShape": "NONE"}, "from": {"x": -60, "y": 10, "rotation": 0}, "to": {"x": 0, "y": -30, "rotation": 90}},
+      {"type": "ATTR", "id": "e6", "match": {"partId": "AMS1117-3.3_C347222.1", "key": "Pin Name", "value": "ADJ(GND)", "parentId": "e5", "rotation": 0, "align": "LEFT_BOTTOM"}, "from": {"x": -46.3, "y": 4.08502}, "to": {"x": -19, "y": -18}},
+      {"type": "ATTR", "id": "e7", "match": {"partId": "AMS1117-3.3_C347222.1", "key": "Pin Number", "value": "1", "parentId": "e5"}, "from": {"x": -50.5, "y": 9.08502, "rotation": 0, "align": "RIGHT_BOTTOM"}, "to": {"x": -1, "y": -29, "rotation": 90, "align": "LEFT_BOTTOM"}},
+      {"type": "ATTR", "id": "e8", "match": {"partId": "AMS1117-3.3_C347222.1", "key": "Pin Type", "value": "Undefined", "parentId": "e5", "rotation": 0, "align": "LEFT_BOTTOM"}, "from": {"x": -60, "y": 10}, "to": {"x": 0, "y": -30}},
+      {"type": "PIN", "id": "e9", "match": {"partId": "AMS1117-3.3_C347222.1", "y": 0, "length": 10, "pinShape": "NONE"}, "from": {"x": -60, "rotation": 0}, "to": {"x": 50, "rotation": 180}},
+      {"type": "ATTR", "id": "e10", "match": {"partId": "AMS1117-3.3_C347222.1", "key": "Pin Name", "value": "VOUT(TAB)", "parentId": "e9", "rotation": 0}, "from": {"x": -46.3, "y": -5.91498, "align": "LEFT_BOTTOM"}, "to": {"x": 36.3, "y": -5.915, "align": "RIGHT_BOTTOM"}},
+      {"type": "ATTR", "id": "e11", "match": {"partId": "AMS1117-3.3_C347222.1", "key": "Pin Number", "value": "2", "parentId": "e9", "rotation": 0}, "from": {"x": -50.5, "y": -0.91498, "align": "RIGHT_BOTTOM"}, "to": {"x": 40.5, "y": -0.915, "align": "LEFT_BOTTOM"}},
+      {"type": "ATTR", "id": "e12", "match": {"partId": "AMS1117-3.3_C347222.1", "key": "Pin Type", "value": "Undefined", "parentId": "e9", "y": 0, "rotation": 0, "align": "LEFT_BOTTOM"}, "from": {"x": -60}, "to": {"x": 50}},
+      {"type": "PIN", "id": "e13", "match": {"partId": "AMS1117-3.3_C347222.1", "x": -60, "rotation": 0, "length": 10, "pinShape": "NONE"}, "from": {"y": -10}, "to": {"y": 0}},
+      {"type": "ATTR", "id": "e14", "match": {"partId": "AMS1117-3.3_C347222.1", "key": "Pin Name", "value": "VIN", "parentId": "e13", "x": -46.3, "rotation": 0, "align": "LEFT_BOTTOM"}, "from": {"y": -15.91498}, "to": {"y": -5.915}},
+      {"type": "ATTR", "id": "e15", "match": {"partId": "AMS1117-3.3_C347222.1", "key": "Pin Number", "value": "3", "parentId": "e13", "x": -50.5, "rotation": 0, "align": "RIGHT_BOTTOM"}, "from": {"y": -10.91498}, "to": {"y": -0.915}},
+      {"type": "ATTR", "id": "e16", "match": {"partId": "AMS1117-3.3_C347222.1", "key": "Pin Type", "value": "Undefined", "parentId": "e13", "x": -60, "rotation": 0, "align": "LEFT_BOTTOM"}, "from": {"y": -10}, "to": {"y": 0}},
+      {"type": "PIN", "id": "e17", "match": {"partId": "AMS1117-3.3_C347222.1", "x": 50, "rotation": 180, "length": 10, "pinShape": "NONE"}, "from": {"y": 0}, "to": {"y": 15}},
+      {"type": "ATTR", "id": "e18", "match": {"partId": "AMS1117-3.3_C347222.1", "key": "Pin Name", "value": "TAB", "parentId": "e17", "x": 36.3, "rotation": 0, "align": "RIGHT_BOTTOM"}, "from": {"y": -5.91498}, "to": {"y": 9.085}},
+      {"type": "ATTR", "id": "e19", "match": {"partId": "AMS1117-3.3_C347222.1", "key": "Pin Number", "value": "4", "parentId": "e17", "x": 40.5, "rotation": 0, "align": "LEFT_BOTTOM"}, "from": {"y": -0.91498}, "to": {"y": 14.085}},
+      {"type": "ATTR", "id": "e20", "match": {"partId": "AMS1117-3.3_C347222.1", "key": "Pin Type", "value": "Undefined", "parentId": "e17", "x": 50, "rotation": 0, "align": "LEFT_BOTTOM"}, "from": {"y": 0}, "to": {"y": 15}}
+    ],
+    "FOOTPRINT/1eee9eef2eda364d": [
+      {"type": "POLY", "id": "e1", "match": {"path": [285.433, -956.692, "L", -285.432, -956.692], "polyType": "NORMAL", "width": 10}, "from": {"layerId": 3}, "to": {"layerId": 9}},
+      {"type": "POLY", "id": "e2", "match": {"path": [537.401, -1035.431, "L", 285.433, -1035.431], "polyType": "NORMAL", "width": 10}, "from": {"layerId": 3}, "to": {"layerId": 9}},
+      {"type": "POLY", "id": "e3", "match": {"path": [-537.4, -1035.431, "L", -290, -1035.431], "polyType": "NORMAL", "width": 10}, "from": {"layerId": 3}, "to": {"layerId": 9}},
+      {"type": "POLY", "id": "e4", "match": {"path": [285.433, -1035.431, "L", 285.433, -956.692], "polyType": "NORMAL", "width": 10}, "from": {"layerId": 3}, "to": {"layerId": 9}},
+      {"type": "POLY", "id": "e5", "match": {"path": [-285.432, -1035.431, "L", -285.432, -956.692], "polyType": "NORMAL", "width": 10}, "from": {"layerId": 3}, "to": {"layerId": 9}},
+      {"type": "POLY", "id": "e6", "match": {"path": [537.401, 59.055, "L", 537.401, -1035.431], "polyType": "NORMAL", "width": 10}, "from": {"layerId": 3}, "to": {"layerId": 9}},
+      {"type": "POLY", "id": "e7", "match": {"path": [-537.4, 59.055, "L", -537.4, -1035.431], "polyType": "NORMAL", "width": 10}, "from": {"layerId": 3}, "to": {"layerId": 9}},
+      {"type": "POLY", "id": "e8", "match": {"path": [537.401, 59.055, "L", -537.4, 59.055], "polyType": "NORMAL", "width": 10}, "from": {"layerId": 3}, "to": {"layerId": 9}},
+      {"insert": {"h": {"type": "STRING", "ticket": 301, "id": "zigOledText1"}, "b": {"groupId": 0, "layerId": 3, "x": -340.5, "y": -105, "text": "GND", "fontFamily": "Arial", "fontSize": 45, "strokeWidth": 6, "bold": false, "italic": false, "origin": "LEFT_BOTTOM", "angle": 0, "reverse": false, "expansion": 0, "mirror": false, "locked": false, "zIndex": 31}}},
+      {"insert": {"h": {"type": "STRING", "ticket": 302, "id": "zigOledText2"}, "b": {"groupId": 0, "layerId": 3, "x": -240.5, "y": -105, "text": "VCC", "fontFamily": "Arial", "fontSize": 45, "strokeWidth": 6, "bold": false, "italic": false, "origin": "LEFT_BOTTOM", "angle": 0, "reverse": false, "expansion": 0, "mirror": false, "locked": false, "zIndex": 32}}},
+      {"insert": {"h": {"type": "STRING", "ticket": 303, "id": "zigOledText3"}, "b": {"groupId": 0, "layerId": 3, "x": -140.5, "y": -105, "text": "SCL", "fontFamily": "Arial", "fontSize": 45, "strokeWidth": 6, "bold": false, "italic": false, "origin": "LEFT_BOTTOM", "angle": 0, "reverse": false, "expansion": 0, "mirror": false, "locked": false, "zIndex": 33}}},
+      {"insert": {"h": {"type": "STRING", "ticket": 304, "id": "zigOledText4"}, "b": {"groupId": 0, "layerId": 3, "x": -40.5, "y": -105, "text": "SDA", "fontFamily": "Arial", "fontSize": 45, "strokeWidth": 6, "bold": false, "italic": false, "origin": "LEFT_BOTTOM", "angle": 0, "reverse": false, "expansion": 0, "mirror": false, "locked": false, "zIndex": 34}}},
+      {"insert": {"h": {"type": "STRING", "ticket": 305, "id": "zigOledText5"}, "b": {"groupId": 0, "layerId": 3, "x": 59.5, "y": -105, "text": "RES", "fontFamily": "Arial", "fontSize": 45, "strokeWidth": 6, "bold": false, "italic": false, "origin": "LEFT_BOTTOM", "angle": 0, "reverse": false, "expansion": 0, "mirror": false, "locked": false, "zIndex": 35}}},
+      {"insert": {"h": {"type": "STRING", "ticket": 306, "id": "zigOledText6"}, "b": {"groupId": 0, "layerId": 3, "x": 173, "y": -105, "text": "DC", "fontFamily": "Arial", "fontSize": 45, "strokeWidth": 6, "bold": false, "italic": false, "origin": "LEFT_BOTTOM", "angle": 0, "reverse": false, "expansion": 0, "mirror": false, "locked": false, "zIndex": 36}}},
+      {"insert": {"h": {"type": "STRING", "ticket": 307, "id": "zigOledText7"}, "b": {"groupId": 0, "layerId": 3, "x": 273, "y": -105, "text": "CS", "fontFamily": "Arial", "fontSize": 45, "strokeWidth": 6, "bold": false, "italic": false, "origin": "LEFT_BOTTOM", "angle": 0, "reverse": false, "expansion": 0, "mirror": false, "locked": false, "zIndex": 37}}}
+    ],
+    "SCH_PAGE/710b8052ef26c189": [
+      {"type": "COMPONENT", "id": "e69c7665d8e969c0", "match": {"partId": "AMS1117-3.3_C347222.1", "x": 790, "y": 220, "isMirror": false}, "from": {"rotation": 270}, "to": {"rotation": 0}},
+      {"type": "ATTR", "id": "6011bd98a4fce7d2", "match": {"key": "Designator", "value": "U1", "parentId": "e69c7665d8e969c0", "rotation": 0, "align": "LEFT_BOTTOM"}, "from": {"x": 770, "y": 278}, "to": {"x": 740, "y": 252}},
+      {"type": "ATTR", "id": "13de1c135b6c073d", "match": {"key": "Name", "parentId": "e69c7665d8e969c0", "rotation": 0, "align": null}, "from": {"x": 770, "y": 168}, "to": {"x": 774, "y": 252}},
+      {"type": "COMPONENT", "id": "b5f459ff5c9e311e", "match": {"partId": "pid8a0e77bacb214e", "rotation": 0, "isMirror": false}, "from": {"x": 790, "y": 320}, "to": {"x": 900, "y": 220}},
+      {"type": "COMPONENT", "id": "f13fb1abf3ef220f", "match": {"partId": "pid8a0e77bacb214e", "rotation": 0, "isMirror": false}, "from": {"x": 790, "y": 130}, "to": {"x": 840, "y": 275}},
+      {"type": "COMPONENT", "id": "96f977dbdb7c360d", "match": {"partId": "pid8a0e77bacb214e", "rotation": 0, "isMirror": false}, "from": {"x": 760, "y": 290}, "to": {"x": 710, "y": 240}},
+      {"type": "LINE", "id": "5b83388299d4c6ea", "match": {"lineGroup": "2518de8da73a92ec"}, "from": {"startX": 800, "startY": 280, "endX": 800, "endY": 320}, "to": {"startX": 790, "startY": 190, "endX": 790, "endY": 150}},
+      {"type": "ATTR", "id": "bb15a736865734be", "match": {"key": "NET", "value": "GND", "parentId": "2518de8da73a92ec", "rotation": 90, "align": null}, "from": {"x": 800, "y": 300}, "to": {"x": 790, "y": 170}},
+      {"type": "LINE", "id": "ee6af19330b4d79c", "match": {"lineGroup": "b8b3931d73fb2a4a"}, "from": {"startX": 790, "startY": 280, "endX": 790, "endY": 320}, "to": {"startX": 840, "startY": 220, "endX": 900, "endY": 220}},
+      {"type": "ATTR", "id": "fa28c76b6a2951ce", "match": {"key": "NET", "value": "", "parentId": "b8b3931d73fb2a4a", "align": null}, "from": {"x": 790, "y": 300, "rotation": 90}, "to": {"x": 870, "y": 220, "rotation": 0}},
+      {"type": "LINE", "id": "bace989ebc500cae", "match": {"lineGroup": "e694cad42397df21"}, "from": {"startX": 790, "startY": 130, "endX": 790, "endY": 170}, "to": {"startX": 840, "startY": 235, "endX": 840, "endY": 275}},
+      {"type": "ATTR", "id": "eb29d00fcf82c685", "match": {"key": "NET", "value": "", "parentId": "e694cad42397df21", "rotation": 90, "align": null}, "from": {"x": 790, "y": 150}, "to": {"x": 840, "y": 255}},
+      {"type": "LINE", "id": "73b83dc206b961d7", "match": {"lineGroup": "e5d18a7383d45aae"}, "from": {"startX": 760, "startY": 290, "endX": 780, "endY": 290}, "to": {"startX": 710, "startY": 220, "endX": 730, "endY": 220}},
+      {"type": "LINE", "id": "fe0bb358b346561b", "match": {"lineGroup": "e5d18a7383d45aae"}, "from": {"startX": 780, "startY": 280, "endX": 780, "endY": 290}, "to": {"startX": 710, "startY": 220, "endX": 710, "endY": 240}},
+      {"type": "ATTR", "id": "2ddf24d42c6da130", "match": {"key": "NET", "value": "", "parentId": "e5d18a7383d45aae", "rotation": null, "align": null}, "from": {"x": 770, "y": 290}, "to": {"x": 720, "y": 220}}
+    ]
+  }
+}

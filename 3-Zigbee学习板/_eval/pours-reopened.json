@@ -1,0 +1,31 @@
+{
+  "ok": true,
+  "value": {
+    "borders": [
+      {
+        "id": "fb856b2cd8dcec0a",
+        "net": "GND",
+        "layer": 1
+      },
+      {
+        "id": "1646eee009da61f9",
+        "net": "GND",
+        "layer": 2
+      }
+    ],
+    "fills": [
+      {
+        "id": "fb856b2cd8dcec0a",
+        "layer": 1,
+        "count": 152
+      },
+      {
+        "id": "1646eee009da61f9",
+        "layer": 2,
+        "count": 31
+      }
+    ]
+  },
+  "logs": [],
+  "durationMs": 12
+}

@@ -1,0 +1,599 @@
+{
+  "ok": true,
+  "value": {
+    "outlines": [
+      {
+        "id": "06bf6d5071462681",
+        "layer": 11,
+        "width": 10,
+        "locked": true,
+        "path": [
+          "R",
+          0,
+          1574.8031,
+          3228.3465,
+          1574.8031,
+          0,
+          118.1102
+        ]
+      }
+    ],
+    "stack": {
+      "layers": [
+        {
+          "layerId": 3,
+          "layerName": "Top Silkscreen Layer",
+          "layerType": "TOP_SILK",
+          "kind": "other",
+          "material": null,
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1
+        },
+        {
+          "layerId": 7,
+          "layerName": "Top Paste Mask Layer",
+          "layerType": "TOP_PASTE_MASK",
+          "kind": "other",
+          "material": null,
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 2
+        },
+        {
+          "layerId": 5,
+          "layerName": "Top Solder Mask Layer",
+          "layerType": "TOP_SOLDER_MASK",
+          "kind": "other",
+          "material": "",
+          "thickness": 0.394,
+          "permittivity": 3.3,
+          "lossTangent": 0.02,
+          "isKeepIsland": true,
+          "zIndex": 3
+        },
+        {
+          "layerId": 1,
+          "layerName": "Top Layer",
+          "layerType": "TOP",
+          "kind": "copper",
+          "material": null,
+          "thickness": 1.379,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1000
+        },
+        {
+          "layerId": 361,
+          "layerName": "Dielectric1",
+          "layerType": "SUBSTRATE",
+          "kind": "dielectric",
+          "material": "FR4",
+          "thickness": 59.449,
+          "permittivity": 4.5,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1001
+        },
+        {
+          "layerId": 2,
+          "layerName": "Bottom Layer",
+          "layerType": "BOTTOM",
+          "kind": "copper",
+          "material": null,
+          "thickness": 1.3779999999999997,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 9000
+        },
+        {
+          "layerId": 6,
+          "layerName": "Bottom Solder Mask Layer",
+          "layerType": "BOT_SOLDER_MASK",
+          "kind": "other",
+          "material": "",
+          "thickness": 0.394,
+          "permittivity": 3.3,
+          "lossTangent": 0.02,
+          "isKeepIsland": true,
+          "zIndex": 10000
+        },
+        {
+          "layerId": 8,
+          "layerName": "Bottom Paste Mask Layer",
+          "layerType": "BOT_PASTE_MASK",
+          "kind": "other",
+          "material": null,
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 10001
+        },
+        {
+          "layerId": 4,
+          "layerName": "Bottom Silkscreen Layer",
+          "layerType": "BOT_SILK",
+          "kind": "other",
+          "material": null,
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 10002
+        }
+      ],
+      "totalThickness": 62.994,
+      "unit": "mil"
+    },
+    "origin": {
+      "offsetX": 0,
+      "offsetY": 0
+    },
+    "parts": [
+      {
+        "ref": "USB1",
+        "x": 343.897,
+        "y": 350.865,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "R1",
+        "x": 207.531,
+        "y": 755.032,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "R2",
+        "x": 207.531,
+        "y": 873.048,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "U1",
+        "x": 725.294,
+        "y": 859.977,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "C1",
+        "x": 938.829,
+        "y": 1087.891,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "C2",
+        "x": 725.294,
+        "y": 1087.891,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "U2",
+        "x": 1554.766,
+        "y": 871.699,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "C3",
+        "x": 1554.764,
+        "y": 1106.976,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "C4",
+        "x": 1375.318,
+        "y": 1106.976,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "LED1",
+        "x": 2200.085,
+        "y": 1119.434,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "LED2",
+        "x": 2231.523,
+        "y": 758.345,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "LED3",
+        "x": 2020.786,
+        "y": 1119.433,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "R3",
+        "x": 2229.572,
+        "y": 998.107,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "R4",
+        "x": 2199.913,
+        "y": 880.091,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "R5",
+        "x": 2054.51,
+        "y": 998.107,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "BUZZER1",
+        "x": 411.73299999999995,
+        "y": 1855.344,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "Q1",
+        "x": 614.069,
+        "y": 1630.266,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "C5",
+        "x": 209.721,
+        "y": 1657.387,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "D1",
+        "x": 411.73299999999995,
+        "y": 1650.779,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "R6",
+        "x": 616.586,
+        "y": 1481.179,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "R7",
+        "x": 791.648,
+        "y": 1599.195,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "R8",
+        "x": 653.0539999999999,
+        "y": 1779.352,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "U3",
+        "x": 1493.659,
+        "y": 1714.802,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "C12",
+        "x": 1747.238,
+        "y": 1736.947,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "C13",
+        "x": 1567.792,
+        "y": 1941.614,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "C14",
+        "x": 1747.238,
+        "y": 1862.858,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "C15",
+        "x": 1747.238,
+        "y": 1611.036,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "C16",
+        "x": 1567.792,
+        "y": 1487.987,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "C17",
+        "x": 1388.346,
+        "y": 1941.614,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "C18",
+        "x": 1388.346,
+        "y": 1487.987,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "C19",
+        "x": 1747.238,
+        "y": 1485.125,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "C6",
+        "x": 1208.9,
+        "y": 1941.614,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "L1",
+        "x": 1213.174,
+        "y": 1715.699,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "R9",
+        "x": 1745.0479999999998,
+        "y": 1984.823,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "C10",
+        "x": 2201.449,
+        "y": 1940.878,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "C11",
+        "x": 2201.449,
+        "y": 1814.967,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "C7",
+        "x": 2380.895,
+        "y": 1932.201,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "C8",
+        "x": 2201.449,
+        "y": 2066.789,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "C9",
+        "x": 2560.3409999999994,
+        "y": 1871.427,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "L2",
+        "x": 2380.241,
+        "y": 1810.657,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "L3",
+        "x": 2380.241,
+        "y": 2053.802,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "RF1",
+        "x": 2201.447,
+        "y": 1587.092,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "X1",
+        "x": 241.866,
+        "y": 2714.0369999999994,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "C20",
+        "x": 209.721,
+        "y": 2542.998,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "C21",
+        "x": 285.174,
+        "y": 2876.0829999999996,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "C22",
+        "x": 444.453,
+        "y": 2709.541,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "C23",
+        "x": 490.7389999999999,
+        "y": 2432.7,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "X2",
+        "x": 467.59799999999996,
+        "y": 2571.122,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "P1",
+        "x": 1255.074,
+        "y": 2582.011,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "C24",
+        "x": 927.818,
+        "y": 2853.195,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "R10",
+        "x": 1105.074,
+        "y": 2849.248,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "U4",
+        "x": 2202.07,
+        "y": 2462.693,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "C25",
+        "x": 2019.395,
+        "y": 2492.695,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "R11",
+        "x": 2241.439,
+        "y": 2614.66,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "R12",
+        "x": 2066.377,
+        "y": 2614.66,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "R13",
+        "x": 836.293,
+        "y": 3671.964,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "R14",
+        "x": 806.633,
+        "y": 3553.947,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "R15",
+        "x": 661.231,
+        "y": 3671.964,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "SW1",
+        "x": 836.293,
+        "y": 3888.922,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "SW2",
+        "x": 836.293,
+        "y": 3336.9889999999996,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "SW3",
+        "x": 346.85,
+        "y": 3671.964,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "OLED1",
+        "x": 1875.543,
+        "y": 4249.47,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "C26",
+        "x": 1675.5410000000002,
+        "y": 4406.479,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "R16",
+        "x": 2803.2839999999997,
+        "y": 3238.0470000000005,
+        "r": 0,
+        "layer": 1
+      },
+      {
+        "ref": "R17",
+        "x": 2832.944,
+        "y": 3392.055,
+        "r": 0,
+        "layer": 1
+      }
+    ]
+  },
+  "logs": [],
+  "durationMs": 12
+}

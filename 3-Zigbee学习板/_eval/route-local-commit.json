@@ -1,0 +1,54 @@
+{
+  "ok": true,
+  "value": {
+    "saved": true,
+    "progress": {
+      "progress": 1,
+      "routabitity": 1
+    },
+    "logs": [
+      {
+        "at": 1795064529418,
+        "level": "info",
+        "message": "=== Routing round 30/30 (max iter: 20, seed: 1725898072) ==="
+      },
+      {
+        "at": 1795064529418,
+        "level": "info",
+        "message": "=== Phase 1: Routing differential pair networks (6 iters) ==="
+      },
+      {
+        "at": 1795064529418,
+        "level": "info",
+        "message": "Routing iter: 1 / 6 (Phase 1)"
+      },
+      {
+        "at": 1795064529418,
+        "level": "info",
+        "message": "Penalty: 0.535428"
+      },
+      {
+        "at": 1795064529418,
+        "level": "info",
+        "message": "Via-count: 0"
+      },
+      {
+        "at": 1795064529418,
+        "level": "info",
+        "message": "Routability: -nan | 0 succeed 0 failed"
+      },
+      {
+        "at": 1795064529418,
+        "level": "info",
+        "message": "Congest cost: 0"
+      },
+      {
+        "at": 1795064529423,
+        "level": "info",
+        "message": "Total time-consuming: 0.005 s"
+      }
+    ]
+  },
+  "logs": [],
+  "durationMs": 691
+}

@@ -1,0 +1,35 @@
+{
+ "removed": [
+  {
+   "ref": "U3",
+   "pin": "24",
+   "lines": [
+    "02ed53935362c712",
+    "c1527a1a0eb1379c"
+   ],
+   "via": "f5b856c3b8759708"
+  },
+  {
+   "ref": "USB1",
+   "pin": "A4B9",
+   "lines": [
+    "99e2d05e4f15656a"
+   ],
+   "via": "aec6fe1c2a8fedfc"
+  },
+  {
+   "ref": "USB1",
+   "pin": "B4A9",
+   "lines": [
+    "f508f815608ec02b"
+   ],
+   "via": "c1019abd97c8c806"
+  }
+ ],
+ "reason": "Native DRC flagged USB shell slot clearance and QFN24 via hole spacing. Retained U3.10 and U3.21 fanouts.",
+ "result": {
+  "lines": true,
+  "vias": true,
+  "saved": true
+ }
+}

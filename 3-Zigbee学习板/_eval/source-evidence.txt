@@ -1,0 +1,116 @@
+/mnt/c/Users/kuang/.codex/skills/easyeda-eprj3/scripts/build.js
+SHA256 d16df597bad568a3007d7fe504e339601c300942d181562986981482e5f6f653
+  761   const requestedDir = path.resolve(opts.dir);
+  762   // --dry-run and --plan both build into a throwaway sibling and delete it on
+  763   // exit: a rehearsal costs nothing and never touches the real project dir.
+  764   // --plan is the human confirmation gate — it shows the *real* stats (because
+  765   // it really built them) while writing nothing.
+  766   const rehearsal = !!(opts['dry-run'] || opts.plan);
+  767   const dir = rehearsal ? requestedDir + `.${opts.plan ? 'plan' : 'dryrun'}` + process.pid : requestedDir;
+  768   if (rehearsal) {
+  769     process.on('exit', () => { try { fs.rmSync(dir, { recursive: true, force: true }); } catch { /* best effort */ } });
+  770   }
+  861   // ------------------------------------------------------------ bootstrap
+  862   if (fs.existsSync(dir) && fs.readdirSync(dir).length) {
+  863     if (!opts.force) {
+  864       die(`${dir} is not empty — pass --force to rebuild it (only skill-owned files are removed)`);
+  865     }
+  866     safeClean(dir);
+  867   }
+  868   const project = E.Project.create(dir, design.name);
+  869   project.ensureBoard();
+  870   // sheet documents are created AFTER the schematic layout (see below) so the
+  871   // drawing frame can be sized around what the packing actually produced
+  872   const pcbDoc = project.ensurePcbDocument(design.pcb, {
+  873     outline: E.rectPath(0, 0, design.board.width, design.board.height)
+  874   });
+  875   log(`created ${design.name} at ${dir} (board ${design.board.width}×${design.board.height} mil)`
+ 1424   if (doPcb) {
+ 1425     const { planPcb } = require('./lib/pcb-plan');
+ 1426     // Board size: area = 1.25× the tight union of every footprint's bbox, with
+ 1427     // the bbox's own aspect (a wide layout gets a wide board). No minimum-area
+ 1428     // and no declared-size floor: a size declared in the design is ignored.
+ 1429     // The placer's own edge clearance (>= 15 mil, D003 needs 12) is already
+ 1430     // part of `required`; the board grows above 1.25× only when that clearance
+ 1431     // cannot fit inside the target — for a small board the fixed edge margin
+ 1432     // dominates (the log says so and reports the real factor).
+ 1433     // The placer packs into the target, tightening its part spacing when
+ 1434     // needed; only if even the densest packing does not fit does the
+ 1435     // rectangle grow, and the log says so.
+ 1436     const snap10 = (v) => Math.max(10, Math.round(v / 10) * 10);
+ 1437     const growTo = (v) => Math.max(10, Math.ceil(v));
+ 1438     const SCALES = [1, 0.8, 0.65, 0.5, 0.4, 0.3, 0.25];
+ 1439     const SCALE_125 = Math.sqrt(1.25);
+ 1440     const packAt = (w, h) => {
+ 1441       let last = null;
+ 1442       for (const s of SCALES) {
+ 1443         design.board.width = w;
+ 1444         design.board.height = h;
+ 1490       design.board.width = best.w;
+ 1491       design.board.height = best.h;
+ 1492       design.gapScale = best.scale;
+ 1493       plan = best.plan;
+ 1494       const bb = tightBox(plan);
+ 1495       const bw = Math.max(bb ? bb.x2 - bb.x1 : 1, 1);
+ 1496       const bh = Math.max(bb ? bb.y2 - bb.y1 : 1, 1);
+ 1497       const factor = (best.w * best.h) / (bw * bh);
+ 1498       log(`board set to ${best.w}×${best.h} mil (footprint bbox ${Math.round(bw)}×${Math.round(bh)} → ${factor.toFixed(2)}× area`
+ 1499         + `${best.scale < 1 ? `, part spacing ×${best.scale}` : ''}`
+ 1500         + `${design.boardDeclared ? ', declared size ignored' : ''}`
+ 1501         + `${factor > 1.25 * 1.10 ? ` — the ${(plan && plan.edge) || 15}-mil edge clearance (D003 needs 12) sets the floor` : ''})`);
+ 1502     }
+ 1503     {
+ 1504       const targetW = design.board.width;
+ 1505       const targetH = design.board.height;
+ 1506       E.updateRecord(pcbDoc.file,
+ 1507         (r) => r.type === 'POLY' && r.body && r.body.polyType === 'BOARD_OUTLINE',
+ 1508         (r) => { r.body.path = E.rectPath(0, 0, targetW, targetH); });
+ 1509     }
+ 1774     if (x1 < x2) {
+ 1775       const MARGIN = 50;
+ 1776       const nx = Math.min(0, Math.floor(x1 - MARGIN));
+ 1777       const ny = Math.min(0, Math.floor(y1 - MARGIN));
+ 1778       const nw = Math.max(design.board.width, Math.ceil(x2 + MARGIN)) - nx;
+ 1779       const nh = Math.max(design.board.height, Math.ceil(y2 + MARGIN)) - ny;
+ 1780       if (nx !== 0 || ny !== 0 || nw !== design.board.width || nh !== design.board.height) {
+ 1781         const { resizeBoardOutline } = require('./lib/cli-lib');
+ 1782         const files = resizeBoardOutline(dir, { x: nx, y: ny, w: nw, h: nh });
+ 1783         if (files) {
+ 1784           design.board.width = nw;
+ 1785           design.board.height = nh;
+ 1786           log(`  client: board grown to ${nw}×${nh} mil to contain the auto-laid footprints`);
+ 1787         }
+ 1788       }
+/mnt/c/Users/kuang/.codex/skills/easyeda-eprj3/scripts/lib/cli-lib.js
+SHA256 8beecad9cf0ca1fbe38fcb83774015989ba99e8a536060a95961f34bc1c1fbcc
+  269   // source API, then save. The client only exposes these source edits to its
+  270   // netlist engine after the project is (re)loaded, so the PCB import gets a
+  271   // fresh session in phase 2.
+  272   if ((placement.sch || []).length || (placement.flagPlan || []).length
+  273     || (placement.wirePlan || []).length) {
+  274     const session = CLI.openProject(info.bin, projectDir);
+  275     try {
+  276       for (const chunk of chunkBySize(placement.sch || [], 9000)) {
+  277         const res = CLI.invoke(info.bin, session, PLACE_SYMBOLS, {
+  278           args: { plan: { sch: chunk } },
+  279           timeout
+  305     }
+  306   }
+  307 
+  308   // Phase 2 — let the client build the PCB from the schematic and apply the
+  309   // planned positions.
+  310   if ((placement.pcbPlan || []).length) {
+  311     const session = CLI.openProject(info.bin, projectDir);
+  312     try {
+  313       if ((placement.pcbPlan || []).length) {
+  314         const imp = CLI.invoke(info.bin, session, IMPORT_PCB, {
+  315         args: {
+  536 await eda.pcb_Document.save();
+  537 await new Promise((r) => setTimeout(r, 800));
+  538 const schs = await schsOf();
+  539 const sch = schs.find((x) => x.name === plan.schematicName) || schs[0];
+  540 try {
+  541   out.imported = await eda.pcb_Document.importChanges(sch.uuid, true);
+  542 } catch (e) {
+  543   out.importError = String(e && e.message || e);
+  544 }

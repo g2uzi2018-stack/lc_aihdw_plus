@@ -1,0 +1,1330 @@
+{
+  "ok": true,
+  "value": {
+    "symbol": [
+      {
+        "pinId": "e5",
+        "pinNumber": "1",
+        "pinName": "ADJ(GND)",
+        "x": 0,
+        "y": -30,
+        "rotation": 270,
+        "side": "bottom",
+        "length": 10,
+        "direction": "Undefined"
+      },
+      {
+        "pinId": "e9",
+        "pinNumber": "2",
+        "pinName": "VOUT(TAB)",
+        "x": 50,
+        "y": 0,
+        "rotation": 0,
+        "side": "right",
+        "length": 10,
+        "direction": "Undefined"
+      },
+      {
+        "pinId": "e13",
+        "pinNumber": "3",
+        "pinName": "VIN",
+        "x": -60,
+        "y": 0,
+        "rotation": 180,
+        "side": "left",
+        "length": 10,
+        "direction": "Undefined"
+      },
+      {
+        "pinId": "e17",
+        "pinNumber": "4",
+        "pinName": "TAB",
+        "x": 50,
+        "y": 15,
+        "rotation": 0,
+        "side": "right",
+        "length": 10,
+        "direction": "Undefined"
+      }
+    ],
+    "u1NetlistComponent": {
+      "props": {
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Device": "f370ec907eaaf99b",
+        "Footprint": "b7d1ba4298755bcb",
+        "PCB Layer": "Default",
+        "Symbol": "b9705bd06a71a9d3",
+        "Designator": "U1",
+        "Channel ID": "$1I24",
+        "Group ID": "",
+        "Reuse Block": "",
+        "Description": "输出极性:正极;工作电压:12V;输出电压:3.3V;输出电流:1A;电源纹波抑制比(PSRR):60dB@(120Hz);输出类型:固定;",
+        "Number of Outputs": "1",
+        "Output Type": "固定",
+        "Operating Temperature": "-40℃~+125℃",
+        "Features": "过流保护",
+        "Noise": "0.003%Vout",
+        "standby current": "5mA",
+        "Voltage Dropout": "1.3V@(1A)",
+        "Power Supply Rejection Ratio (PSRR)": "60dB@(120Hz)",
+        "Output Current": "1A",
+        "Output Voltage": "3.3V",
+        "Voltage - Supply": "12V",
+        "Output Configuration": "正极",
+        "3D Model Transform": "279.89794,255.905,0,180,0,0,-0.0005,-0.0005,0",
+        "3D Model Title": "SOT-223-4P_L6.5-W3.5-H1.6-LS7.0-P2.30",
+        "3D Model": "925194bf9823436183a3e0b978a8d076",
+        "Supplier": "LCSC",
+        "Datasheet": "https://item.szlcsc.com/datasheet/AMS1117-3.3/323882.html",
+        "JLCPCB Part Class": "Extended Part",
+        "Supplier Footprint": "SOT-223",
+        "Manufacturer Part": "AMS1117-3.3",
+        "Manufacturer": "UMW(友台半导体)",
+        "Supplier Part": "C347222",
+        "LCSC Part Name": "3.3V 1A 12V",
+        "Unique ID": "gge4",
+        "Name": "={Manufacturer Part}",
+        "DeviceName": "AMS1117-3.3_C347222",
+        "FootprintName": "SOT-223-4_L6.5-W3.5-P2.30-LS7.0-BR"
+      },
+      "altLibs": {
+        "devices": [],
+        "footprints": []
+      },
+      "pinInfoMap": {
+        "1": {
+          "name": "ADJ(GND)",
+          "number": "1",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "1"
+          }
+        },
+        "2": {
+          "name": "VOUT(TAB)",
+          "number": "2",
+          "net": "+3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "2"
+          }
+        },
+        "3": {
+          "name": "VIN",
+          "number": "3",
+          "net": "VBUS",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "3"
+          }
+        },
+        "4": {
+          "name": "TAB",
+          "number": "4",
+          "net": "+3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": "",
+          "props": {
+            "Pin Number": "4"
+          }
+        }
+      }
+    },
+    "parts": [
+      {
+        "ref": "USB1",
+        "pins": {
+          "13": "GND",
+          "14": "GND",
+          "A1B12": "GND",
+          "A4B9": "VBUS",
+          "B8": "",
+          "A5": "CC1",
+          "B7": "USB_D-",
+          "A6": "USB_D+",
+          "A7": "USB_D-",
+          "B6": "USB_D+",
+          "A8": "",
+          "B5": "CC2",
+          "B4A9": "VBUS",
+          "B1A12": "GND"
+        },
+        "supplier": "C2765186",
+        "footprint": "USB-C-SMD_TYPE-C-16PIN-2MD-073",
+        "footprintInfo": null
+      },
+      {
+        "ref": "R1",
+        "pins": {
+          "1": "CC2",
+          "2": "GND"
+        },
+        "supplier": "C23186",
+        "footprint": "R0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "R2",
+        "pins": {
+          "1": "CC1",
+          "2": "GND"
+        },
+        "supplier": "C23186",
+        "footprint": "R0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "U1",
+        "pins": {
+          "1": "GND",
+          "2": "+3V3",
+          "3": "VBUS",
+          "4": "+3V3"
+        },
+        "supplier": "C347222",
+        "footprint": "SOT-223-4_L6.5-W3.5-P2.30-LS7.0-BR",
+        "footprintInfo": null
+      },
+      {
+        "ref": "C1",
+        "pins": {
+          "1": "VBUS",
+          "2": "GND"
+        },
+        "supplier": "C7177",
+        "footprint": "CASE-A_3216",
+        "footprintInfo": null
+      },
+      {
+        "ref": "C2",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        },
+        "supplier": "C7177",
+        "footprint": "CASE-A_3216",
+        "footprintInfo": null
+      },
+      {
+        "ref": "U2",
+        "pins": {
+          "1": "USB_D+",
+          "2": "USB_D-",
+          "3": "GND",
+          "4": "",
+          "5": "+3V3",
+          "6": "P0_2",
+          "7": "P0_3",
+          "8": "+3V3"
+        },
+        "supplier": "C2977777",
+        "footprint": "SOP-8_L4.9-W3.9-P1.27-LS6.0-BL",
+        "footprintInfo": null
+      },
+      {
+        "ref": "C3",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        },
+        "supplier": "C1591",
+        "footprint": "C0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "C4",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        },
+        "supplier": "C1591",
+        "footprint": "C0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "LED1",
+        "pins": {
+          "1": "GND",
+          "2": "LED1_A"
+        },
+        "supplier": "C84263",
+        "footprint": "LED0603-RD_RED",
+        "footprintInfo": null
+      },
+      {
+        "ref": "LED2",
+        "pins": {
+          "1": "P1_0",
+          "2": "LED2_A"
+        },
+        "supplier": "C84267",
+        "footprint": "LED0603-RD_1",
+        "footprintInfo": null
+      },
+      {
+        "ref": "LED3",
+        "pins": {
+          "1": "P1_1",
+          "2": "LED3_A"
+        },
+        "supplier": "C84267",
+        "footprint": "LED0603-RD_1",
+        "footprintInfo": null
+      },
+      {
+        "ref": "R3",
+        "pins": {
+          "1": "+3V3",
+          "2": "LED1_A"
+        },
+        "supplier": "C21190",
+        "footprint": "R0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "R4",
+        "pins": {
+          "1": "+3V3",
+          "2": "LED2_A"
+        },
+        "supplier": "C21190",
+        "footprint": "R0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "R5",
+        "pins": {
+          "1": "+3V3",
+          "2": "LED3_A"
+        },
+        "supplier": "C21190",
+        "footprint": "R0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "BUZZER1",
+        "pins": {
+          "1": "+3V3",
+          "2": "Q1_C",
+          "3": ""
+        },
+        "supplier": "C94598",
+        "footprint": "BUZ-SMD_L5.0-W5.5-P4.60",
+        "footprintInfo": null
+      },
+      {
+        "ref": "Q1",
+        "pins": {
+          "1": "Q1_B",
+          "2": "Q1_E",
+          "3": "Q1_C"
+        },
+        "supplier": "C20069125",
+        "footprint": "SOT-23-3_L2.9-W1.3-P1.90-LS2.3-BR",
+        "footprintInfo": null
+      },
+      {
+        "ref": "C5",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        },
+        "supplier": "C1591",
+        "footprint": "C0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "D1",
+        "pins": {
+          "1": "+3V3",
+          "2": "Q1_C"
+        },
+        "supplier": "C963381",
+        "footprint": "SOD-123_L2.7-W1.6-LS3.7-RD",
+        "footprintInfo": null
+      },
+      {
+        "ref": "R6",
+        "pins": {
+          "1": "P0_4",
+          "2": "Q1_B"
+        },
+        "supplier": "C21190",
+        "footprint": "R0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "R7",
+        "pins": {
+          "1": "Q1_B",
+          "2": "GND"
+        },
+        "supplier": "C25804",
+        "footprint": "R0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "R8",
+        "pins": {
+          "1": "Q1_E",
+          "2": "GND"
+        },
+        "supplier": "C22775",
+        "footprint": "R0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "U3",
+        "pins": {
+          "1": "GND",
+          "2": "GND",
+          "3": "GND",
+          "4": "GND",
+          "5": "P1_5",
+          "6": "P1_4",
+          "7": "P1_3",
+          "8": "P1_2",
+          "9": "P1_1",
+          "10": "VDD",
+          "11": "P1_0",
+          "12": "P0_7",
+          "13": "P0_6",
+          "14": "",
+          "15": "P0_4",
+          "16": "P0_3",
+          "17": "P0_2",
+          "18": "P0_1",
+          "19": "P0_0",
+          "20": "RESET",
+          "21": "VDD",
+          "22": "XOSC_Q1",
+          "23": "XOSC_Q2",
+          "24": "VDD",
+          "25": "RF_P",
+          "26": "RF_N",
+          "27": "VDD",
+          "28": "VDD",
+          "29": "VDD",
+          "30": "RBIAS",
+          "31": "VDD",
+          "32": "XOSC32K_Q1",
+          "33": "XOSC32K_Q2",
+          "34": "P2_2",
+          "35": "P2_1",
+          "36": "P2_0",
+          "37": "",
+          "38": "P1_6",
+          "39": "VDD",
+          "40": "DCOUPL",
+          "41": "GND"
+        },
+        "supplier": "C9120",
+        "footprint": "QFN-40_L6.0-W6.0-P0.50-TL-EP4.1",
+        "footprintInfo": null
+      },
+      {
+        "ref": "C12",
+        "pins": {
+          "1": "VDD",
+          "2": "GND"
+        },
+        "supplier": "C23630",
+        "footprint": "C0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "C13",
+        "pins": {
+          "1": "VDD",
+          "2": "GND"
+        },
+        "supplier": "C23630",
+        "footprint": "C0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "C14",
+        "pins": {
+          "1": "VDD",
+          "2": "GND"
+        },
+        "supplier": "C1591",
+        "footprint": "C0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "C15",
+        "pins": {
+          "1": "VDD",
+          "2": "GND"
+        },
+        "supplier": "C1591",
+        "footprint": "C0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "C16",
+        "pins": {
+          "1": "VDD",
+          "2": "GND"
+        },
+        "supplier": "C1591",
+        "footprint": "C0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "C17",
+        "pins": {
+          "1": "VDD",
+          "2": "GND"
+        },
+        "supplier": "C1591",
+        "footprint": "C0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "C18",
+        "pins": {
+          "1": "VDD",
+          "2": "GND"
+        },
+        "supplier": "C1591",
+        "footprint": "C0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "C19",
+        "pins": {
+          "1": "VDD",
+          "2": "GND"
+        },
+        "supplier": "C1591",
+        "footprint": "C0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "C6",
+        "pins": {
+          "1": "DCOUPL",
+          "2": "GND"
+        },
+        "supplier": "C15849",
+        "footprint": "C0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "L1",
+        "pins": {
+          "1": "+3V3",
+          "2": "VDD"
+        },
+        "supplier": "C395081",
+        "footprint": "L0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "R9",
+        "pins": {
+          "1": "RBIAS",
+          "2": "GND"
+        },
+        "supplier": "C23206",
+        "footprint": "R0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "C10",
+        "pins": {
+          "1": "RF_P_MATCH",
+          "2": "RF_COMB"
+        },
+        "supplier": "C37117",
+        "footprint": "C0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "C11",
+        "pins": {
+          "1": "RF_COMB",
+          "2": "SMA_FEED"
+        },
+        "supplier": "C1651",
+        "footprint": "C0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "C7",
+        "pins": {
+          "1": "RF_N",
+          "2": "RF_N_MATCH"
+        },
+        "supplier": "C1647",
+        "footprint": "C0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "C8",
+        "pins": {
+          "1": "RF_P",
+          "2": "RF_P_MATCH"
+        },
+        "supplier": "C1647",
+        "footprint": "C0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "C9",
+        "pins": {
+          "1": "RF_N_MATCH",
+          "2": "GND"
+        },
+        "supplier": "C37117",
+        "footprint": "C0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "L2",
+        "pins": {
+          "1": "RF_N_MATCH",
+          "2": "RF_COMB"
+        },
+        "supplier": "C395081",
+        "footprint": "L0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "L3",
+        "pins": {
+          "1": "RF_P_MATCH",
+          "2": "GND"
+        },
+        "supplier": "C395081",
+        "footprint": "L0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "RF1",
+        "pins": {
+          "1": "GND",
+          "2": "GND",
+          "3": "GND",
+          "4": "GND",
+          "5": "SMA_FEED"
+        },
+        "supplier": "C496550",
+        "footprint": "SMA-SMD_BWSMA-KE-P001",
+        "footprintInfo": null
+      },
+      {
+        "ref": "X1",
+        "pins": {
+          "1": "XOSC_Q1",
+          "2": "GND",
+          "3": "XOSC_Q2",
+          "4": "GND"
+        },
+        "supplier": "C9009",
+        "footprint": "CRYSTAL-SMD_4P-L3.2-W2.5-BL",
+        "footprintInfo": null
+      },
+      {
+        "ref": "C20",
+        "pins": {
+          "1": "XOSC_Q1",
+          "2": "GND"
+        },
+        "supplier": "C1647",
+        "footprint": "C0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "C21",
+        "pins": {
+          "1": "XOSC_Q2",
+          "2": "GND"
+        },
+        "supplier": "C1647",
+        "footprint": "C0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "C22",
+        "pins": {
+          "1": "XOSC32K_Q1",
+          "2": "GND"
+        },
+        "supplier": "C1647",
+        "footprint": "C0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "C23",
+        "pins": {
+          "1": "XOSC32K_Q2",
+          "2": "GND"
+        },
+        "supplier": "C1647",
+        "footprint": "C0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "X2",
+        "pins": {
+          "1": "XOSC32K_Q1",
+          "2": "XOSC32K_Q2"
+        },
+        "supplier": "C5213671",
+        "footprint": "CRYSTAL-SMD_L3.2-W1.5-1",
+        "footprintInfo": null
+      },
+      {
+        "ref": "P1",
+        "pins": {
+          "1": "GND",
+          "2": "+3V3",
+          "3": "P2_2",
+          "4": "P2_1",
+          "5": "",
+          "6": "",
+          "7": "RESET",
+          "8": "",
+          "9": "",
+          "10": ""
+        },
+        "supplier": "C5665",
+        "footprint": "IDC-TH_10P-P2.54_C5665",
+        "footprintInfo": null
+      },
+      {
+        "ref": "C24",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        },
+        "supplier": "C1591",
+        "footprint": "C0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "R10",
+        "pins": {
+          "1": "+3V3",
+          "2": "P2_2"
+        },
+        "supplier": "C25804",
+        "footprint": "R0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "U4",
+        "pins": {
+          "1": "",
+          "2": "+3V3",
+          "3": "P0_7",
+          "4": "P0_6",
+          "5": "GND",
+          "6": ""
+        },
+        "supplier": "C2757850",
+        "footprint": "SENSOR-SMD_L3.0-W3.0-P1.00-BR",
+        "footprintInfo": null
+      },
+      {
+        "ref": "C25",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        },
+        "supplier": "C1591",
+        "footprint": "C0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "R11",
+        "pins": {
+          "1": "+3V3",
+          "2": "P0_7"
+        },
+        "supplier": "C25804",
+        "footprint": "R0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "R12",
+        "pins": {
+          "1": "+3V3",
+          "2": "P0_6"
+        },
+        "supplier": "C25804",
+        "footprint": "R0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "R13",
+        "pins": {
+          "1": "+3V3",
+          "2": "RESET"
+        },
+        "supplier": "C25804",
+        "footprint": "R0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "R14",
+        "pins": {
+          "1": "+3V3",
+          "2": "P0_0"
+        },
+        "supplier": "C25804",
+        "footprint": "R0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "R15",
+        "pins": {
+          "1": "+3V3",
+          "2": "P2_0"
+        },
+        "supplier": "C25804",
+        "footprint": "R0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "SW1",
+        "pins": {
+          "1": "GND",
+          "2": "GND",
+          "3": "RESET",
+          "4": "RESET"
+        },
+        "supplier": "C7528752",
+        "footprint": "SW-SMD_4P-L6.0-W6.0-P4.50-LS8.2",
+        "footprintInfo": null
+      },
+      {
+        "ref": "SW2",
+        "pins": {
+          "1": "GND",
+          "2": "GND",
+          "3": "P0_0",
+          "4": "P0_0"
+        },
+        "supplier": "C7528752",
+        "footprint": "SW-SMD_4P-L6.0-W6.0-P4.50-LS8.2",
+        "footprintInfo": null
+      },
+      {
+        "ref": "SW3",
+        "pins": {
+          "1": "GND",
+          "2": "GND",
+          "3": "P2_0",
+          "4": "P2_0"
+        },
+        "supplier": "C7528752",
+        "footprint": "SW-SMD_4P-L6.0-W6.0-P4.50-LS8.2",
+        "footprintInfo": null
+      },
+      {
+        "ref": "OLED1",
+        "pins": {
+          "1": "GND",
+          "2": "+3V3",
+          "3": "P1_5",
+          "4": "P1_6",
+          "5": "P1_4",
+          "6": "P1_3",
+          "7": "P1_2"
+        },
+        "supplier": "C5139759",
+        "footprint": "OLED-TH_HS96L01B4S03",
+        "footprintInfo": null
+      },
+      {
+        "ref": "C26",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        },
+        "supplier": "C1591",
+        "footprint": "C0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "R16",
+        "pins": {
+          "1": "+3V3",
+          "2": "P0_1"
+        },
+        "supplier": "C25804",
+        "footprint": "R0603",
+        "footprintInfo": null
+      },
+      {
+        "ref": "R17",
+        "pins": {
+          "1": "P0_1",
+          "2": "GND"
+        },
+        "supplier": "C2904880",
+        "footprint": "RES-SMD_L3.6-W2.4",
+        "footprintInfo": null
+      },
+      {
+        "ref": "SCREW1",
+        "pins": {
+          "1": ""
+        },
+        "supplier": "",
+        "footprint": "M3螺丝",
+        "footprintInfo": null
+      },
+      {
+        "ref": "SCREW2",
+        "pins": {
+          "1": ""
+        },
+        "supplier": "",
+        "footprint": "M3螺丝",
+        "footprintInfo": null
+      },
+      {
+        "ref": "SCREW3",
+        "pins": {
+          "1": ""
+        },
+        "supplier": "",
+        "footprint": "M3螺丝",
+        "footprintInfo": null
+      },
+      {
+        "ref": "SCREW4",
+        "pins": {
+          "1": ""
+        },
+        "supplier": "",
+        "footprint": "M3螺丝",
+        "footprintInfo": null
+      }
+    ],
+    "drc": [],
+    "oledGeometry": {
+      "uuid": "1eee9eef2eda364d",
+      "bodyBBox": {
+        "minX": -542.4,
+        "minY": -1040.431,
+        "maxX": 542.401,
+        "maxY": 64.055
+      },
+      "fullBBox": {
+        "minX": -542.4,
+        "minY": -1040.431,
+        "maxX": 542.401,
+        "maxY": 64.055
+      },
+      "pads": [
+        {
+          "padId": "e13",
+          "padNumber": "1",
+          "shape": "RECT",
+          "type": "NORMAL",
+          "plated": true,
+          "x": -300,
+          "y": 0,
+          "rotation": 0,
+          "width": 70.866,
+          "height": 70.866,
+          "layerIds": [
+            1,
+            2,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "bbox": {
+            "minX": -335.433,
+            "minY": -35.433,
+            "maxX": -264.567,
+            "maxY": 35.433
+          },
+          "holeType": "ROUND",
+          "holeDiameter": 39.37
+        },
+        {
+          "padId": "e14",
+          "padNumber": "2",
+          "shape": "ELLIPSE",
+          "type": "NORMAL",
+          "plated": true,
+          "x": -200,
+          "y": 0,
+          "rotation": 0,
+          "width": 70.866,
+          "height": 70.866,
+          "layerIds": [
+            1,
+            2,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "bbox": {
+            "minX": -235.433,
+            "minY": -35.433,
+            "maxX": -164.567,
+            "maxY": 35.433
+          },
+          "holeType": "ROUND",
+          "holeDiameter": 39.37
+        },
+        {
+          "padId": "e15",
+          "padNumber": "3",
+          "shape": "ELLIPSE",
+          "type": "NORMAL",
+          "plated": true,
+          "x": -100,
+          "y": 0,
+          "rotation": 0,
+          "width": 70.866,
+          "height": 70.866,
+          "layerIds": [
+            1,
+            2,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "bbox": {
+            "minX": -135.433,
+            "minY": -35.433,
+            "maxX": -64.56700000000001,
+            "maxY": 35.433
+          },
+          "holeType": "ROUND",
+          "holeDiameter": 39.37
+        },
+        {
+          "padId": "e16",
+          "padNumber": "4",
+          "shape": "ELLIPSE",
+          "type": "NORMAL",
+          "plated": true,
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "width": 70.866,
+          "height": 70.866,
+          "layerIds": [
+            1,
+            2,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "bbox": {
+            "minX": -35.433,
+            "minY": -35.433,
+            "maxX": 35.433,
+            "maxY": 35.433
+          },
+          "holeType": "ROUND",
+          "holeDiameter": 39.37
+        },
+        {
+          "padId": "e17",
+          "padNumber": "5",
+          "shape": "ELLIPSE",
+          "type": "NORMAL",
+          "plated": true,
+          "x": 100,
+          "y": 0,
+          "rotation": 0,
+          "width": 70.866,
+          "height": 70.866,
+          "layerIds": [
+            1,
+            2,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "bbox": {
+            "minX": 64.56700000000001,
+            "minY": -35.433,
+            "maxX": 135.433,
+            "maxY": 35.433
+          },
+          "holeType": "ROUND",
+          "holeDiameter": 39.37
+        },
+        {
+          "padId": "e18",
+          "padNumber": "6",
+          "shape": "ELLIPSE",
+          "type": "NORMAL",
+          "plated": true,
+          "x": 200,
+          "y": 0,
+          "rotation": 0,
+          "width": 70.866,
+          "height": 70.866,
+          "layerIds": [
+            1,
+            2,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "bbox": {
+            "minX": 164.567,
+            "minY": -35.433,
+            "maxX": 235.433,
+            "maxY": 35.433
+          },
+          "holeType": "ROUND",
+          "holeDiameter": 39.37
+        },
+        {
+          "padId": "e19",
+          "padNumber": "7",
+          "shape": "ELLIPSE",
+          "type": "NORMAL",
+          "plated": true,
+          "x": 300,
+          "y": 0,
+          "rotation": 0,
+          "width": 70.866,
+          "height": 70.866,
+          "layerIds": [
+            1,
+            2,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "bbox": {
+            "minX": 264.567,
+            "minY": -35.433,
+            "maxX": 335.433,
+            "maxY": 35.433
+          },
+          "holeType": "ROUND",
+          "holeDiameter": 39.37
+        }
+      ]
+    },
+    "sourceCount": 0,
+    "sourceUuids": []
+  },
+  "logs": [],
+  "durationMs": 4606
+}

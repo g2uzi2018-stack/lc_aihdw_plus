@@ -1,0 +1,879 @@
+{
+  "doc api --class-name SYS_Environment --method-name getUserInfo": {
+    "ok": true,
+    "value": {
+      "title": "获取用户信息",
+      "visibility": "public",
+      "params": [],
+      "returns": {
+        "type": "{ username?: string; nickname?: string; avatar?: string; uuid?: string; customerCode?: string }",
+        "description": "用户信息"
+      },
+      "example": "```javascript\n// 1. 读取当前用户信息（同步返回对象）\nconst userInfo = eda.sys_Environment.getUserInfo();\n\n// 2. 输出用户信息（uuid 是账号的唯一标识，可作为业务数据的关联键）\nconsole.log('用户名：', userInfo?.username);\nconsole.log('昵称：', userInfo?.nickname);\nconsole.log('用户 uuid：', userInfo?.uuid);\nconsole.log('客户编号：', userInfo?.customerCode);\n```",
+      "isAsync": false
+    },
+    "logs": [],
+    "durationMs": 121
+  },
+  "doc api --class-name PCB_Document --method-name importChanges": {
+    "ok": true,
+    "value": {
+      "title": "从原理图导入变更",
+      "remarks": "如需尽可能不被弹窗阻断（CLI 调用时推荐），请传入 `force` 为 `true`，这样在不遇到严重错误时不会出现任何弹窗；\n\n`force=true` 会跳过确认弹窗并自动全量导入，且等待导入完成后再返回（非交互执行方式，见 {@link PCB_Document.importChanges | 参数 `force`}）",
+      "visibility": "public",
+      "params": [
+        {
+          "name": "uuid",
+          "type": "string",
+          "description": "原理图 UUID，默认为关联在同一个 Board 下的原理图",
+          "required": false
+        },
+        {
+          "name": "force",
+          "type": "boolean",
+          "description": "是否强制导入（跳过\"导入更新\"弹窗，自动全量导入并等待导入完成后再返回）；默认 `false`",
+          "required": false
+        }
+      ],
+      "returns": {
+        "type": "boolean",
+        "description": "导入操作是否成功，导入失败或未传入原理图 UUID 的游离 PCB 将返回 `false`"
+      },
+      "example": "```javascript\n// 1. 创建测试原理图和测试 PCB\nconst schUuid = await eda.dmt_Schematic.createSchematic();\nawait new Promise(r => setTimeout(r, 1500));\nconst pcbUuid = await eda.dmt_Pcb.createPcb();\nawait new Promise(r => setTimeout(r, 1500));\n\n// 2. 创建板子把原理图与 PCB 关联起来（返回板子名称）\nconst boardName = await eda.dmt_Board.createBoard(schUuid, pcbUuid);\nawait new Promise(r => setTimeout(r, 1500));\nconsole.log('boardName:', boardName);\n\n// 3. 打开 PCB 并从关联原理图导入变更\nawait eda.dmt_EditorControl.openDocument(pcbUuid);\nawait new Promise(r => setTimeout(r, 1000));\nconst imported = await eda.pcb_Document.importChanges();\nconsole.log('imported:', imported);\n\n// 4. 清理：删板子、删 PCB、删原理图\nawait eda.dmt_Board.deleteBoard(boardName);\nawait new Promise(r => setTimeout(r, 1000));\nawait eda.dmt_Pcb.deletePcb(pcbUuid);\nawait eda.dmt_Schematic.deleteSchematic(schUuid);\n```",
+      "isAsync": true
+    },
+    "logs": [],
+    "durationMs": 138
+  },
+  "doc api --class-name PCB_Document --method-name save": {
+    "ok": true,
+    "value": {
+      "title": "保存文档",
+      "remarks": "在 headless / 无头环境下，本接口可能返回 `true` 但实际未真正落盘（如网络 / 上传链路异常），\n对落盘结果敏感的流程应通过 {@link SYS_FileSystem | 文件系统接口} 二次核验",
+      "visibility": "public",
+      "params": [],
+      "returns": {
+        "type": "boolean",
+        "description": "保存操作是否成功，保存失败、上传失败等错误均返回 `false`"
+      },
+      "example": "```javascript\n// 1. 创建测试 PCB 并打开（保存作用于当前激活的 PCB）\nconst pcbUuid = await eda.dmt_Pcb.createPcb();\nawait new Promise(r => setTimeout(r, 1500));\nawait eda.dmt_EditorControl.openDocument(pcbUuid);\nawait new Promise(r => setTimeout(r, 1000));\n\n// 2. 保存当前 PCB\nconst saved = await eda.pcb_Document.save();\nconsole.log('saved:', saved);\n\n// 3. 清理测试 PCB\nawait eda.dmt_Pcb.deletePcb(pcbUuid);\n```",
+      "isAsync": true
+    },
+    "logs": [],
+    "durationMs": 124
+  },
+  "doc api --class-name PCB_Document --method-name autoLayout": {
+    "ok": true,
+    "value": {
+      "title": "自动布局",
+      "remarks": "本接口会一直阻塞到布局结束，期间拿不到进度也无法中途查询；需要进度与可控中断时请改用作业模型 {@link PCB_Document.startAutoLayout | startAutoLayout}\n\n本接口预期将会执行较长时间，可以尝试异步处理或增加超时时限\n\nADD since EDA v3.2.150 / EDA v4.1.66",
+      "visibility": "beta",
+      "notRecommendedFor": [
+        {
+          "role": "cli",
+          "note": "阻塞到布局结束且无进度可查，CLI 请改用 {@link PCB_Document.startAutoLayout | startAutoLayout} 作业模型"
+        }
+      ],
+      "params": [],
+      "returns": {
+        "type": "IPCB_AutoLayoutResult",
+        "description": "自动布局结果"
+      },
+      "isAsync": true
+    },
+    "logs": [],
+    "durationMs": 115
+  },
+  "doc api --class-name PCB_Document --method-name autoRouting": {
+    "ok": true,
+    "value": {
+      "title": "自动布线",
+      "remarks": "如不传入任何参数，将对所有未布线的网络进行自动布线\n\n本接口会一直阻塞到布线结束，且内部存在 900 秒硬上限（CLI 的 `--timeout` 无法覆盖），中途超时或取消都不会保留已算出的几何；需要进度与可控中断时请改用作业模型 {@link PCB_Document.startAutoRouting | startAutoRouting}\n\n注意事项：\n- 本接口内部存在固定的 900 秒（15 分钟）硬上限，CLI 的 `--timeout` 参数无法覆盖该上限；\n- 超时或失败后，中间几何结果不会提交（超时后调用 `save()` 图元可能仍为 0/0）；作业模型同样只在作业结束、状态变为 `completed` 时提交，取消作业（{@link PCB_Document.cancelAutoJob | cancelAutoJob}）也会丢弃已算出的几何。需要保留结果时请让作业跑完，或用 `RoutingNets` 按网络分批布线；\n- `props.layers` 必须传入启用层（`layerStatus !== NOT_USED`），传停用层会被静默忽略\n\nADD since EDA v3.2.150 / EDA v4.1.66",
+      "visibility": "beta",
+      "notRecommendedFor": [
+        {
+          "role": "cli",
+          "note": "阻塞到布线结束且有 900 秒硬上限，CLI 请改用 {@link PCB_Document.startAutoRouting | startAutoRouting} 作业模型"
+        }
+      ],
+      "params": [
+        {
+          "name": "props",
+          "type": "IPCB_AutoRoutingProps",
+          "description": "自动布线参数",
+          "required": false
+        }
+      ],
+      "returns": {
+        "type": "IPCB_AutoRoutingResult",
+        "description": "自动布线结果，布通率按 `successNetsCount / totalNetsCount` 计算"
+      },
+      "example": "```javascript\n// 对所有未布线的网络进行自动布线\nconst result = await eda.pcb_Document.autoRouting();\nconsole.log('是否走完布线流程：', result.success);\nconsole.log(`布通网络：${result.successNetsCount}/${result.totalNetsCount}`);\nconsole.log('未布通网络：', result.failedNets.join('、'));\nconsole.log('耗时（毫秒）：', result.duration);\n\n// 指定网络进行自动布线，并忽略部分网络\nconst result2 = await eda.pcb_Document.autoRouting({\n    RoutingNets: ['VCC', 'GND', 'SDA', 'SCL'],\n    ignoreNets: ['NC'],\n    cornerStyle: EPCB_AutoRoutingCornerStyle.DEGREE_45,\n    optimization: EPCB_AutoRoutingOptimization.COMPLETION,\n});\n```",
+      "isAsync": true
+    },
+    "logs": [],
+    "durationMs": 124
+  },
+  "doc api --class-name PCB_Drc --method-name overwriteCurrentRuleConfiguration": {
+    "ok": true,
+    "value": {
+      "title": "覆写当前设计规则配置",
+      "remarks": "将会覆写 PCB 当前的设计规则配置，请注意数据丢失风险",
+      "visibility": "beta",
+      "params": [
+        {
+          "name": "ruleConfiguration",
+          "type": "{ [key: string]: any }",
+          "description": "设计规则配置",
+          "required": true
+        }
+      ],
+      "returns": {
+        "type": "boolean",
+        "description": "覆写是否成功"
+      },
+      "example": "```javascript\n// 1. 读取当前设计规则配置（返回 { config, name }，规则数据在 config 里）\nconst current = await eda.pcb_Drc.getCurrentRuleConfiguration();\n\n// 2. 整体写回当前配置（原样写回演示覆写成功，实际使用时可先修改 config 中的字段）\nconst result = await eda.pcb_Drc.overwriteCurrentRuleConfiguration(current.config);\n\nconsole.log('configName:', current.name);\nconsole.log('result:', result);\n```",
+      "isAsync": true
+    },
+    "logs": [],
+    "durationMs": 115
+  },
+  "doc api --class-name PCB_Drc --method-name getCurrentRuleConfiguration": {
+    "ok": true,
+    "value": {
+      "title": "获取当前设计规则配置",
+      "visibility": "beta",
+      "params": [],
+      "returns": {
+        "type": "{ [key: string]: any } | undefined",
+        "description": "当前设计规则配置，`undefined` 为获取失败"
+      },
+      "isAsync": true
+    },
+    "logs": [],
+    "durationMs": 111
+  },
+  "doc api --class-name PCB_Drc --method-name checkDetailed": {
+    "ok": true,
+    "value": {
+      "title": "执行 DRC 检查并返回展平明细",
+      "remarks": "结果可能不完整：存在检查失败的规则时，将以 `INCOMPLETE_RESULT` 错误抛出，不得视为检查通过\n\nADD since EDA v4.1.93",
+      "visibility": "beta",
+      "params": [
+        {
+          "name": "options",
+          "type": "IPCB_DrcCheckDetailedOptions",
+          "description": "检查参数",
+          "required": false
+        }
+      ],
+      "returns": {
+        "type": "IPCB_DrcResult",
+        "description": "DRC 结果"
+      },
+      "isAsync": true
+    },
+    "logs": [],
+    "durationMs": 113
+  },
+  "doc api --class-name PCB_PrimitivePolyline --method-name modify": {
+    "ok": true,
+    "value": {
+      "title": "修改折线",
+      "visibility": "beta",
+      "params": [
+        {
+          "name": "primitiveId",
+          "type": "string | IPCB_PrimitivePolyline",
+          "description": "图元 ID",
+          "required": true
+        },
+        {
+          "name": "property",
+          "type": "{ net?: string; layer?: TPCB_LayersOfLine; polygon?: IPCB_Polygon; lineWidth?: number; primitiveLock?: boolean }",
+          "description": "修改参数",
+          "required": true
+        }
+      ],
+      "returns": {
+        "type": "IPCB_PrimitivePolyline",
+        "description": "折线图元对象"
+      },
+      "example": "```javascript\n// 1. 创建待修改的测试折线（随机坐标避免与画布已有折线重合）\nconst x = 2000 + Math.floor(Math.random() * 100000);\nconst y = 2000 + Math.floor(Math.random() * 100000);\nconst polygon = eda.pcb_MathPolygon.createPolygon([x, y, 'L', x + 500, y, x + 500, y + 300]);\nconst polyline = await eda.pcb_PrimitivePolyline.create('', 1, polygon, 10, false);\nconst polylineId = polyline.getState_PrimitiveId();\n\n// 2. 读取修改前的线宽与层\nconst beforeWidth = polyline.getState_LineWidth();\nconst beforeLayer = polyline.getState_Layer();\n\n// 3. 批量修改：线宽 10 → 24，层从顶层（1）换到底层（2）\nawait eda.pcb_PrimitivePolyline.modify(polylineId, { lineWidth: 24, layer: 2 });\n\n// 4. modify 返回后需要重新 get() 才能读到画布上的最新值\nconst refreshed = await eda.pcb_PrimitivePolyline.get(polylineId);\n\n// 5. 修改类保留现场，供观察修改结果\nconsole.log('primitiveId:', polylineId);\nconsole.log('lineWidth:', beforeWidth, '→', refreshed.getState_LineWidth());\nconsole.log('layer:', beforeLayer, '→', refreshed.getState_Layer());\n```",
+      "isAsync": true
+    },
+    "logs": [],
+    "durationMs": 121
+  },
+  "doc api --class-name PCB_Layer": {
+    "ok": true,
+    "value": {
+      "title": "PCB & 封装 / 图层操作类",
+      "visibility": "public",
+      "methods": [
+        {
+          "name": "selectLayer",
+          "comment": "选中图层",
+          "visibility": "public"
+        },
+        {
+          "name": "setLayerVisible",
+          "comment": "将层设置为可见",
+          "visibility": "beta"
+        },
+        {
+          "name": "setLayerInvisible",
+          "comment": "将层设置为不可见",
+          "visibility": "beta"
+        },
+        {
+          "name": "lockLayer",
+          "comment": "锁定层",
+          "visibility": "beta"
+        },
+        {
+          "name": "unlockLayer",
+          "comment": "取消锁定层",
+          "visibility": "beta"
+        },
+        {
+          "name": "setTheNumberOfCopperLayers",
+          "comment": "设置铜箔层数",
+          "visibility": "beta"
+        },
+        {
+          "name": "setLayerColorConfiguration",
+          "comment": "设置层颜色配置",
+          "visibility": "beta"
+        },
+        {
+          "name": "setInactiveLayerTransparency",
+          "comment": "设置非激活层透明度",
+          "visibility": "beta"
+        },
+        {
+          "name": "setPcbType",
+          "comment": "设置 PCB 类型",
+          "visibility": "beta"
+        },
+        {
+          "name": "addCustomLayer",
+          "comment": "新增自定义层",
+          "visibility": "beta"
+        },
+        {
+          "name": "removeLayer",
+          "comment": "移除层",
+          "visibility": "beta"
+        },
+        {
+          "name": "modifyLayer",
+          "comment": "修改图层属性",
+          "visibility": "beta"
+        },
+        {
+          "name": "getAllLayers",
+          "comment": "获取所有图层的详细属性",
+          "visibility": "beta"
+        },
+        {
+          "name": "setInactiveLayerDisplayMode",
+          "comment": "设置非激活层展示模式",
+          "visibility": "beta"
+        },
+        {
+          "name": "getStackup",
+          "comment": "读取当前 PCB 的物理叠层与铜厚",
+          "visibility": "beta"
+        }
+      ],
+      "callPath": "pcb_Layer"
+    },
+    "logs": [],
+    "durationMs": 112
+  },
+  "doc api --class-name SCH_ManufactureData --method-name getNetlistFile": {
+    "ok": true,
+    "value": {
+      "title": "获取网表文件（Netlist）",
+      "remarks": "可以使用 {@link SYS_FileSystem.saveFile} 接口将文件导出到本地文件系统",
+      "visibility": "beta",
+      "params": [
+        {
+          "name": "fileName",
+          "type": "string",
+          "description": "文件名",
+          "required": false
+        },
+        {
+          "name": "netlistType",
+          "type": "ESYS_NetlistType",
+          "description": "网表类型",
+          "required": false
+        }
+      ],
+      "returns": {
+        "type": "File | undefined",
+        "description": "网表文件数据"
+      },
+      "example": "```javascript\n// 1. 导出 Altium Designer 格式的网表（'Protel2' 对应 ESYS_NetlistType.ALTIUM_DESIGNER）\ntry {\n    const netlistFile = await eda.sch_ManufactureData.getNetlistFile('嘉立创示例_网表', 'Protel2');\n    console.log('导出文件名：', netlistFile?.name);\n    console.log('文件大小：', netlistFile?.size);\n} catch (e) {\n    // 原理图数据不满足网表校验（如引脚编号重复）时会抛错\n    console.log('当前原理图数据不满足网表导出要求，导出未完成');\n}\n```",
+      "isAsync": true
+    },
+    "logs": [],
+    "durationMs": 127
+  },
+  "doc api --class-name SCH_ManufactureData --method-name getBomFile": {
+    "ok": true,
+    "value": {
+      "title": "获取 BOM 文件",
+      "remarks": "可以使用 {@link SYS_FileSystem.saveFile} 接口将文件导出到本地文件系统",
+      "visibility": "beta",
+      "params": [
+        {
+          "name": "fileName",
+          "type": "string",
+          "description": "文件名",
+          "required": false
+        },
+        {
+          "name": "fileType",
+          "type": "\"xlsx\" | \"csv\"",
+          "description": "文件类型",
+          "required": false
+        },
+        {
+          "name": "template",
+          "type": "string",
+          "description": "模板名称",
+          "required": false
+        },
+        {
+          "name": "filterOptions",
+          "type": "Array<{ property: string; includeValue: string | false | true }>",
+          "description": "过滤规则，仅应包含需要启用的规则，`property` 为规则名称，`includeValue` 为匹配的值",
+          "required": false
+        },
+        {
+          "name": "statistics",
+          "type": "Array<string>",
+          "description": "统计，包含所有需要启用的统计项的名称",
+          "required": false
+        },
+        {
+          "name": "property",
+          "type": "Array<string>",
+          "description": "属性，包含所有需要启用的属性的名称",
+          "required": false
+        },
+        {
+          "name": "columns",
+          "type": "Array<IPCB_BomPropertiesTableColumns>",
+          "description": "列的属性及排序，`title`、`sort`、`group`、`orderWeight` 不传入则取默认值，`null` 代表 **无** 或 **空**",
+          "required": false
+        },
+        {
+          "name": "assemblyVariantsConfig",
+          "type": "{ text: string; value: string }",
+          "description": "装配体变量配置",
+          "required": false
+        }
+      ],
+      "returns": {
+        "type": "File | undefined",
+        "description": "BOM 文件数据"
+      },
+      "example": "```javascript\n// 1. 导出 xlsx 格式 BOM，只包含标记了加入 BOM 的元件\nconst bomFile = await eda.sch_ManufactureData.getBomFile(\n    '嘉立创示例_BOM',\n    'xlsx',\n    undefined,\n    [{ property: 'Add into BOM', includeValue: 'yes' }]\n);\n\n// 2. 查看导出结果\nconsole.log('导出文件名：', bomFile?.name);\nconsole.log('文件大小：', bomFile?.size);\n```",
+      "isAsync": true
+    },
+    "logs": [],
+    "durationMs": 124
+  },
+  "doc api --class-name SCH_Drc --method-name check": {
+    "ok": true,
+    "value": {
+      "title": "检查 DRC",
+      "remarks": "`includeVerboseError=true` 时返回 DRC 错误条目 **数组**；\n`includeVerboseError=false` 直接返回门禁布尔值（非交互执行方式：`check(strict, false, false)`）。\n\n**布尔模式下 warning 也计为不通过**：`strict=true` 时，`warning` 级别的违规项与 `error` 一样会使返回值为 `false`。\n因此「只有 warning 却返回 `false`」是符合预期的行为，不是缺陷。需要区分 error / warning 时可改用\n`includeVerboseError=true` 拿到 {@link ISCH_DrcError} 列表，自行按 {@link ISCH_DrcError.type | type}\n过滤（`'fatalError'` / `'error'` / `'warn'`）。\n\n典型场景：原理图中存在刻意保留的未连接引脚（`CHECKFLOATPIN`）时，即便零 error，布尔门禁仍为 `false`。\n这类工程若只关心 error，应以详细模式的过滤结果为准，不要直接依赖布尔返回值。",
+      "visibility": "beta",
+      "params": [
+        {
+          "name": "strict",
+          "type": "boolean",
+          "description": "是否严格检查，当前原理图统一为严格检查模式；`true` 时 warning 同样计入不通过",
+          "required": true
+        },
+        {
+          "name": "userInterface",
+          "type": "boolean",
+          "description": "是否显示 UI（呼出底部 DRC 窗口）",
+          "required": true
+        },
+        {
+          "name": "includeVerboseError",
+          "type": "false",
+          "description": "是否在返回值中包含详细错误信息，如若为 `true`，则返回值将始终为数组",
+          "required": true
+        }
+      ],
+      "returns": {
+        "type": "boolean",
+        "description": "DRC 检查是否通过（`strict=true` 时含 warning 判定）"
+      },
+      "example": "```javascript\n// 1. 创建测试原理图并打开（DRC 作用于当前激活的原理图）\nconst schematicUuid = await eda.dmt_Schematic.createSchematic();\nawait new Promise(r => setTimeout(r, 1500));\nconst schInfo = await eda.dmt_Schematic.getSchematicInfo(schematicUuid);\nawait eda.dmt_EditorControl.openDocument(schInfo.page[0].uuid);\nawait new Promise(r => setTimeout(r, 1000));\n\n// 2. 详细模式：返回全部违规项，无违规则为空数组\nconst violations = await eda.sch_Drc.check(true, false, true);\nconsole.log('violationCount:', violations.length);\nviolations.forEach((v, i) => {\n  console.log('[' + i + ']', typeof v === 'string' ? v : JSON.stringify(v));\n});\n\n// 3. 布尔模式：只返回是否全部通过\nconst passed = await eda.sch_Drc.check(true, false, false);\nconsole.log('allPassed:', passed);\n\n// 4. 清理测试原理图\nawait new Promise(r => setTimeout(r, 1500));\nawait eda.dmt_Schematic.deleteSchematic(schematicUuid);\n```",
+      "isAsync": true
+    },
+    "logs": [],
+    "durationMs": 112
+  },
+  "doc api --class-name EPCB_LayerId": {
+    "ok": true,
+    "value": {
+      "name": "EPCB_LayerId",
+      "comment": "图层 ID",
+      "visibility": "public",
+      "values": [
+        {
+          "name": "TOP",
+          "value": 1,
+          "description": "顶层"
+        },
+        {
+          "name": "TOP_SILKSCREEN",
+          "value": 3,
+          "description": "顶层丝印层"
+        },
+        {
+          "name": "TOP_SOLDER_MASK",
+          "value": 5,
+          "description": "顶层阻焊层"
+        },
+        {
+          "name": "TOP_PASTE_MASK",
+          "value": 7,
+          "description": "顶层锡膏（助焊）层"
+        },
+        {
+          "name": "TOP_ASSEMBLY",
+          "value": 9,
+          "description": "顶层装配层"
+        },
+        {
+          "name": "TOP_STIFFENER",
+          "value": 58,
+          "description": "顶层 FPC 补强层"
+        },
+        {
+          "name": "BOTTOM",
+          "value": 2,
+          "description": "底层"
+        },
+        {
+          "name": "BOTTOM_SILKSCREEN",
+          "value": 4,
+          "description": "底层丝印层"
+        },
+        {
+          "name": "BOTTOM_SOLDER_MASK",
+          "value": 6,
+          "description": "底层阻焊层"
+        },
+        {
+          "name": "BOTTOM_PASTE_MASK",
+          "value": 8,
+          "description": "底层锡膏（助焊）层"
+        },
+        {
+          "name": "BOTTOM_ASSEMBLY",
+          "value": 10,
+          "description": "底层装配层"
+        },
+        {
+          "name": "BOTTOM_STIFFENER",
+          "value": 59,
+          "description": "底层 FPC 补强层"
+        },
+        {
+          "name": "BOARD_OUTLINE",
+          "value": 11,
+          "description": "板框层"
+        },
+        {
+          "name": "MULTI",
+          "value": 12,
+          "description": "多层"
+        },
+        {
+          "name": "DOCUMENT",
+          "value": 13,
+          "description": "文档层"
+        },
+        {
+          "name": "MECHANICAL",
+          "value": 14,
+          "description": "机械层"
+        },
+        {
+          "name": "RATLINE",
+          "value": 57,
+          "description": "飞线层"
+        },
+        {
+          "name": "INNER_1",
+          "value": 15,
+          "description": "内层 1"
+        },
+        {
+          "name": "INNER_2",
+          "value": 16,
+          "description": "内层 2"
+        },
+        {
+          "name": "INNER_3",
+          "value": 17,
+          "description": "内层 3"
+        },
+        {
+          "name": "INNER_4",
+          "value": 18,
+          "description": "内层 4"
+        },
+        {
+          "name": "INNER_5",
+          "value": 19,
+          "description": "内层 5"
+        },
+        {
+          "name": "INNER_6",
+          "value": 20,
+          "description": "内层 6"
+        },
+        {
+          "name": "INNER_7",
+          "value": 21,
+          "description": "内层 7"
+        },
+        {
+          "name": "INNER_8",
+          "value": 22,
+          "description": "内层 8"
+        },
+        {
+          "name": "INNER_9",
+          "value": 23,
+          "description": "内层 9"
+        },
+        {
+          "name": "INNER_10",
+          "value": 24,
+          "description": "内层 10"
+        },
+        {
+          "name": "INNER_11",
+          "value": 25,
+          "description": "内层 11"
+        },
+        {
+          "name": "INNER_12",
+          "value": 26,
+          "description": "内层 12"
+        },
+        {
+          "name": "INNER_13",
+          "value": 27,
+          "description": "内层 13"
+        },
+        {
+          "name": "INNER_14",
+          "value": 28,
+          "description": "内层 14"
+        },
+        {
+          "name": "INNER_15",
+          "value": 29,
+          "description": "内层 15"
+        },
+        {
+          "name": "INNER_16",
+          "value": 30,
+          "description": "内层 16"
+        },
+        {
+          "name": "INNER_17",
+          "value": 31,
+          "description": "内层 17"
+        },
+        {
+          "name": "INNER_18",
+          "value": 32,
+          "description": "内层 18"
+        },
+        {
+          "name": "INNER_19",
+          "value": 33,
+          "description": "内层 19"
+        },
+        {
+          "name": "INNER_20",
+          "value": 34,
+          "description": "内层 20"
+        },
+        {
+          "name": "INNER_21",
+          "value": 35,
+          "description": "内层 21"
+        },
+        {
+          "name": "INNER_22",
+          "value": 36,
+          "description": "内层 22"
+        },
+        {
+          "name": "INNER_23",
+          "value": 37,
+          "description": "内层 23"
+        },
+        {
+          "name": "INNER_24",
+          "value": 38,
+          "description": "内层 24"
+        },
+        {
+          "name": "INNER_25",
+          "value": 39,
+          "description": "内层 25"
+        },
+        {
+          "name": "INNER_26",
+          "value": 40,
+          "description": "内层 26"
+        },
+        {
+          "name": "INNER_27",
+          "value": 41,
+          "description": "内层 27"
+        },
+        {
+          "name": "INNER_28",
+          "value": 42,
+          "description": "内层 28"
+        },
+        {
+          "name": "INNER_29",
+          "value": 43,
+          "description": "内层 29"
+        },
+        {
+          "name": "INNER_30",
+          "value": 44,
+          "description": "内层 30"
+        },
+        {
+          "name": "CUSTOM_1",
+          "value": 71,
+          "description": "自定义层 1"
+        },
+        {
+          "name": "CUSTOM_2",
+          "value": 72,
+          "description": "自定义层 2"
+        },
+        {
+          "name": "CUSTOM_3",
+          "value": 73,
+          "description": "自定义层 3"
+        },
+        {
+          "name": "CUSTOM_4",
+          "value": 74,
+          "description": "自定义层 4"
+        },
+        {
+          "name": "CUSTOM_5",
+          "value": 75,
+          "description": "自定义层 5"
+        },
+        {
+          "name": "CUSTOM_6",
+          "value": 76,
+          "description": "自定义层 6"
+        },
+        {
+          "name": "CUSTOM_7",
+          "value": 77,
+          "description": "自定义层 7"
+        },
+        {
+          "name": "CUSTOM_8",
+          "value": 78,
+          "description": "自定义层 8"
+        },
+        {
+          "name": "CUSTOM_9",
+          "value": 79,
+          "description": "自定义层 9"
+        },
+        {
+          "name": "CUSTOM_10",
+          "value": 80,
+          "description": "自定义层 10"
+        },
+        {
+          "name": "CUSTOM_11",
+          "value": 81,
+          "description": "自定义层 11"
+        },
+        {
+          "name": "CUSTOM_12",
+          "value": 82,
+          "description": "自定义层 12"
+        },
+        {
+          "name": "CUSTOM_13",
+          "value": 83,
+          "description": "自定义层 13"
+        },
+        {
+          "name": "CUSTOM_14",
+          "value": 84,
+          "description": "自定义层 14"
+        },
+        {
+          "name": "CUSTOM_15",
+          "value": 85,
+          "description": "自定义层 15"
+        },
+        {
+          "name": "CUSTOM_16",
+          "value": 86,
+          "description": "自定义层 16"
+        },
+        {
+          "name": "CUSTOM_17",
+          "value": 87,
+          "description": "自定义层 17"
+        },
+        {
+          "name": "CUSTOM_18",
+          "value": 88,
+          "description": "自定义层 18"
+        },
+        {
+          "name": "CUSTOM_19",
+          "value": 89,
+          "description": "自定义层 19"
+        },
+        {
+          "name": "CUSTOM_20",
+          "value": 90,
+          "description": "自定义层 20"
+        },
+        {
+          "name": "CUSTOM_21",
+          "value": 91,
+          "description": "自定义层 21"
+        },
+        {
+          "name": "CUSTOM_22",
+          "value": 92,
+          "description": "自定义层 22"
+        },
+        {
+          "name": "CUSTOM_23",
+          "value": 93,
+          "description": "自定义层 23"
+        },
+        {
+          "name": "CUSTOM_24",
+          "value": 94,
+          "description": "自定义层 24"
+        },
+        {
+          "name": "CUSTOM_25",
+          "value": 95,
+          "description": "自定义层 25"
+        },
+        {
+          "name": "CUSTOM_26",
+          "value": 96,
+          "description": "自定义层 26"
+        },
+        {
+          "name": "CUSTOM_27",
+          "value": 97,
+          "description": "自定义层 27"
+        },
+        {
+          "name": "CUSTOM_28",
+          "value": 98,
+          "description": "自定义层 28"
+        },
+        {
+          "name": "CUSTOM_29",
+          "value": 99,
+          "description": "自定义层 29"
+        },
+        {
+          "name": "CUSTOM_30",
+          "value": 100,
+          "description": "自定义层 30"
+        },
+        {
+          "name": "SUBSTRATE_1",
+          "value": 101,
+          "description": "夹层（介电基板）1"
+        },
+        {
+          "name": "HOLE",
+          "value": 47,
+          "description": "孔层（焊盘、过孔的内孔）"
+        },
+        {
+          "name": "COMPONENT_SHAPE",
+          "value": 48,
+          "description": "元件外形层"
+        },
+        {
+          "name": "COMPONENT_MARKING",
+          "value": 49,
+          "description": "元件标识层"
+        },
+        {
+          "name": "PIN_SOLDERING",
+          "value": 50,
+          "description": "引脚焊接层"
+        },
+        {
+          "name": "PIN_FLOATING",
+          "value": 51,
+          "description": "引脚悬空层"
+        },
+        {
+          "name": "COMPONENT_MODEL",
+          "value": 52,
+          "description": "元件模型层"
+        },
+        {
+          "name": "SHELL_3D_OUTLINE",
+          "value": 53,
+          "description": "3D 外壳边框层"
+        },
+        {
+          "name": "SHELL_3D_TOP",
+          "value": 54,
+          "description": "3D 外壳顶层"
+        },
+        {
+          "name": "SHELL_3D_BOTTOM",
+          "value": 55,
+          "description": "3D 外壳底层"
+        },
+        {
+          "name": "DRILL_DRAWING",
+          "value": 56,
+          "description": "钻孔图层"
+        }
+      ]
+    },
+    "logs": [],
+    "durationMs": 122
+  }
+}

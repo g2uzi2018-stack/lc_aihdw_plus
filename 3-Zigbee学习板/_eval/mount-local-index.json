@@ -1,0 +1,71 @@
+[
+  {
+    "uuid": "659127e4dead4bc0abbb368bcde868b6",
+    "device": [
+      "m3螺丝",
+      "M3螺丝",
+      "0819f05c4eef4c71ace90d822a990e87",
+      ""
+    ],
+    "attributes": {
+      "Convert to PCB": "yes",
+      "Add into BOM": "yes",
+      "Designator": "SCREW?",
+      "Name": "",
+      "Supplier Footprint": "插件",
+      "Symbol": "235e4baaddda448d81b8d004f741a7a9",
+      "Footprint": "bd03124fccdf4684aa7e05d3f3be0b19"
+    },
+    "footprint": [
+      "m3螺丝",
+      "M3螺丝",
+      "bd03124fccdf4684aa7e05d3f3be0b19"
+    ]
+  },
+  {
+    "uuid": "8145f70367094e36a31db46ff7f1e74d",
+    "device": [
+      "m2螺丝",
+      "M2螺丝",
+      "0819f05c4eef4c71ace90d822a990e87",
+      ""
+    ],
+    "attributes": {
+      "Convert to PCB": "yes",
+      "Add into BOM": "yes",
+      "Designator": "SCREW?",
+      "Name": "",
+      "Supplier Footprint": "插件",
+      "Symbol": "235e4baaddda448d81b8d004f741a7a9",
+      "Footprint": "81d4187e7e1248208e912ad117ed464d"
+    },
+    "footprint": [
+      "m2螺丝",
+      "M2螺丝",
+      "81d4187e7e1248208e912ad117ed464d"
+    ]
+  },
+  {
+    "uuid": "c3e30a953463472b8503d59f29c6c130",
+    "device": [
+      "m4螺丝",
+      "M4螺丝",
+      "0819f05c4eef4c71ace90d822a990e87",
+      ""
+    ],
+    "attributes": {
+      "Convert to PCB": "yes",
+      "Add into BOM": "yes",
+      "Designator": "SCREW?",
+      "Name": "",
+      "Supplier Footprint": "插件",
+      "Symbol": "235e4baaddda448d81b8d004f741a7a9",
+      "Footprint": "05a4996ec9fe4243bcd4041778037b17"
+    },
+    "footprint": [
+      "m4螺丝",
+      "M4螺丝",
+      "05a4996ec9fe4243bcd4041778037b17"
+    ]
+  }
+]

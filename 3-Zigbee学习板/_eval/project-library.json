@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "value": {
+    "lib": "project",
+    "project": {
+      "symbol": [
+        [
+          "1",
+          -60,
+          10
+        ],
+        [
+          "2",
+          -60,
+          0
+        ],
+        [
+          "3",
+          -60,
+          -10
+        ],
+        [
+          "4",
+          50,
+          0
+        ]
+      ],
+      "footprint": "1eee9eef2eda364d"
+    }
+  },
+  "logs": [],
+  "durationMs": 13
+}

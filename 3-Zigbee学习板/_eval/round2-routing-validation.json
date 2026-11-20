@@ -1,0 +1,95 @@
+{
+ "status": "部分通过",
+ "routing": "B",
+ "localGeometry": "C",
+ "attempts": [
+  "Official speed-first routing of 20 eligible nets with 14 nets protected",
+  "Local same-layer pad ties, native clearance narrowing and two DRC-accepted fanouts; candidate geometry for fanout was a transient local calculation",
+  "Official completion-first routing limited to 5 remaining nets, using both retained fanouts"
+ ],
+ "jobs": [
+  "autoroute-1 completed",
+  "autoroute-2 completed"
+ ],
+ "netCount": 44,
+ "fullyConnectedNets": 39,
+ "persistedRatlines": {
+  "P0_6": 1,
+  "VBUS": 2,
+  "P2_2": 1,
+  "VDD": 2,
+  "P0_4": 1
+ },
+ "drc": {
+  "total": 14,
+  "groups": {
+   "No Connection": 13,
+   "Netlist Error": 1
+  }
+ },
+ "nativeRoundtrip": {
+  "missingRoundedLines": [
+   [
+    "GND",
+    1,
+    1996.0629,
+    306.1017,
+    2017.7125,
+    284.4522,
+    19.4886
+   ],
+   [
+    "GND",
+    1,
+    1713.1462,
+    275.153,
+    1744.0949,
+    306.1017,
+    19.4886
+   ],
+   [
+    "VDD",
+    1,
+    2527.7696,
+    738.6698,
+    2527.8,
+    738.7,
+    10
+   ],
+   [
+    "VDD",
+    1,
+    2527.76,
+    738.6793,
+    2527.7696,
+    738.6698,
+    20.0
+   ]
+  ],
+  "addedRoundedLines": [
+   [
+    "GND",
+    1,
+    1996.0629,
+    306.1018,
+    2017.7125,
+    284.4522,
+    19.4886
+   ],
+   [
+    "GND",
+    1,
+    1713.1462,
+    275.153,
+    1744.0949,
+    306.1018,
+    19.4886
+   ]
+  ],
+  "beforeSaveUI": 565,
+  "freshDiskUI": 563,
+  "note": "After closing and reopening the editor there were 2 fewer VDD sub-0.05 mil fragments and two changes of 0.0001 mil in GND endpoints. Protected geometry, original 104 traces, rules, vias, ratline counts and DRC group counts persisted."
+ },
+ "openSession": "6d085639-769b-40c0-9827-50854f84b3f0",
+ "scopeLimit": "Further improvement would require new placement or rerouting existing traces, or more extensive route planning. No full external router used."
+}

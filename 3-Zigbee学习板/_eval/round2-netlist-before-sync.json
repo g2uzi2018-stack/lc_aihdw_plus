@@ -1,0 +1,45 @@
+{
+  "comparison": "保存的上轮原理图原生逐脚快照和本轮开始时PCB1实机导出的JLCEDA网表",
+  "pcbComponents": 69,
+  "logicalPins": 223,
+  "expectedNamedNets": 44,
+  "componentsWithDifferences": [],
+  "source": "sch-final.json",
+  "priorNativeNetlistError": [
+    {
+      "ruleName": "",
+      "errorType": "Netlist Error",
+      "layerIds": [],
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "obj1": "",
+      "obj1Type": "",
+      "explanation": "",
+      "globalIndex": "err0"
+    }
+  ],
+  "additionalNativeComparison": {
+    "form": "schematicUuid, File(pcb.enet)",
+    "error": "TypeError: Cannot read properties of undefined (reading 'components')"
+  },
+  "effectiveMountingFootprints": {
+    "SCREW3": {
+      "name": "M3螺丝",
+      "uuid": "407cb3b3a9645965"
+    },
+    "SCREW4": {
+      "name": "M3螺丝",
+      "uuid": "407cb3b3a9645965"
+    },
+    "SCREW1": {
+      "name": "M3螺丝",
+      "uuid": "407cb3b3a9645965"
+    },
+    "SCREW2": {
+      "name": "M3螺丝",
+      "uuid": "407cb3b3a9645965"
+    }
+  }
+}

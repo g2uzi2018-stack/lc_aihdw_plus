@@ -1,0 +1,170 @@
+{
+ "source": "reopened",
+ "retainedOriginalSegments": 104,
+ "initialSegments": 104,
+ "missingOriginalSegments": [],
+ "protectedNets": {
+  "USB_D+": {
+   "lineCount": 6,
+   "layers": [
+    1
+   ],
+   "vias": 0,
+   "sha256": "7796f72bef224d8e1c904b7d1c7ead7c7469fd3c8471390a6b067cfb867f6f59"
+  },
+  "USB_D-": {
+   "lineCount": 11,
+   "layers": [
+    1
+   ],
+   "vias": 0,
+   "sha256": "bb0fabbd9927f72b5d8ec862d8d4b016d4c7f94951b99e027381d08b29a8d289"
+  },
+  "P0_2": {
+   "lineCount": 4,
+   "layers": [
+    1
+   ],
+   "vias": 0,
+   "sha256": "dc8d71b38ead294382aa0f8f34e0e92724846b289380f605c9d8efb2933f172f"
+  },
+  "P0_3": {
+   "lineCount": 6,
+   "layers": [
+    1
+   ],
+   "vias": 0,
+   "sha256": "9b5bceab0f7d4847d1215e74bf6cb1794307ac00bf2303b2060991da4dcc26a4"
+  },
+  "XOSC_Q1": {
+   "lineCount": 10,
+   "layers": [
+    1
+   ],
+   "vias": 0,
+   "sha256": "0de3c5d42a6aeefe448bc2d9433e45be22681e40db9dab12c09dee44982fe3f7"
+  },
+  "XOSC_Q2": {
+   "lineCount": 9,
+   "layers": [
+    1
+   ],
+   "vias": 0,
+   "sha256": "cf35f1c0712e2af9f98ed6436ba9df26c27a9accbd8e78db16a7c730ebf26925"
+  },
+  "XOSC32K_Q1": {
+   "lineCount": 4,
+   "layers": [
+    1
+   ],
+   "vias": 0,
+   "sha256": "d7ce004f4c5f8bdb6ff31a80b32369065519229a0f5f84b9790399c8604b9c78"
+  },
+  "XOSC32K_Q2": {
+   "lineCount": 8,
+   "layers": [
+    1
+   ],
+   "vias": 0,
+   "sha256": "d52724725abee71d8d08bb22649441536bea53873575a65f2f10d562d44329d8"
+  },
+  "RF_N": {
+   "lineCount": 2,
+   "layers": [
+    1
+   ],
+   "vias": 0,
+   "sha256": "0b906a5b1c248521f8d866f50cb0c9a99579f4f34b5657d6e7aa0c73b261e0ad"
+  },
+  "RF_P": {
+   "lineCount": 2,
+   "layers": [
+    1
+   ],
+   "vias": 0,
+   "sha256": "ed2e0af4d3518c65b92923a57acb31c99021351aa36dc6d4faef1e6411aeee9f"
+  },
+  "RF_N_MATCH": {
+   "lineCount": 5,
+   "layers": [
+    1
+   ],
+   "vias": 0,
+   "sha256": "2529c6f3b610fd742e9c8d39ff2b9bb8a43d10f04aee4a3371d409a167100df6"
+  },
+  "RF_P_MATCH": {
+   "lineCount": 5,
+   "layers": [
+    1
+   ],
+   "vias": 0,
+   "sha256": "5cce69495ae55f342bae30f1b58f36dca9273f3df34dda4d28c8311302615ec8"
+  },
+  "RF_COMB": {
+   "lineCount": 4,
+   "layers": [
+    1
+   ],
+   "vias": 0,
+   "sha256": "4a8a2fbf418e32eaa2feef0a088e57617ea9af134442895d1676d46b285c3ca5"
+  },
+  "SMA_FEED": {
+   "lineCount": 1,
+   "layers": [
+    1
+   ],
+   "vias": 0,
+   "sha256": "050124bbee47b2dca89237a175e4f7d024d6262c9615aeebe5ccfb061d15654b"
+  }
+ },
+ "changedProtectedNets": {},
+ "traces": 563,
+ "netsTotal": 44,
+ "layers": {
+  "1": 469,
+  "2": 94
+ },
+ "vias": 48,
+ "viaCountByNet": {
+  "P0_0": 2,
+  "P0_7": 2,
+  "P2_0": 2,
+  "P2_2": 1,
+  "P0_1": 2,
+  "P1_2": 2,
+  "P2_1": 1,
+  "P1_3": 1,
+  "P1_1": 2,
+  "RESET": 4,
+  "P1_6": 2,
+  "P1_4": 1,
+  "P1_5": 2,
+  "+3V3": 5,
+  "P1_0": 2,
+  "GND": 5,
+  "VDD": 12
+ },
+ "remainingRatlines": 7,
+ "ratlineCountByNet": {
+  "P0_6": 1,
+  "VBUS": 2,
+  "P2_2": 1,
+  "VDD": 2,
+  "P0_4": 1
+ },
+ "ruleConfigSame": true,
+ "selectorsSame": true,
+ "classesSame": true,
+ "pourFills": [
+  {
+   "id": "fb856b2cd8dcec0a",
+   "layer": 1,
+   "fillCount": 150
+  },
+  {
+   "id": "1646eee009da61f9",
+   "layer": 2,
+   "fillCount": 29
+  }
+ ]
+}

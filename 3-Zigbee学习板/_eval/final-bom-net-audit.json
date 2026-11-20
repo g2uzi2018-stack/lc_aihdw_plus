@@ -1,0 +1,572 @@
+{
+  "status": "PASS_69_REFERENCE_BOM_AND_NET_MEMBERSHIP",
+  "scope": "题目原始 XLSX 与 69 位号版原生 BOM 对照。以已经对照原理图 PDF 的 65 位号修正版网表为基准，增核原图的四个独立 M3 符号，同时交叉核对 69 位号的原生原理图数据、落盘原理图标记、PCB 管脚网络及四个封装的钻孔。该结论限于所核物料和网络；原生 PCB DRC 状态单列。",
+  "sha256": {
+    "netlist-corrected.json": "1993d56c9dce6c2947ff76a2df2cd602b1180b2edc1fbc4aaf96a0ec22f81f98",
+    "sch-final.json": "04caa5f6c1fddd5e412052f8d39688108e74094a51e94e71634885f3d7aa16a1",
+    "mount-import.json": "d3f11e82dc69c90f55b8c9e7d9932a8a24fdffce43bd300ea118d3459707120b",
+    "mount-native-device.json": "3fe25e4333e9dedda9053677daae655509330b554381adc594abfb79ec0af4a3",
+    "pcb-pre-route-drc.json": "b7c80e0f48adb3c2df0461c7336abb26ef4217454e0e98cca5c390a7ba28a297",
+    "library-pins.json": "185835d69aaa19536ff238dd9834a24d454bed31bf915264cef89e5a2690bf4c",
+    "原理图.pdf": "29d3c6bfb19f5b7f7373b809780fbabff1c8de6b3e7a0480016295bb3139a9d8",
+    "物料清单.xlsx": "c3f028a5ecda3e9e17e8846037d011b1886eef084b50f478d6a4eacfdae0b1da",
+    "P1.esch2": "3f5921bd0aeeee559868ca9f5f1aae631a1b2d1f18fed5b507b4cbadd9c8e95a",
+    "PCB1.epcb2": "a85ebfd2dd7bc5d67e9f40fcfc020f8173f59c1c84660242941fcbd173301e11"
+  },
+  "counts": {
+    "source_bom_rows": 31,
+    "native_bom_rows": 31,
+    "source_refs": 69,
+    "native_bom_refs": 69,
+    "sch_refs": 69,
+    "pcb_refs": 69,
+    "named_networks": 44,
+    "connected_logical_pins": 206,
+    "intentional_open_marks": 17,
+    "total_logical_pins": 223,
+    "total_copper_pad_records": 225
+  },
+  "pin_differences": [],
+  "net_membership_differences": [],
+  "board_net_table_differences": {
+    "missing": [],
+    "extra": []
+  },
+  "board_pad_assignment_differences": [],
+  "missing_open_markers": [],
+  "extra_open_markers": [],
+  "bom_missing_refs": [],
+  "bom_extra_refs": [],
+  "duplicate_bom_refs": {},
+  "bom_mismatches": [],
+  "bom_groups": [
+    {
+      "refs": [
+        "BUZZER1"
+      ],
+      "source_supplier": "C94598",
+      "actual_supplier_part": "C94598",
+      "quantity": 1,
+      "source_package": "BUZ-SMD_L5.0-W5.5-P4.60",
+      "actual_library_package": "BUZ-SMD_L5.0-W5.5-P4.60",
+      "pass": true
+    },
+    {
+      "refs": [
+        "C1",
+        "C2"
+      ],
+      "source_supplier": "C7177",
+      "actual_supplier_part": "C7177",
+      "quantity": 2,
+      "source_package": "CASE-A_3216",
+      "actual_library_package": "CASE-A_3216",
+      "pass": true
+    },
+    {
+      "refs": [
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C19",
+        "C24",
+        "C25",
+        "C26",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "source_supplier": "C1591",
+      "actual_supplier_part": "C1591",
+      "quantity": 12,
+      "source_package": "C0603",
+      "actual_library_package": "C0603",
+      "pass": true
+    },
+    {
+      "refs": [
+        "C6"
+      ],
+      "source_supplier": "C15849",
+      "actual_supplier_part": "C15849",
+      "quantity": 1,
+      "source_package": "C0603",
+      "actual_library_package": "C0603",
+      "pass": true
+    },
+    {
+      "refs": [
+        "C20",
+        "C21",
+        "C22",
+        "C23",
+        "C7",
+        "C8"
+      ],
+      "source_supplier": "C1647",
+      "actual_supplier_part": "C1647",
+      "quantity": 6,
+      "source_package": "C0603",
+      "actual_library_package": "C0603",
+      "pass": true
+    },
+    {
+      "refs": [
+        "C10",
+        "C9"
+      ],
+      "source_supplier": "C37117",
+      "actual_supplier_part": "C37117",
+      "quantity": 2,
+      "source_package": "C0603",
+      "actual_library_package": "C0603",
+      "pass": true
+    },
+    {
+      "refs": [
+        "C11"
+      ],
+      "source_supplier": "C1651",
+      "actual_supplier_part": "C1651",
+      "quantity": 1,
+      "source_package": "C0603",
+      "actual_library_package": "C0603",
+      "pass": true
+    },
+    {
+      "refs": [
+        "C12",
+        "C13"
+      ],
+      "source_supplier": "C23630",
+      "actual_supplier_part": "C23630",
+      "quantity": 2,
+      "source_package": "C0603",
+      "actual_library_package": "C0603",
+      "pass": true
+    },
+    {
+      "refs": [
+        "D1"
+      ],
+      "source_supplier": "C963381",
+      "actual_supplier_part": "C963381",
+      "quantity": 1,
+      "source_package": "SOD-123",
+      "actual_library_package": "SOD-123_L2.7-W1.6-LS3.7-RD",
+      "pass": true
+    },
+    {
+      "refs": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "source_supplier": "C395081",
+      "actual_supplier_part": "C395081",
+      "quantity": 3,
+      "source_package": "L0603",
+      "actual_library_package": "L0603",
+      "pass": true
+    },
+    {
+      "refs": [
+        "LED1"
+      ],
+      "source_supplier": "C84263",
+      "actual_supplier_part": "C84263",
+      "quantity": 1,
+      "source_package": "LED0603",
+      "actual_library_package": "LED0603-RD_RED",
+      "pass": true
+    },
+    {
+      "refs": [
+        "LED2",
+        "LED3"
+      ],
+      "source_supplier": "C84267",
+      "actual_supplier_part": "C84267",
+      "quantity": 2,
+      "source_package": "LED0603",
+      "actual_library_package": "LED0603-RD_1",
+      "pass": true
+    },
+    {
+      "refs": [
+        "OLED1"
+      ],
+      "source_supplier": "C5139759",
+      "actual_supplier_part": "C5139759",
+      "quantity": 1,
+      "source_package": "OLED-TH_HS96L01B4S03",
+      "actual_library_package": "OLED-TH_HS96L01B4S03",
+      "pass": true
+    },
+    {
+      "refs": [
+        "P1"
+      ],
+      "source_supplier": "C5665",
+      "actual_supplier_part": "C5665",
+      "quantity": 1,
+      "source_package": "IDC-TH_10P-P2.54",
+      "actual_library_package": "IDC-TH_10P-P2.54_C5665",
+      "pass": true
+    },
+    {
+      "refs": [
+        "Q1"
+      ],
+      "source_supplier": "C20069125",
+      "actual_supplier_part": "C20069125",
+      "quantity": 1,
+      "source_package": "SOT-23-3",
+      "actual_library_package": "SOT-23-3_L2.9-W1.3-P1.90-LS2.3-BR",
+      "pass": true
+    },
+    {
+      "refs": [
+        "R1",
+        "R2"
+      ],
+      "source_supplier": "C23186",
+      "actual_supplier_part": "C23186",
+      "quantity": 2,
+      "source_package": "R0603",
+      "actual_library_package": "R0603",
+      "pass": true
+    },
+    {
+      "refs": [
+        "R3",
+        "R4",
+        "R5",
+        "R6"
+      ],
+      "source_supplier": "C21190",
+      "actual_supplier_part": "C21190",
+      "quantity": 4,
+      "source_package": "R0603",
+      "actual_library_package": "R0603",
+      "pass": true
+    },
+    {
+      "refs": [
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R7"
+      ],
+      "source_supplier": "C25804",
+      "actual_supplier_part": "C25804",
+      "quantity": 8,
+      "source_package": "R0603",
+      "actual_library_package": "R0603",
+      "pass": true
+    },
+    {
+      "refs": [
+        "R8"
+      ],
+      "source_supplier": "C22775",
+      "actual_supplier_part": "C22775",
+      "quantity": 1,
+      "source_package": "R0603",
+      "actual_library_package": "R0603",
+      "pass": true
+    },
+    {
+      "refs": [
+        "R9"
+      ],
+      "source_supplier": "C23206",
+      "actual_supplier_part": "C23206",
+      "quantity": 1,
+      "source_package": "R0603",
+      "actual_library_package": "R0603",
+      "pass": true
+    },
+    {
+      "refs": [
+        "R17"
+      ],
+      "source_supplier": "C2904880",
+      "actual_supplier_part": "C2904880",
+      "quantity": 1,
+      "source_package": "RES-SMD_L3.6-W2.4",
+      "actual_library_package": "RES-SMD_L3.6-W2.4",
+      "pass": true
+    },
+    {
+      "refs": [
+        "RF1"
+      ],
+      "source_supplier": "C496550",
+      "actual_supplier_part": "C496550",
+      "quantity": 1,
+      "source_package": "SMA-SMD_BWSMA-KE-P001",
+      "actual_library_package": "SMA-SMD_BWSMA-KE-P001",
+      "pass": true
+    },
+    {
+      "refs": [
+        "SCREW1",
+        "SCREW2",
+        "SCREW3",
+        "SCREW4"
+      ],
+      "source_supplier": "常用库",
+      "actual_supplier_part": "",
+      "quantity": 4,
+      "source_package": "M3",
+      "actual_library_package": "M3螺丝",
+      "pass": true
+    },
+    {
+      "refs": [
+        "SW1",
+        "SW2",
+        "SW3"
+      ],
+      "source_supplier": "C7528752",
+      "actual_supplier_part": "C7528752",
+      "quantity": 3,
+      "source_package": "SW-SMD_4P-L6.0-W6.0",
+      "actual_library_package": "SW-SMD_4P-L6.0-W6.0-P4.50-LS8.2",
+      "pass": true
+    },
+    {
+      "refs": [
+        "U1"
+      ],
+      "source_supplier": "C347222",
+      "actual_supplier_part": "C347222",
+      "quantity": 1,
+      "source_package": "SOT-223-4",
+      "actual_library_package": "SOT-223-4_L6.5-W3.5-P2.30-LS7.0-BR",
+      "pass": true
+    },
+    {
+      "refs": [
+        "U2"
+      ],
+      "source_supplier": "C2977777",
+      "actual_supplier_part": "C2977777",
+      "quantity": 1,
+      "source_package": "SOP-8",
+      "actual_library_package": "SOP-8_L4.9-W3.9-P1.27-LS6.0-BL",
+      "pass": true
+    },
+    {
+      "refs": [
+        "U3"
+      ],
+      "source_supplier": "C9120",
+      "actual_supplier_part": "C9120",
+      "quantity": 1,
+      "source_package": "QFN-40",
+      "actual_library_package": "QFN-40_L6.0-W6.0-P0.50-TL-EP4.1",
+      "pass": true
+    },
+    {
+      "refs": [
+        "U4"
+      ],
+      "source_supplier": "C2757850",
+      "actual_supplier_part": "C2757850",
+      "quantity": 1,
+      "source_package": "SENSOR-SMD_L3.0-W3.0-P1.00-BR",
+      "actual_library_package": "SENSOR-SMD_L3.0-W3.0-P1.00-BR",
+      "pass": true
+    },
+    {
+      "refs": [
+        "USB1"
+      ],
+      "source_supplier": "C2765186",
+      "actual_supplier_part": "C2765186",
+      "quantity": 1,
+      "source_package": "USB-C-SMD_TYPE-C-6PIN-2MD-073",
+      "actual_library_package": "USB-C-SMD_TYPE-C-16PIN-2MD-073",
+      "pass": true
+    },
+    {
+      "refs": [
+        "X1"
+      ],
+      "source_supplier": "C9009",
+      "actual_supplier_part": "C9009",
+      "quantity": 1,
+      "source_package": "SMD3225-4P",
+      "actual_library_package": "CRYSTAL-SMD_4P-L3.2-W2.5-BL",
+      "pass": true
+    },
+    {
+      "refs": [
+        "X2"
+      ],
+      "source_supplier": "C5213671",
+      "actual_supplier_part": "C5213671",
+      "quantity": 1,
+      "source_package": "SMD3215-2P",
+      "actual_library_package": "CRYSTAL-SMD_L3.2-W1.5-1",
+      "pass": true
+    }
+  ],
+  "bom_note": "电气件按题目商品编号、相同位号组和数量及该商品现行库封装核对。USB1 题目封装字符串中为 6PIN，同一行的器件及商品 C2765186 与现行官方 16PIN 器件一致。M3 原表标作常用库，原生 BOM 对应库器件 M3螺丝，无 LCSC 商品编号。",
+  "mounts": [
+    {
+      "ref": "SCREW1",
+      "imported_component_id": "63c235cd84832809",
+      "board_designator": "SCREW1",
+      "schematic_pins": {
+        "1": ""
+      },
+      "no_connect_markers_on_pin_1": 1,
+      "pcb_pin_1_pad_nets": [
+        ""
+      ],
+      "board_device": "95bfc1e76d991f9f",
+      "same_device_as_schematic": true,
+      "board_footprint": "407cb3b3a9645965",
+      "pad_id": "e2-e2",
+      "hole_type": "ROUND",
+      "hole_size_mm": [
+        3.2004,
+        3.2004
+      ],
+      "plated": true,
+      "local_center_mil": [
+        0,
+        0
+      ],
+      "board_center_mm": [
+        4.0,
+        36.0
+      ]
+    },
+    {
+      "ref": "SCREW2",
+      "imported_component_id": "e76e63b9ffaa4fb2",
+      "board_designator": "SCREW2",
+      "schematic_pins": {
+        "1": ""
+      },
+      "no_connect_markers_on_pin_1": 1,
+      "pcb_pin_1_pad_nets": [
+        ""
+      ],
+      "board_device": "95bfc1e76d991f9f",
+      "same_device_as_schematic": true,
+      "board_footprint": "407cb3b3a9645965",
+      "pad_id": "e2-e2",
+      "hole_type": "ROUND",
+      "hole_size_mm": [
+        3.2004,
+        3.2004
+      ],
+      "plated": true,
+      "local_center_mil": [
+        0,
+        0
+      ],
+      "board_center_mm": [
+        78.0,
+        36.0
+      ]
+    },
+    {
+      "ref": "SCREW3",
+      "imported_component_id": "68fc3d4733e8f419",
+      "board_designator": "SCREW3",
+      "schematic_pins": {
+        "1": ""
+      },
+      "no_connect_markers_on_pin_1": 1,
+      "pcb_pin_1_pad_nets": [
+        ""
+      ],
+      "board_device": "95bfc1e76d991f9f",
+      "same_device_as_schematic": true,
+      "board_footprint": "407cb3b3a9645965",
+      "pad_id": "e2-e2",
+      "hole_type": "ROUND",
+      "hole_size_mm": [
+        3.2004,
+        3.2004
+      ],
+      "plated": true,
+      "local_center_mil": [
+        0,
+        0
+      ],
+      "board_center_mm": [
+        4.0,
+        4.0
+      ]
+    },
+    {
+      "ref": "SCREW4",
+      "imported_component_id": "63ee608c0d1cffec",
+      "board_designator": "SCREW4",
+      "schematic_pins": {
+        "1": ""
+      },
+      "no_connect_markers_on_pin_1": 1,
+      "pcb_pin_1_pad_nets": [
+        ""
+      ],
+      "board_device": "95bfc1e76d991f9f",
+      "same_device_as_schematic": true,
+      "board_footprint": "407cb3b3a9645965",
+      "pad_id": "e2-e2",
+      "hole_type": "ROUND",
+      "hole_size_mm": [
+        3.2004,
+        3.2004
+      ],
+      "plated": true,
+      "local_center_mil": [
+        0,
+        0
+      ],
+      "board_center_mm": [
+        78.0,
+        4.0
+      ]
+    }
+  ],
+  "mount_library": {
+    "device_source": "659127e4dead4bc0abbb368bcde868b6|0819f05c4eef4c71ace90d822a990e87",
+    "footprint_source": "bd03124fccdf4684aa7e05d3f3be0b19|0819f05c4eef4c71ace90d822a990e87",
+    "native_device": "M3螺丝",
+    "board_device_title": "M3螺丝",
+    "board_footprint_title": "M3螺丝"
+  },
+  "native_schematic_drc": [],
+  "native_preroute_pcb_netlist_error": {
+    "raw_items": [
+      {
+        "ruleName": "",
+        "errorType": "Netlist Error",
+        "layerIds": [],
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "obj1": "",
+        "obj1Type": "",
+        "explanation": "",
+        "globalIndex": "err0"
+      }
+    ],
+    "interpretation": "原生 PCB DRC 报告一条 Netlist Error，未提供对象或说明。此项独立保留，原因未定位。"
+  }
+}

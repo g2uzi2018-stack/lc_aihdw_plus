@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "value": {
+    "footprint": {
+      "error": "Error: [object Object]"
+    },
+    "symbol": {
+      "error": "Error: [object Object]"
+    }
+  },
+  "logs": [],
+  "durationMs": 11
+}

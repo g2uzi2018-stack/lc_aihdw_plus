@@ -1,0 +1,246 @@
+{
+ "state": "failed",
+ "totalCount": 14,
+ "failedItems": 0,
+ "violations": [
+  {
+   "ruleName": "Common",
+   "errorType": "No Connection",
+   "layerIds": [
+    1
+   ],
+   "position": {
+    "x": 2116.2742,
+    "y": 1129.9213
+   },
+   "obj1": "25b65f28d1c7e3a9e7",
+   "obj1Type": "SMD Pad",
+   "explanation": "Common",
+   "globalIndex": "err88"
+  },
+  {
+   "ruleName": "Common",
+   "errorType": "No Connection",
+   "layerIds": [
+    1
+   ],
+   "position": {
+    "x": 2513.8460451743817,
+    "y": 850.0371186775044
+   },
+   "obj1": "2bcd2944c5e7b7b1e127",
+   "obj1Type": "SMD Pad",
+   "explanation": "Common",
+   "globalIndex": "err89"
+  },
+  {
+   "ruleName": "Common",
+   "errorType": "No Connection",
+   "layerIds": [
+    1
+   ],
+   "position": {
+    "x": 1775.5937,
+    "y": 306.1034
+   },
+   "obj1": "7be21882e4861132e29",
+   "obj1Type": "SMD Pad",
+   "explanation": "Common",
+   "globalIndex": "err90"
+  },
+  {
+   "ruleName": "Common",
+   "errorType": "No Connection",
+   "layerIds": [
+    1
+   ],
+   "position": {
+    "x": 1685.0435000000002,
+    "y": 389.7638
+   },
+   "obj1": "ba204b94e32703f1ie8",
+   "obj1Type": "SMD Pad",
+   "explanation": "Common",
+   "globalIndex": "err91"
+  },
+  {
+   "ruleName": "Common",
+   "errorType": "No Connection",
+   "layerIds": [
+    1
+   ],
+   "position": {
+    "x": 1964.5737,
+    "y": 306.1034
+   },
+   "obj1": "7be21882e4861132e38",
+   "obj1Type": "SMD Pad",
+   "explanation": "Common",
+   "globalIndex": "err92"
+  },
+  {
+   "ruleName": "Common",
+   "errorType": "No Connection",
+   "layerIds": [
+    1
+   ],
+   "position": {
+    "x": 279.52760000000006,
+    "y": 285.3006
+   },
+   "obj1": "712ee3b7b25da4bae8",
+   "obj1Type": "SMD Pad",
+   "explanation": "Common",
+   "globalIndex": "err93"
+  },
+  {
+   "ruleName": "Common",
+   "errorType": "No Connection",
+   "layerIds": [
+    1
+   ],
+   "position": {
+    "x": 2318.9744873471814,
+    "y": 710.8431488009328
+   },
+   "obj1": "2bcd2944c5e7b7b1e108",
+   "obj1Type": "SMD Pad",
+   "explanation": "Common",
+   "globalIndex": "err94"
+  },
+  {
+   "ruleName": "Common",
+   "errorType": "No Connection",
+   "layerIds": [
+    1
+   ],
+   "position": {
+    "x": 2291.1356933718666,
+    "y": 738.681942776247
+   },
+   "obj1": "2bcd2944c5e7b7b1e106",
+   "obj1Type": "SMD Pad",
+   "explanation": "Common",
+   "globalIndex": "err95"
+  },
+  {
+   "ruleName": "Common",
+   "errorType": "No Connection",
+   "layerIds": [
+    1
+   ],
+   "position": {
+    "x": 3009.975,
+    "y": 976.3779999999999
+   },
+   "obj1": "d364d0b12e3ba1a7e7",
+   "obj1Type": "SMD Pad",
+   "explanation": "Common",
+   "globalIndex": "err96"
+  },
+  {
+   "ruleName": "Common",
+   "errorType": "No Connection",
+   "layerIds": [
+    1
+   ],
+   "position": {
+    "x": 2472.0843186775046,
+    "y": 683.0043548256178
+   },
+   "obj1": "2bcd2944c5e7b7b1e117",
+   "obj1Type": "SMD Pad",
+   "explanation": "Common",
+   "globalIndex": "err97"
+  },
+  {
+   "ruleName": "Common",
+   "errorType": "No Connection",
+   "layerIds": [
+    2
+   ],
+   "position": {
+    "x": 2513.2272570000014,
+    "y": 669.5262200000001
+   },
+   "obj1": "a16bdf6224d4be72",
+   "obj1Type": "Track",
+   "explanation": "Common",
+   "globalIndex": "err98"
+  },
+  {
+   "ruleName": "Common",
+   "errorType": "No Connection",
+   "layerIds": [
+    1
+   ],
+   "position": {
+    "x": 2444.24552470219,
+    "y": 919.6376391496966
+   },
+   "obj1": "2bcd2944c5e7b7b1e132",
+   "obj1Type": "SMD Pad",
+   "explanation": "Common",
+   "globalIndex": "err99"
+  },
+  {
+   "ruleName": "Common",
+   "errorType": "No Connection",
+   "layerIds": [
+    1
+   ],
+   "position": {
+    "x": 2523.622,
+    "y": 1041.3375999999998
+   },
+   "obj1": "e632241388629151e15",
+   "obj1Type": "SMD Pad",
+   "explanation": "Common",
+   "globalIndex": "err100"
+  },
+  {
+   "ruleName": "",
+   "errorType": "Netlist Error",
+   "layerIds": [],
+   "position": {
+    "x": 0,
+    "y": 0
+   },
+   "obj1": "",
+   "obj1Type": "",
+   "explanation": "",
+   "globalIndex": "err87"
+  }
+ ],
+ "checkedAt": 1795097759154,
+ "groups": [
+  {
+   "name": "Clearance Error",
+   "count": 0
+  },
+  {
+   "name": "Clearance Error in the same footprint",
+   "count": 0
+  },
+  {
+   "name": "Physical Error",
+   "count": 0
+  },
+  {
+   "name": "Differential Pair Error",
+   "count": 0
+  },
+  {
+   "name": "Connection Error",
+   "count": 5
+  },
+  {
+   "name": "Netlist Error",
+   "count": 1
+  },
+  {
+   "name": "Creepage Error",
+   "count": 0
+  }
+ ]
+}

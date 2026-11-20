@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "value": {
+    "symbol": {
+      "type": "string",
+      "length": 0,
+      "prefix": ""
+    },
+    "footprint": {
+      "type": "string",
+      "length": 0,
+      "prefix": ""
+    }
+  },
+  "logs": [],
+  "durationMs": 2992
+}

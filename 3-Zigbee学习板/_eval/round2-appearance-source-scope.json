@@ -1,0 +1,10 @@
+{
+  "ok": false,
+  "error": {
+    "code": "EXECUTION_ERROR",
+    "message": "Cannot destructure property 'message' of '(intermediate value)' as it is undefined.",
+    "cause": {
+      "name": "TypeError"
+    }
+  }
+}

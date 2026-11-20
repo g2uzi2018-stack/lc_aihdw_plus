@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "value": {
+    "tab": "710b8052ef26c189@cca2f43ef988075e75d9fa44f0b99f7df28ef2946b32f8736fe738b0bca791c8",
+    "ready": true,
+    "cur": {
+      "documentType": 1,
+      "uuid": "710b8052ef26c189",
+      "tabId": "710b8052ef26c189@cca2f43ef988075e75d9fa44f0b99f7df28ef2946b32f8736fe738b0bca791c8",
+      "parentProjectUuid": "cca2f43ef988075e75d9fa44f0b99f7df28ef2946b32f8736fe738b0bca791c8"
+    }
+  },
+  "logs": [],
+  "durationMs": 628
+}

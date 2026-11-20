@@ -1,0 +1,469 @@
+{
+  "PCB_PrimitivePolyline.getAll": {
+    "ok": true,
+    "value": {
+      "title": "获取所有折线",
+      "visibility": "beta",
+      "params": [
+        {
+          "name": "net",
+          "type": "string",
+          "description": "网络名称",
+          "required": false
+        },
+        {
+          "name": "layer",
+          "type": "TPCB_LayersOfLine",
+          "description": "层",
+          "required": false
+        },
+        {
+          "name": "primitiveLock",
+          "type": "boolean",
+          "description": "是否锁定",
+          "required": false
+        }
+      ],
+      "returns": {
+        "type": "Array<IPCB_PrimitivePolyline>",
+        "description": "折线图元对象数组"
+      },
+      "example": "```javascript\n// 1. 创建一条顶层测试折线作为过滤目标（随机坐标避免重合）\nconst x = 2000 + Math.floor(Math.random() * 100000);\nconst y = 2000 + Math.floor(Math.random() * 100000);\nconst polygon = eda.pcb_MathPolygon.createPolygon([x, y, 'L', x + 500, y, x + 500, y + 300]);\nconst polyline = await eda.pcb_PrimitivePolyline.create('', 1, polygon, 10, false);\nconst polylineId = polyline.getState_PrimitiveId();\n\n// 2. 不带参数：获取 PCB 上全部折线\nconst all = await eda.pcb_PrimitivePolyline.getAll();\n\n// 3. 按层过滤：只取顶层（1）的折线\nconst topLayer = await eda.pcb_PrimitivePolyline.getAll('', 1);\n\n// 4. 清理测试图元（查询类需要清理）\nawait eda.pcb_PrimitivePolyline.delete([polylineId]);\n\nconsole.log('total polylines:', all.length);\nconsole.log('top layer polylines:', topLayer.length);\nconsole.log('marker polyline found in top layer:', topLayer.some(p => p.getState_PrimitiveId() === polylineId));\n```",
+      "isAsync": true
+    },
+    "logs": [],
+    "durationMs": 230
+  },
+  "PCB_PrimitivePolyline.modify": {
+    "ok": true,
+    "value": {
+      "title": "修改折线",
+      "visibility": "beta",
+      "params": [
+        {
+          "name": "primitiveId",
+          "type": "string | IPCB_PrimitivePolyline",
+          "description": "图元 ID",
+          "required": true
+        },
+        {
+          "name": "property",
+          "type": "{ net?: string; layer?: TPCB_LayersOfLine; polygon?: IPCB_Polygon; lineWidth?: number; primitiveLock?: boolean }",
+          "description": "修改参数",
+          "required": true
+        }
+      ],
+      "returns": {
+        "type": "IPCB_PrimitivePolyline",
+        "description": "折线图元对象"
+      },
+      "example": "```javascript\n// 1. 创建待修改的测试折线（随机坐标避免与画布已有折线重合）\nconst x = 2000 + Math.floor(Math.random() * 100000);\nconst y = 2000 + Math.floor(Math.random() * 100000);\nconst polygon = eda.pcb_MathPolygon.createPolygon([x, y, 'L', x + 500, y, x + 500, y + 300]);\nconst polyline = await eda.pcb_PrimitivePolyline.create('', 1, polygon, 10, false);\nconst polylineId = polyline.getState_PrimitiveId();\n\n// 2. 读取修改前的线宽与层\nconst beforeWidth = polyline.getState_LineWidth();\nconst beforeLayer = polyline.getState_Layer();\n\n// 3. 批量修改：线宽 10 → 24，层从顶层（1）换到底层（2）\nawait eda.pcb_PrimitivePolyline.modify(polylineId, { lineWidth: 24, layer: 2 });\n\n// 4. modify 返回后需要重新 get() 才能读到画布上的最新值\nconst refreshed = await eda.pcb_PrimitivePolyline.get(polylineId);\n\n// 5. 修改类保留现场，供观察修改结果\nconsole.log('primitiveId:', polylineId);\nconsole.log('lineWidth:', beforeWidth, '→', refreshed.getState_LineWidth());\nconsole.log('layer:', beforeLayer, '→', refreshed.getState_Layer());\n```",
+      "isAsync": true
+    },
+    "logs": [],
+    "durationMs": 184
+  },
+  "PCB_MathPolygon.createPolygon": {
+    "ok": true,
+    "value": {
+      "title": "创建单多边形",
+      "visibility": "public",
+      "params": [
+        {
+          "name": "polygon",
+          "type": "TPCB_PolygonSourceArray",
+          "description": "单多边形数据",
+          "required": true
+        }
+      ],
+      "returns": {
+        "type": "IPCB_Polygon",
+        "description": "单多边形对象，`undefined` 表示数据不合法"
+      },
+      "example": "```javascript\n// 1. 用矩形模式源数组创建单多边形对象（x、y、宽、高、旋转、圆角）\nconst rectPolygon = eda.pcb_MathPolygon.createPolygon(['R', 1000, 1000, 500, 300, 0, 0]);\n\n// 2. 用圆形模式源数组再创建一个（圆心 x、y、半径）\nconst circlePolygon = eda.pcb_MathPolygon.createPolygon(['CIRCLE', 1250, 1150, 80]);\n\n// 3. 读取单多边形的源数据，确认数据被完整解析\nconsole.log('rectSource:', JSON.stringify(rectPolygon.getSource()));\nconsole.log('circleSource:', JSON.stringify(circlePolygon.getSource()));\n```",
+      "isAsync": false
+    },
+    "logs": [],
+    "durationMs": 219
+  },
+  "IPCB_Polygon.": {
+    "ok": true,
+    "value": {
+      "title": "单多边形",
+      "visibility": "public",
+      "methods": [
+        {
+          "name": "getSource",
+          "comment": "获取单多边形数据",
+          "visibility": "public"
+        },
+        {
+          "name": "getCenter",
+          "comment": "获取单多边形中心点",
+          "visibility": "beta"
+        },
+        {
+          "name": "discretize",
+          "comment": "将单多边形离散化为点数据",
+          "visibility": "beta"
+        }
+      ]
+    },
+    "logs": [],
+    "durationMs": 253
+  },
+  "PCB_Document.setCanvasOrigin": {
+    "ok": true,
+    "value": {
+      "title": "设置画布原点相对于数据原点的偏移坐标",
+      "remarks": "嘉立创 EDA 专业版前端显示的坐标均为画布原点；\n\n嘉立创 EDA 专业版 API 使用的均为数据原点；\n\n如果希望在 API 操作时前端画布坐标能与数据一致，\n建议调用本方法并设置偏移量为零，\n即 `setCanvasOrigin(0, 0)`；\n\n此处的单位为数据层面单位，在跨度上等同于画布层面的 mil",
+      "visibility": "public",
+      "params": [
+        {
+          "name": "offsetX",
+          "type": "number",
+          "description": "画布原点相对于数据原点的 X 坐标偏移",
+          "required": true
+        },
+        {
+          "name": "offsetY",
+          "type": "number",
+          "description": "画布原点相对于数据原点的 Y 坐标偏移",
+          "required": true
+        }
+      ],
+      "returns": {
+        "type": "boolean",
+        "description": "操作是否成功"
+      },
+      "example": "```javascript\n// 1. 创建测试 PCB 并打开（原点设置作用于当前激活的 PCB）\nconst pcbUuid = await eda.dmt_Pcb.createPcb();\nawait new Promise(r => setTimeout(r, 1500));\nawait eda.dmt_EditorControl.openDocument(pcbUuid);\nawait new Promise(r => setTimeout(r, 1000));\n\n// 2. 设置画布原点偏移为 (50, 100)\nconst set = await eda.pcb_Document.setCanvasOrigin(50, 100);\nconsole.log('set:', set);\n\n// 3. 读回偏移验证已生效\nconst origin = await eda.pcb_Document.getCanvasOrigin();\nconsole.log('origin:', JSON.stringify(origin));\n\n// 4. 清理测试 PCB（偏移随文档一起删除）\nawait eda.dmt_Pcb.deletePcb(pcbUuid);\n```",
+      "isAsync": true
+    },
+    "logs": [],
+    "durationMs": 571
+  },
+  "PCB_Document.getCanvasOrigin": {
+    "ok": true,
+    "value": {
+      "title": "获取画布原点相对于数据原点的偏移坐标",
+      "remarks": "嘉立创 EDA 专业版前端显示的坐标均为画布原点；\n\n嘉立创 EDA 专业版 API 使用的均为数据原点；\n\n如果返回的数据为 `{ canvasOriginOffsetX: 100, canvasOriginOffsetY: 200 }`，\n则代表画布原点在数据原点的向右 100 单位且向上 200 单位的位置；\n\n此处的单位为数据层面单位，在跨度上等同于画布层面的 mil",
+      "visibility": "public",
+      "params": [],
+      "returns": {
+        "type": "{ offsetX: number; offsetY: number }",
+        "description": "画布原点相对于数据原点的偏移坐标"
+      },
+      "isAsync": true
+    },
+    "logs": [],
+    "durationMs": 166
+  },
+  "PCB_Layer.setTheNumberOfCopperLayers": {
+    "ok": true,
+    "value": {
+      "title": "设置铜箔层数",
+      "remarks": "新建的 PCB 文档默认拥有两层铜箔层",
+      "visibility": "beta",
+      "params": [
+        {
+          "name": "numberOfLayers",
+          "type": "2 | 4 | 6 | 8 | 10 | 12 | 14 | 16 | 18 | 20 | 22 | 24 | 26 | 28 | 30 | 32",
+          "description": "层数",
+          "required": true
+        }
+      ],
+      "returns": {
+        "type": "boolean",
+        "description": "操作是否成功"
+      },
+      "example": "```javascript\n// 1. 记录调整前的信号层（铜箔层）数量\nconst before = (await eda.pcb_Layer.getAllLayers()).filter(l => l.type === 'SIGNAL').length;\n\n// 2. 将铜箔层数调整为 4 层，新增 INNER_1（15）、INNER_2（16）两个内层\nconst setResult = await eda.pcb_Layer.setTheNumberOfCopperLayers(4);\n\n// 3. 确认内层已加入图层列表\nconst afterLayers = await eda.pcb_Layer.getAllLayers();\nconst after = afterLayers.filter(l => l.type === 'SIGNAL').length;\nconst inner1 = afterLayers.find(l => l.id === 15);\n\n// 4. 恢复为 2 层板，移除空的内层（内层上有图元时无法减少层数）\nconst restoreResult = await eda.pcb_Layer.setTheNumberOfCopperLayers(2);\n\nconsole.log('setResult:', setResult);\nconsole.log('copperCountBefore:', before, '→ copperCountAfter:', after);\nconsole.log('inner1Name:', inner1?.name);\nconsole.log('restoreResult:', restoreResult);\n```",
+      "isAsync": true
+    },
+    "logs": [],
+    "durationMs": 199
+  },
+  "PCB_Layer.getStackup": {
+    "ok": true,
+    "value": {
+      "title": "读取当前 PCB 的物理叠层与铜厚",
+      "remarks": "返回层序、铜厚、介质厚度、材料与介电常数等物理参数\n\nADD since EDA v4.1.93",
+      "visibility": "beta",
+      "params": [],
+      "returns": {
+        "type": "IPCB_Stackup",
+        "description": "物理叠层数据"
+      },
+      "isAsync": true
+    },
+    "logs": [],
+    "durationMs": 238
+  },
+  "PCB_Drc.getNetRules": {
+    "ok": true,
+    "value": {
+      "title": "获取网络规则",
+      "remarks": "返回数组的元素分两类，二者的规则字段取值都是**规则配置中的规则名**（字符串），\n`null` 表示未设置，`default` 表示使用默认规则：\n\n- `{ type: 'netClass', name, sub: Array<网络条目>, ...规则字段 }`：网络类条目，`sub` 为其成员网络；\n  成员网络**不会**再出现在数组顶层，只能从 `sub` 中读取\n- `{ type: 'net', name, ...规则字段 }`：未归入任何网络类的网络\n\n类条目与其 `sub` 条目各自保存一套规则字段，二者可能不同。写回时需同时设置类条目与其 `sub` 条目，\n否则只改一处会在其他入口（如新建网络类、增删成员）触发同步后被覆盖。规则字段包括\n`Safe Spacing`、`Track`、`Via Size`、`Copper Zone`、`Plane Zone`、`Blind/Buried Via`、\n`Net Length Range`、`Solder Mask Expansion`、`Paste Mask Expansion` 等\n\n规则名不做存在性校验：写入不存在的规则名同样会成功，读回得到悬空引用。写入前请先用\n{@link PCB_Drc.getCurrentRuleConfiguration} 核对目标分类下确实存在该规则名",
+      "visibility": "beta",
+      "params": [],
+      "returns": {
+        "type": "Array<{ [key: string]: any }>",
+        "description": "当前 PCB 的所有网络规则"
+      },
+      "isAsync": true
+    },
+    "logs": [],
+    "durationMs": 246
+  },
+  "PCB_Drc.overwriteNetRules": {
+    "ok": true,
+    "value": {
+      "title": "覆写网络规则",
+      "remarks": "将会覆写当前 PCB 的所有网络规则，请注意数据丢失风险\n\n数组结构须与 {@link PCB_Drc.getNetRules} 的返回值一致：网络类条目与其 `sub` 条目各自保存一套规则字段\n该接口不对规则名做存在性校验，写入不存在的规则名也会返回成功，因此写回前应先核对规则配置",
+      "visibility": "beta",
+      "params": [
+        {
+          "name": "netRules",
+          "type": "Array<{ [key: string]: any }>",
+          "description": "网络规则",
+          "required": true
+        }
+      ],
+      "returns": {
+        "type": "boolean",
+        "description": "覆写是否成功"
+      },
+      "example": "```javascript\n// 1. 读取当前所有网络规则（数组）\nconst netRules = await eda.pcb_Drc.getNetRules();\n\n// 2. 整体写回（原样写回演示覆写成功，实际使用时可先增删改数组元素）\nconst result = await eda.pcb_Drc.overwriteNetRules(netRules);\n\nconsole.log('ruleCount:', netRules.length);\nconsole.log('result:', result);\n```",
+      "isAsync": true
+    },
+    "logs": [],
+    "durationMs": 394
+  },
+  "PCB_Drc.createNetClass": {
+    "ok": true,
+    "value": {
+      "title": "创建网络类",
+      "remarks": "网络加入网络类时，网络类条目上的规则引用若为 `default`，网络自身已设置的显式规则会保留，\n不会被重置为 `default`；网络类确实配置了规则时，才会以类规则覆盖成员网络的规则\n\n需要类级规则时，请在创建后按 `{@link PCB_Drc.getNetRules}` 返回的结构，对类条目**和**其每个\n`sub` 条目分别设置规则字段并调用 {@link PCB_Drc.overwriteNetRules}，最后重新读取核对",
+      "visibility": "beta",
+      "params": [
+        {
+          "name": "netClassName",
+          "type": "string",
+          "description": "网络类名称",
+          "required": true
+        },
+        {
+          "name": "nets",
+          "type": "Array<string>",
+          "description": "网络名称数组",
+          "required": true
+        },
+        {
+          "name": "color",
+          "type": "null | { r: number; g: number; b: number; alpha: number }",
+          "description": "网络类颜色",
+          "required": true
+        }
+      ],
+      "returns": {
+        "type": "boolean",
+        "description": "操作是否成功"
+      },
+      "example": "```javascript\n// 1. 放两个带网络的测试焊盘，让 JLC_DEMO_P / JLC_DEMO_N 进入网表\nconst x = 3000 + Math.floor(Math.random() * 20000);\nconst padP = await eda.pcb_PrimitivePad.create(1, '1', x, 3000, 0, ['ELLIPSE', 60, 60], 'JLC_DEMO_P', null, 0, 0, 0, false, 0);\nconst padN = await eda.pcb_PrimitivePad.create(1, '2', x + 500, 3000, 0, ['ELLIPSE', 60, 60], 'JLC_DEMO_N', null, 0, 0, 0, false, 0);\n\n// 2. 创建网络类并纳入这两个网络，颜色用于面板区分（保留现场供观察）\nconst created = await eda.pcb_Drc.createNetClass('嘉立创示例_网络类', ['JLC_DEMO_P', 'JLC_DEMO_N'], { r: 255, g: 0, b: 0, alpha: 1 });\n\nconsole.log('created:', created);\n```",
+      "isAsync": true
+    },
+    "logs": [],
+    "durationMs": 211
+  },
+  "PCB_Drc.addNetToNetClass": {
+    "ok": true,
+    "value": {
+      "title": "将网络添加到网络类",
+      "visibility": "beta",
+      "params": [
+        {
+          "name": "netClassName",
+          "type": "string",
+          "description": "网络类名称",
+          "required": true
+        },
+        {
+          "name": "net",
+          "type": "string | Array<string>",
+          "description": "网络名称",
+          "required": true
+        }
+      ],
+      "returns": {
+        "type": "boolean",
+        "description": "操作是否成功"
+      },
+      "example": "```javascript\n// 1. 准备三个真实网络（放带网络的测试焊盘）\nconst x = 3000 + Math.floor(Math.random() * 20000);\nawait eda.pcb_PrimitivePad.create(1, '1', x, 3000, 0, ['ELLIPSE', 60, 60], 'JLC_DEMO_P', null, 0, 0, 0, false, 0);\nawait eda.pcb_PrimitivePad.create(1, '2', x + 500, 3000, 0, ['ELLIPSE', 60, 60], 'JLC_DEMO_N', null, 0, 0, 0, false, 0);\nawait eda.pcb_PrimitivePad.create(1, '3', x + 1000, 3000, 0, ['ELLIPSE', 60, 60], 'JLC_DEMO_CLK', null, 0, 0, 0, false, 0);\n\n// 2. 先建网络类，再逐个/批量添加网络\nawait eda.pcb_Drc.createNetClass('嘉立创示例_网络类', [], { r: 255, g: 0, b: 0, alpha: 1 });\nconst addedOne = await eda.pcb_Drc.addNetToNetClass('嘉立创示例_网络类', 'JLC_DEMO_P');\nconst addedBatch = await eda.pcb_Drc.addNetToNetClass('嘉立创示例_网络类', ['JLC_DEMO_N', 'JLC_DEMO_CLK']);\n\nconsole.log('addedOne:', addedOne);\nconsole.log('addedBatch:', addedBatch);\n```",
+      "isAsync": true
+    },
+    "logs": [],
+    "durationMs": 251
+  },
+  "PCB_Drc.checkDetailed": {
+    "ok": true,
+    "value": {
+      "title": "执行 DRC 检查并返回展平明细",
+      "remarks": "结果可能不完整：存在检查失败的规则时，将以 `INCOMPLETE_RESULT` 错误抛出，不得视为检查通过\n\nADD since EDA v4.1.93",
+      "visibility": "beta",
+      "params": [
+        {
+          "name": "options",
+          "type": "IPCB_DrcCheckDetailedOptions",
+          "description": "检查参数",
+          "required": false
+        }
+      ],
+      "returns": {
+        "type": "IPCB_DrcResult",
+        "description": "DRC 结果"
+      },
+      "isAsync": true
+    },
+    "logs": [],
+    "durationMs": 346
+  },
+  "SCH_Drc.check": {
+    "ok": true,
+    "value": {
+      "title": "检查 DRC",
+      "remarks": "`includeVerboseError=true` 时返回 DRC 错误条目 **数组**；\n`includeVerboseError=false` 直接返回门禁布尔值（非交互执行方式：`check(strict, false, false)`）。\n\n**布尔模式下 warning 也计为不通过**：`strict=true` 时，`warning` 级别的违规项与 `error` 一样会使返回值为 `false`。\n因此「只有 warning 却返回 `false`」是符合预期的行为，不是缺陷。需要区分 error / warning 时可改用\n`includeVerboseError=true` 拿到 {@link ISCH_DrcError} 列表，自行按 {@link ISCH_DrcError.type | type}\n过滤（`'fatalError'` / `'error'` / `'warn'`）。\n\n典型场景：原理图中存在刻意保留的未连接引脚（`CHECKFLOATPIN`）时，即便零 error，布尔门禁仍为 `false`。\n这类工程若只关心 error，应以详细模式的过滤结果为准，不要直接依赖布尔返回值。",
+      "visibility": "beta",
+      "params": [
+        {
+          "name": "strict",
+          "type": "boolean",
+          "description": "是否严格检查，当前原理图统一为严格检查模式；`true` 时 warning 同样计入不通过",
+          "required": true
+        },
+        {
+          "name": "userInterface",
+          "type": "boolean",
+          "description": "是否显示 UI（呼出底部 DRC 窗口）",
+          "required": true
+        },
+        {
+          "name": "includeVerboseError",
+          "type": "false",
+          "description": "是否在返回值中包含详细错误信息，如若为 `true`，则返回值将始终为数组",
+          "required": true
+        }
+      ],
+      "returns": {
+        "type": "boolean",
+        "description": "DRC 检查是否通过（`strict=true` 时含 warning 判定）"
+      },
+      "example": "```javascript\n// 1. 创建测试原理图并打开（DRC 作用于当前激活的原理图）\nconst schematicUuid = await eda.dmt_Schematic.createSchematic();\nawait new Promise(r => setTimeout(r, 1500));\nconst schInfo = await eda.dmt_Schematic.getSchematicInfo(schematicUuid);\nawait eda.dmt_EditorControl.openDocument(schInfo.page[0].uuid);\nawait new Promise(r => setTimeout(r, 1000));\n\n// 2. 详细模式：返回全部违规项，无违规则为空数组\nconst violations = await eda.sch_Drc.check(true, false, true);\nconsole.log('violationCount:', violations.length);\nviolations.forEach((v, i) => {\n  console.log('[' + i + ']', typeof v === 'string' ? v : JSON.stringify(v));\n});\n\n// 3. 布尔模式：只返回是否全部通过\nconst passed = await eda.sch_Drc.check(true, false, false);\nconsole.log('allPassed:', passed);\n\n// 4. 清理测试原理图\nawait new Promise(r => setTimeout(r, 1500));\nawait eda.dmt_Schematic.deleteSchematic(schematicUuid);\n```",
+      "isAsync": true
+    },
+    "logs": [],
+    "durationMs": 168
+  },
+  "PCB_PrimitivePolygon.": {
+    "ok": false,
+    "error": {
+      "code": "DOC_QUERY_FAILED",
+      "message": "[help] eda 命名空间下不存在类型：PCB_PrimitivePolygon; did you mean: SCH_PrimitivePolygon, PCB_Primitive?"
+    }
+  },
+  "SYS_FileSystem.": {
+    "ok": true,
+    "value": {
+      "title": "系统 / 文件系统交互类",
+      "visibility": "public",
+      "methods": [
+        {
+          "name": "getExtensionFile",
+          "comment": "获取扩展内的文件",
+          "visibility": "public"
+        },
+        {
+          "name": "openReadFileDialog",
+          "comment": "打开读入文件窗口",
+          "visibility": "beta"
+        },
+        {
+          "name": "openReadFilePathDialog",
+          "comment": "打开读取文件路径窗口",
+          "visibility": "beta"
+        },
+        {
+          "name": "openReadFolderPathDialog",
+          "comment": "打开读取目录路径窗口",
+          "visibility": "beta"
+        },
+        {
+          "name": "saveFile",
+          "comment": "保存文件",
+          "visibility": "public"
+        },
+        {
+          "name": "readFileFromFileSystem",
+          "comment": "从文件系统读取文件",
+          "visibility": "beta"
+        },
+        {
+          "name": "saveFileToFileSystem",
+          "comment": "向文件系统写入文件",
+          "visibility": "beta"
+        },
+        {
+          "name": "listFilesOfFileSystem",
+          "comment": "查看文件系统路径下的文件列表",
+          "visibility": "beta"
+        },
+        {
+          "name": "deleteFileInFileSystem",
+          "comment": "删除文件系统内的文件",
+          "visibility": "beta"
+        },
+        {
+          "name": "createDirectoryInFileSystem",
+          "comment": "在文件系统内创建文件夹",
+          "visibility": "beta"
+        },
+        {
+          "name": "existsPathInFileSystem",
+          "comment": "检查文件系统内的文件或目录是否存在",
+          "visibility": "beta"
+        },
+        {
+          "name": "getEdaPath",
+          "comment": "获取 EDA 文档目录路径",
+          "visibility": "beta"
+        },
+        {
+          "name": "getDocumentsPath",
+          "comment": "获取文档目录路径",
+          "visibility": "beta"
+        },
+        {
+          "name": "getLibrariesPaths",
+          "comment": "获取库目录路径",
+          "visibility": "beta"
+        },
+        {
+          "name": "getProjectsPaths",
+          "comment": "获取工程目录路径",
+          "visibility": "beta"
+        },
+        {
+          "name": "createObjectURL",
+          "comment": "创建 ObjectURL",
+          "visibility": "public"
+        },
+        {
+          "name": "revokeObjectURL",
+          "comment": "吊销 ObjectURL",
+          "visibility": "public"
+        }
+      ],
+      "callPath": "sys_FileSystem"
+    },
+    "logs": [],
+    "durationMs": 382
+  }
+}

@@ -1,0 +1,372 @@
+{
+  "ok": true,
+  "value": {
+    "online": true,
+    "user": true,
+    "sys": "0819f05c4eef4c71ace90d822a990e87",
+    "q": {
+      "uuid": "f714063fa18048f2956344f6558686ce",
+      "ordinal": 1,
+      "name": "S8050_C20069125",
+      "symbolName": "",
+      "symbolUuid": "",
+      "symbol": {
+        "name": "S8050_C20069125",
+        "uuid": "a7061fa67e1345d38904391704db2bc9",
+        "libraryUuid": ""
+      },
+      "footprintUuid": "",
+      "footprint": {
+        "name": "SOT-23-3_L2.9-W1.3-P1.90-LS2.3-BR",
+        "uuid": "cef38edfb83f44baa1105399f6f6f505",
+        "libraryUuid": ""
+      },
+      "model3DUuid": "",
+      "model3D": {
+        "name": "SOT-23-3_L2.9-W1.3-P1.90-LS2.3-BR",
+        "uuid": "5504beb8757f4de79731898ec55d3e54",
+        "libraryUuid": ""
+      },
+      "imageUuid": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20240112/A4592C51A03E6AB8BFE042386D325843.jpg"
+      ],
+      "description": "晶体管类型:NPN;集电极电流(Ic):500mA;集射极击穿电压(Vceo):25V;耗散功率(Pd):300mW;直流电流增益(hFE):120;",
+      "otherProperty": {
+        "LCSC Part Name": "hFE:200-350，丝印:J3Y NPN 500mA 25V",
+        "Supplier Part": "C20069125",
+        "Manufacturer": "R+O(宏嘉诚)",
+        "Manufacturer Part": "S8050",
+        "Supplier Footprint": "SOT-23",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/S8050/21397163.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "a7061fa67e1345d38904391704db2bc9",
+        "Designator": "Q?",
+        "Footprint": "cef38edfb83f44baa1105399f6f6f505",
+        "3D Model": "5504beb8757f4de79731898ec55d3e54",
+        "3D Model Title": "SOT-23-3_L2.9-W1.3-P1.90-LS2.3-BR",
+        "3D Model Transform": "114.173,90.551,0,90,0,0,0,0,0",
+        "type": "NPN",
+        "Current - Collector(Ic)": "500mA",
+        "Collector - Emitter Voltage VCEO": "25V",
+        "Pd - Power Dissipation": "300mW",
+        "DC Current Gain": "120",
+        "Transition frequency(fT)": "100MHz",
+        "Current - Collector Cutoff": "100nA",
+        "Vce Saturation(VCE(sat))": "600mV",
+        "Operating Temperature": "-55℃~+150℃",
+        "Emitter-Base Voltage(Vebo)": "5V",
+        "Number": "1个NPN",
+        "Configuration": "独立式",
+        "Name": "={Manufacturer Part}",
+        "Description": "晶体管类型:NPN;集电极电流(Ic):500mA;集射极击穿电压(Vceo):25V;耗散功率(Pd):300mW;直流电流增益(hFE):120;"
+      }
+    },
+    "holes": [
+      [
+        "M3",
+        "d63b4b8326ae494f801b866f551199ec",
+        "SMA_L4.3-W2.6-LS5.0-RD"
+      ],
+      [
+        "SMTSO3280CTJ",
+        "40a1ed0260c3446db94ac66c67da51bb",
+        "SMD_BD5.6-L5.6-W5.6-D4.1"
+      ],
+      [
+        "XK15EDGVM-3.5-2P",
+        "0b7c98a2912f4681b21ceeb18a200018",
+        "CONN-TH_2P-P3.50_TOPONELEC_15ETYVM-3.5-02P-14-00AH"
+      ],
+      [
+        "LED灯座",
+        "4122a01b8f334c15a4f667b41a26cac4",
+        "CONN-TH_L11.5-W4.4-P2.54_LH339005B"
+      ],
+      [
+        "FBB04008-M30S1013BKM",
+        "92b3d8444218455b8502202fbd4ae85f",
+        "CONN-SMD_30P-P0.40_FBB04008-M30S1013BKM"
+      ],
+      [
+        "FPC0.5L-36PLBZ-WG-P-T",
+        "3d5ee0cfe3c64001a79bd3e6770083e4",
+        "CONN-SMD_36P-P0.50-FPC0.5L-36PLBZ-WG-P-T"
+      ],
+      [
+        "MSM371DDBA01",
+        "5e514dd1d1a14594ba4d52a29e431384",
+        "MIC-SMD_5P-L3.5-W2.6_ICS-41350"
+      ],
+      [
+        "XH2.54-WI-3P",
+        "a7d30c0e2fc14d81bce88a01e40c9e75",
+        "CONN-TH_XH2.54-WI-3P"
+      ],
+      [
+        "GC16V-M-3P",
+        "f1a65e2941d94207b5e608a27a67055c",
+        "CONN-TH_GC16V-M-3P"
+      ],
+      [
+        "SMTSO3075CTJ",
+        "d6049b2379444524aace1dcd7595cedb",
+        "SMD_BD5.6-L5.6-W5.6-D4.1"
+      ],
+      [
+        "焊接铜柱",
+        "55253146f3ef4e15863b2ff1888feaca",
+        "SMD-1_BD5.5-D4.0"
+      ],
+      [
+        "BD63130AFM-E2",
+        "93ce7ed6801f47ecae3f20f919849a2b",
+        "HSOP-M36_L18.5-W7.5-P0.80-LS9.9-BL"
+      ],
+      [
+        "SMTSO-M3-20ET",
+        "e375a65667d343a8bd1d955553470a15",
+        "SMD_BD5.6-L5.6-W5.6-D4.1"
+      ],
+      [
+        "KF2EDG3.5MM3P直针+插座",
+        "5dddb90a45214a8f8fbf5334c03d3d4d",
+        "CONN-TH_3P-P3.50_PKF2EDG3.5-3P"
+      ],
+      [
+        "M3*10mm 天线座螺柱(需焊接)",
+        "514004b8a7304cb3b540159b8e683087",
+        "CONN-TH_M3-10MM_C9900004469"
+      ],
+      [
+        "RB0.2",
+        "608a9e4c548942af8ccd33498d84d7cc",
+        "BEAD-TH_BD6.0-L14.0-P18.0-D0.5"
+      ],
+      [
+        "HT3.96MM-3",
+        "a20c586129e84f67846c8cf5bc801ebb",
+        "CONN-TH_HT3.96MM-3"
+      ],
+      [
+        "IR-3V3",
+        "7ae5e4c836f1439eb760f069fdb98dca",
+        "OPTO-TH_3P_L5.3-W4.3"
+      ],
+      [
+        "DIS5",
+        "9f5230a07c73451fa82f9ffb2f7946a8",
+        "HDR-TH_5P-P2.00-V-M-3"
+      ],
+      [
+        "BTB0.5M-20M-3.0",
+        "3a11a242387948f499f8e0fb15077225",
+        "CONN-SMD_20P-P0.50_BTB0.5M-20M-3.0"
+      ],
+      [
+        "Solder_Nut_M3X3",
+        "d5dda395ef2a48cbb3c123c8a256e1cd",
+        "SMD-1_BD5.5-D4.0"
+      ],
+      [
+        "SMTSO-M3-7ET",
+        "5779b6b232ea44e2a251b6e81a2b6d98",
+        "SMD_BD5.6-D4.1"
+      ],
+      [
+        "KF128-3.81-3P",
+        "62887fb1238a45d6970b0dbbfa9a1eab",
+        "CONN-TH_3P-P3.81_KF128-3.81"
+      ],
+      [
+        "双塑直脚单排针 3p 19mm",
+        "80e9e5c9e15b40bfbccfe353567d5bd6",
+        "HDR-TH_3P-P2.54-V-M_C9900004029"
+      ],
+      [
+        "KF141AR-3P-2.54MM",
+        "f4dc14643e7c4fc09f4ce1ac6b00b275",
+        "CONN-TH_KF141AR"
+      ],
+      [
+        "FCM362KAAMD-1X-04",
+        "f40028ba823d4181b20c46659f4a2bd0",
+        "COMM-SMD_47P-L25.5-W18.0-P1.27_FCM362K"
+      ],
+      [
+        "ZCYS51R5-M3PAT",
+        "156e9670be894916b075424b51376193",
+        "IND-SMD_6P-L6.0-W5.2-TL"
+      ],
+      [
+        "FFH20006-T69S1054K6K",
+        "7aa535b725f74f6c8dfc999aadc4f054",
+        "HDR-TH_69P-P2.00_FFH20006-T69S1054K6K"
+      ],
+      [
+        "M3发光二极管红",
+        "83592b977e5f43e9af86f66c0f8f8d20",
+        "LED-TH_BD3.5-P2.50-D0.5-FD_RED"
+      ],
+      [
+        "UT-M3485",
+        "bfe2389d35574eb296912a080203ab59",
+        "COMM-TH_UT-M3485"
+      ],
+      [
+        "FBB05002-M30S1003K6MH08",
+        "180672583e88482691fade1003d146f3",
+        "CONN-SMD_30P-P0.50_FBB05002-M30S1003K6MH08"
+      ],
+      [
+        "SMTSO-M3",
+        "3356fe42ddb04a3689d6792581ff04e0",
+        "SMD_BD4.5-L4.5-W4.5-D0.8"
+      ],
+      [
+        "YM310 X09 ACNCX",
+        "6cfbc08f902f40d1a92dc5e92fb9f793",
+        "LGA-109_L17.7-W15.8_YM310"
+      ],
+      [
+        "MPM3630",
+        "982a9aea0ce146958956f65f96b43d32",
+        "QFN-20_L5.0-W3.0-TL-MPM3630GQV-Z"
+      ],
+      [
+        "BCM3526T353",
+        "131a2c42121b4da4858dec79623997c3",
+        "MIC-SMD_6P-L3.5-W2.7_BCM3526T353"
+      ],
+      [
+        "VS-2EAH02HM3",
+        "80384a4cff474f37b7f8b75ba1e9bf23",
+        "DFN-2_L3.9-W2.1_DFN3820A"
+      ],
+      [
+        "ESM7000-ABC",
+        "6729550cfb5040cfb61f5ae452563967",
+        "HDR-TH_65P-P2.00-V-M-R3-C22-S2.0"
+      ],
+      [
+        "STM32G474PEI6TR",
+        "7fb540b8a88849bd8d8f39f06266d194",
+        "CSFBGA-121_L6.0-W6.0-R11-C11-P0.50-TL"
+      ],
+      [
+        "MSM371DDBB46",
+        "337afaeb98da42af843a364150de3d3a",
+        "MIC-SMD_5P-L3.5-W2.7-TL"
+      ],
+      [
+        "N200AK-SR",
+        "d01bdd18df484f08beb1761fc6937ef3",
+        "COMM-SMD-44_L12.0-W12.0-P0.90-BL-M3881NT1"
+      ],
+      [
+        "ATGM336H-5N-71-0",
+        "9440f7d1a48146e89053ad5880ab471d",
+        "WIRELM-SMD_ATGM336H-5N-71-0"
+      ],
+      [
+        "SJR-BTM384_1",
+        "00e0ea56dd3f4d92bc912394d87d176a",
+        "COMM-SMD_58P-L20.0-W13.0-P1.00_BTM571"
+      ],
+      [
+        "AEM30940-QFN",
+        "32513708e2894c969613a7e137e00f17",
+        "QFN-28_L5.0-W5.0-P0.50-BL-EP3.15"
+      ],
+      [
+        "M3X5.5X8+4*1.5贴片螺母",
+        "caeff8daa7934344bbf81eff7c2420ce",
+        "SMD_BD5.5-D3.9"
+      ],
+      [
+        "PCB固定焊柱M3_C9900036191",
+        "6297fe1124e240debddb3afe62b50db4",
+        "SMD_BD4.5-L4.5-W4.5-D0.8"
+      ],
+      [
+        "SMTSO-M3-6p5ET",
+        "f2a93a5059684309aaeaecae74e5a041",
+        "SMD_BD5.6-L5.6-W5.6-D3.6"
+      ],
+      [
+        "FBB05002-M30S1033K6MH13",
+        "b998ca78b0b246079d114b8e05040f4b",
+        "CONN-SMD_FBB05002-M30S1033K6MH13"
+      ],
+      [
+        "BH-IRMR53CJ38-TRA",
+        "d46c080b4c704f188d1e673ff05c5dfc",
+        "LED-SMD_3P-L5.5-W3.2_BH-IRMR53CJ38-TRA"
+      ],
+      [
+        "PCB-1060M3",
+        "ae732a46aea942f1b2e85e73664c2a98",
+        "CONN-TH_PCB-1060M3"
+      ],
+      [
+        "LM3409HVMYX&slash_N",
+        "379745b0ad284db19a5dec94b3d9586b",
+        "HVSSOP-10_L3.0-W3.0-P0.50-LS4.9-BL-EP"
+      ],
+      [
+        "SMTSO-M3-8ET",
+        "383c5b5f19bd42a7be4c5523a3053562",
+        "SMD_BD5.6-L5.6-W5.6-D4.1"
+      ],
+      [
+        "R6015ENX",
+        "9698d922020743aaad9270d0d844d162",
+        "TO-220-3_L10.0-W4.5-P2.54-T"
+      ],
+      [
+        "GC16H-M-3P",
+        "3f341982792d434184074632540d54cb",
+        "CONN-TH_GC16H-M-3P"
+      ],
+      [
+        "1.27mmCON_30Ptiepian",
+        "d36a6cbdd8754f0c856faff049fd6cfe",
+        "CONN-SMD_30P-P1.27_C9900020830"
+      ],
+      [
+        "DB2EVM-3.5-11P-GN",
+        "cd66eafc32934e86aef5da4e2ef1e8ad",
+        "CONN-TH_11P-P3.50_DB2EVM-3.5-11P-GN"
+      ],
+      [
+        "LED-SMD-全彩四脚RGB黑面雾状-3528",
+        "488eb8d59cd24b3c89d93795015cf282",
+        "LED-SMD_FM-3528RGBA-HF"
+      ],
+      [
+        "STM32F103RET6_C9900089298",
+        "ba01c9cab4324337a35f00afd4b3a756",
+        "LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL"
+      ],
+      [
+        "Solder_Nut_M3X3_C9900029862",
+        "18c1da06ed8f45889a64ae64b3806236",
+        "SMD-1_BD5.5-D4.0"
+      ],
+      [
+        "BD63150AFM-E2",
+        "d4be206aa6304e09a111b0c311f64c81",
+        "HSOP-36-M_L18.5-W7.5-P0.80-LS10.0-BL"
+      ],
+      [
+        "PCB固定焊柱M3",
+        "b32279742fd743f3ac0cf5dc074eb015",
+        "SMD_BD4.5-L4.5-W4.5-D0.8"
+      ]
+    ]
+  },
+  "logs": [],
+  "durationMs": 1396
+}

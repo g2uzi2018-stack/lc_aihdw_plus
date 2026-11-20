@@ -1,0 +1,31 @@
+{
+  "board": "0d423a3a93f1744c",
+  "schematic": "a933768d7936f652",
+  "force": true,
+  "imported": true,
+  "before": {
+    "lines": 563,
+    "arcs": 0,
+    "vias": 48,
+    "poses": 69,
+    "pads": 225
+  },
+  "after": {
+    "lines": 563,
+    "arcs": 0,
+    "vias": 48,
+    "poses": 69,
+    "pads": 225
+  },
+  "changed": [],
+  "saved": true,
+  "reopened": true,
+  "changedOnReopen": [],
+  "reopenedCounts": {
+    "lines": 563,
+    "arcs": 0,
+    "vias": 48,
+    "poses": 69,
+    "pads": 225
+  }
+}

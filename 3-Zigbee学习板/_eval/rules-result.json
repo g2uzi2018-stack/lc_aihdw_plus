@@ -1,0 +1,140 @@
+{
+  "checks": {
+    "identity": true,
+    "spacing": true,
+    "tracks": true,
+    "via": true,
+    "class": true,
+    "native_class": true
+  },
+  "all_requested_pass": true,
+  "before": {
+    "doc": "0d423a3a93f1744c",
+    "project": "e527e38a240a64d8d2ac47a8bcdca19071cf6771b01f1a2d4ac5d1569a1684f9",
+    "track_to_track_mil": [
+      4.0157
+    ],
+    "track_min_default_mil": {
+      "copperThickness1oz": [
+        [
+          5.0,
+          10.0
+        ]
+      ]
+    },
+    "via_min_outer_inner_mil": [
+      19.685,
+      11.811
+    ],
+    "class_track": null,
+    "member_tracks": {},
+    "classes": []
+  },
+  "saved": {
+    "doc": "0d423a3a93f1744c",
+    "project": "e527e38a240a64d8d2ac47a8bcdca19071cf6771b01f1a2d4ac5d1569a1684f9",
+    "track_to_track_mil": [
+      6.0
+    ],
+    "track_min_default_mil": {
+      "copperThickness1oz": [
+        [
+          10.0,
+          10.0
+        ]
+      ],
+      "PWR": [
+        [
+          10.0,
+          20.0
+        ]
+      ]
+    },
+    "via_min_outer_inner_mil": [
+      24.0,
+      12.0
+    ],
+    "class_track": "PWR",
+    "member_tracks": {
+      "+3V3": "PWR",
+      "VBUS": "PWR",
+      "VDD": "PWR",
+      "GND": "PWR"
+    },
+    "classes": [
+      {
+        "name": "PWR_Class",
+        "nets": [
+          "+3V3",
+          "VBUS",
+          "VDD",
+          "GND"
+        ],
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "alpha": 1
+        }
+      }
+    ]
+  },
+  "reopened": {
+    "doc": "0d423a3a93f1744c",
+    "project": "e527e38a240a64d8d2ac47a8bcdca19071cf6771b01f1a2d4ac5d1569a1684f9",
+    "track_to_track_mil": [
+      6.0
+    ],
+    "track_min_default_mil": {
+      "PWR": [
+        [
+          10.0,
+          20.0
+        ]
+      ],
+      "copperThickness1oz": [
+        [
+          10.0,
+          10.0
+        ]
+      ]
+    },
+    "via_min_outer_inner_mil": [
+      24.0,
+      12.0
+    ],
+    "class_track": "PWR",
+    "member_tracks": {
+      "+3V3": "PWR",
+      "VBUS": "PWR",
+      "VDD": "PWR",
+      "GND": "PWR"
+    },
+    "classes": [
+      {
+        "name": "PWR_Class",
+        "nets": [
+          "+3V3",
+          "VBUS",
+          "VDD",
+          "GND"
+        ],
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "alpha": 1
+        }
+      }
+    ]
+  },
+  "after_to_reopened_config_differences": [],
+  "after_to_reopened_net_rule_differences": [],
+  "requested_members_basis": "VBUS、+3V3 和 VDD 为题图供电网络；本次也纳入电源回流 GND。",
+  "evidence_files": [
+    "rules-before.json",
+    "rules-write.json",
+    "rules-after.json",
+    "rules-reopened.json"
+  ]
+}

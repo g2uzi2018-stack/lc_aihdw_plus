@@ -1,0 +1,281 @@
+[
+  {
+    "index": 1,
+    "kind": "蜂鸣器",
+    "references": "BUZZER1",
+    "quantity": 1,
+    "footprint": "BUZ-SMD_L5.0-W5.5-P4.60",
+    "value": "MLT-5020",
+    "supplier": "C94598"
+  },
+  {
+    "index": 2,
+    "kind": "钽电容",
+    "references": "C1,C2",
+    "quantity": 2,
+    "footprint": "CASE-A_3216",
+    "value": "10uF",
+    "supplier": "C7177"
+  },
+  {
+    "index": 3,
+    "kind": "贴片电容",
+    "references": "C3,C4,C5,C14,C15,C16,C17,C18,C19,C24,C25,C26",
+    "quantity": 12,
+    "footprint": "C0603",
+    "value": "100nF",
+    "supplier": "C1591"
+  },
+  {
+    "index": 4,
+    "kind": "贴片电容",
+    "references": "C6",
+    "quantity": 1,
+    "footprint": "C0603",
+    "value": "1uF",
+    "supplier": "C15849"
+  },
+  {
+    "index": 5,
+    "kind": "贴片电容",
+    "references": "C7,C8,C20,C21,C22,C23",
+    "quantity": 6,
+    "footprint": "C0603",
+    "value": "18pF",
+    "supplier": "C1647"
+  },
+  {
+    "index": 6,
+    "kind": "贴片电容",
+    "references": "C9,C10",
+    "quantity": 2,
+    "footprint": "C0603",
+    "value": "1pF",
+    "supplier": "C37117"
+  },
+  {
+    "index": 7,
+    "kind": "贴片电容",
+    "references": "C11",
+    "quantity": 1,
+    "footprint": "C0603",
+    "value": "2.2pF",
+    "supplier": "C1651"
+  },
+  {
+    "index": 8,
+    "kind": "贴片电容",
+    "references": "C12,C13",
+    "quantity": 2,
+    "footprint": "C0603",
+    "value": "2.2uF",
+    "supplier": "C23630"
+  },
+  {
+    "index": 9,
+    "kind": "肖特基二极管",
+    "references": "D1",
+    "quantity": 1,
+    "footprint": "SOD-123",
+    "value": "1N5819W",
+    "supplier": "C963381"
+  },
+  {
+    "index": 10,
+    "kind": "贴片电感",
+    "references": "L1,L2,L3",
+    "quantity": 3,
+    "footprint": "L0603",
+    "value": "2nH",
+    "supplier": "C395081"
+  },
+  {
+    "index": 11,
+    "kind": "发光二极管",
+    "references": "LED1",
+    "quantity": 1,
+    "footprint": "LED0603",
+    "value": "红色",
+    "supplier": "C84263"
+  },
+  {
+    "index": 12,
+    "kind": "发光二极管",
+    "references": "LED2,LED3",
+    "quantity": 2,
+    "footprint": "LED0603",
+    "value": "翠绿色",
+    "supplier": "C84267"
+  },
+  {
+    "index": 13,
+    "kind": "显示屏",
+    "references": "OLED1",
+    "quantity": 1,
+    "footprint": "OLED-TH_HS96L01B4S03",
+    "value": "HS96L01B4S03",
+    "supplier": "C5139759"
+  },
+  {
+    "index": 14,
+    "kind": "简牛座",
+    "references": "P1",
+    "quantity": 1,
+    "footprint": "IDC-TH_10P-P2.54",
+    "value": "2.54-2*5P简牛",
+    "supplier": "C5665"
+  },
+  {
+    "index": 15,
+    "kind": "三极管",
+    "references": "Q1",
+    "quantity": 1,
+    "footprint": "SOT-23-3",
+    "value": "S8050",
+    "supplier": "C20069125"
+  },
+  {
+    "index": 16,
+    "kind": "贴片电阻",
+    "references": "R1,R2",
+    "quantity": 2,
+    "footprint": "R0603",
+    "value": "5.1kΩ",
+    "supplier": "C23186"
+  },
+  {
+    "index": 17,
+    "kind": "贴片电阻",
+    "references": "R3,R4,R5,R6",
+    "quantity": 4,
+    "footprint": "R0603",
+    "value": "1kΩ",
+    "supplier": "C21190"
+  },
+  {
+    "index": 18,
+    "kind": "贴片电阻",
+    "references": "R7,R10,R11,R12,R13,R14,R15,R16",
+    "quantity": 8,
+    "footprint": "R0603",
+    "value": "10kΩ",
+    "supplier": "C25804"
+  },
+  {
+    "index": 19,
+    "kind": "贴片电阻",
+    "references": "R8",
+    "quantity": 1,
+    "footprint": "R0603",
+    "value": "100Ω",
+    "supplier": "C22775"
+  },
+  {
+    "index": 20,
+    "kind": "贴片电阻",
+    "references": "R9",
+    "quantity": 1,
+    "footprint": "R0603",
+    "value": "56kΩ",
+    "supplier": "C23206"
+  },
+  {
+    "index": 21,
+    "kind": "光敏电阻",
+    "references": "R17",
+    "quantity": 1,
+    "footprint": "RES-SMD_L3.6-W2.4",
+    "value": "GT36516",
+    "supplier": "C2904880"
+  },
+  {
+    "index": 22,
+    "kind": "RF射频同轴连接器",
+    "references": "RF1",
+    "quantity": 1,
+    "footprint": "SMA-SMD_BWSMA-KE-P001",
+    "value": "BWSMA-KE-P001",
+    "supplier": "C496550"
+  },
+  {
+    "index": 23,
+    "kind": "螺丝孔",
+    "references": "SCREW1,SCREW2,SCREW3,SCREW4",
+    "quantity": 4,
+    "footprint": "M3",
+    "value": "M3",
+    "supplier": "常用库"
+  },
+  {
+    "index": 24,
+    "kind": "轻触按键",
+    "references": "SW1,SW2,SW3",
+    "quantity": 3,
+    "footprint": "SW-SMD_4P-L6.0-W6.0",
+    "value": "TC-6601-5.0-260-8.3",
+    "supplier": "C7528752"
+  },
+  {
+    "index": 25,
+    "kind": "线性稳压器（LDO）",
+    "references": "U1",
+    "quantity": 1,
+    "footprint": "SOT-223-4",
+    "value": "AMS1117-3.3",
+    "supplier": "C347222"
+  },
+  {
+    "index": 26,
+    "kind": "USB转换芯片",
+    "references": "U2",
+    "quantity": 1,
+    "footprint": "SOP-8",
+    "value": "CH340N",
+    "supplier": "C2977777"
+  },
+  {
+    "index": 27,
+    "kind": "单片机",
+    "references": "U3",
+    "quantity": 1,
+    "footprint": "QFN-40",
+    "value": "CC2530F256RHAR",
+    "supplier": "C9120"
+  },
+  {
+    "index": 28,
+    "kind": "温湿度传感器",
+    "references": "U4",
+    "quantity": 1,
+    "footprint": "SENSOR-SMD_L3.0-W3.0-P1.00-BR",
+    "value": "AHT20",
+    "supplier": "C2757850"
+  },
+  {
+    "index": 29,
+    "kind": "USB连接器",
+    "references": "USB1",
+    "quantity": 1,
+    "footprint": "USB-C-SMD_TYPE-C-6PIN-2MD-073",
+    "value": "TYPE-C 16PIN",
+    "supplier": "C2765186"
+  },
+  {
+    "index": 30,
+    "kind": "无源晶振",
+    "references": "X1",
+    "quantity": 1,
+    "footprint": "SMD3225-4P",
+    "value": "32MHz",
+    "supplier": "C9009"
+  },
+  {
+    "index": 31,
+    "kind": "无源晶振",
+    "references": "X2",
+    "quantity": 1,
+    "footprint": "SMD3215-2P",
+    "value": "32.768kHz",
+    "supplier": "C5213671"
+  }
+]

@@ -1,0 +1,314 @@
+[
+ {
+  "elapsedSeconds": 1,
+  "state": {
+   "jobId": "autoroute-2",
+   "state": "running",
+   "progress": 2
+  },
+  "progress": {
+   "progress": 0.016666666666666663,
+   "routabitity": 0.1666666716337204
+  },
+  "logs": [
+   {
+    "at": 1795097405191,
+    "level": "info",
+    "message": "[2026-11-19 22:10:05] [info]: Starting auto-routing..."
+   },
+   {
+    "at": 1795097405191,
+    "level": "info",
+    "message": "[2026-11-19 22:10:05] [info]: Auto fan-out running..."
+   },
+   {
+    "at": 1795097405326,
+    "level": "info",
+    "message": "[2026-11-19 22:10:05] [info]: Fan-out running time: 0.134500 s."
+   },
+   {
+    "at": 1795097405326,
+    "level": "info",
+    "message": "[2026-11-19 22:10:05] [info]: End of fan-out."
+   },
+   {
+    "at": 1795097408197,
+    "level": "info",
+    "message": "[2026-11-19 22:10:08] [info]: PCB Score: 888.483098"
+   }
+  ]
+ },
+ {
+  "elapsedSeconds": 25,
+  "state": {
+   "jobId": "autoroute-2",
+   "state": "running",
+   "progress": 17
+  },
+  "progress": {
+   "progress": 0.16833333333333333,
+   "routabitity": 0
+  },
+  "logs": [
+   {
+    "at": 1795097427264,
+    "level": "info",
+    "message": "[2026-11-19 22:10:27] [info]: Auto fan-out running..."
+   },
+   {
+    "at": 1795097427334,
+    "level": "info",
+    "message": "[2026-11-19 22:10:27] [info]: Fan-out running time: 0.070100 s."
+   },
+   {
+    "at": 1795097427334,
+    "level": "info",
+    "message": "[2026-11-19 22:10:27] [info]: End of fan-out."
+   },
+   {
+    "at": 1795097429949,
+    "level": "info",
+    "message": "[2026-11-19 22:10:29] [info]: PCB Score: 871.205831"
+   },
+   {
+    "at": 1795097432603,
+    "level": "info",
+    "message": "[2026-11-19 22:10:32] [info]: PCB Score: 871.205831"
+   }
+  ]
+ },
+ {
+  "elapsedSeconds": 49,
+  "state": {
+   "jobId": "autoroute-2",
+   "state": "running",
+   "progress": 32
+  },
+  "progress": {
+   "progress": 0.31666666666666665,
+   "routabitity": 0.1666666716337204
+  },
+  "logs": [
+   {
+    "at": 1795097454267,
+    "level": "info",
+    "message": "[2026-11-19 22:10:54] [info]: Starting auto-routing..."
+   },
+   {
+    "at": 1795097454267,
+    "level": "info",
+    "message": "[2026-11-19 22:10:54] [info]: Auto fan-out running..."
+   },
+   {
+    "at": 1795097454343,
+    "level": "info",
+    "message": "[2026-11-19 22:10:54] [info]: Fan-out running time: 0.076300 s."
+   },
+   {
+    "at": 1795097454343,
+    "level": "info",
+    "message": "[2026-11-19 22:10:54] [info]: End of fan-out."
+   },
+   {
+    "at": 1795097457045,
+    "level": "info",
+    "message": "[2026-11-19 22:10:57] [info]: PCB Score: 871.205831"
+   }
+  ]
+ },
+ {
+  "elapsedSeconds": 73,
+  "state": {
+   "jobId": "autoroute-2",
+   "state": "running",
+   "progress": 47
+  },
+  "progress": {
+   "progress": 0.4683333333333333,
+   "routabitity": 0
+  },
+  "logs": [
+   {
+    "at": 1795097475963,
+    "level": "info",
+    "message": "[2026-11-19 22:11:15] [info]: Auto fan-out running..."
+   },
+   {
+    "at": 1795097476042,
+    "level": "info",
+    "message": "[2026-11-19 22:11:16] [info]: Fan-out running time: 0.078700 s."
+   },
+   {
+    "at": 1795097476042,
+    "level": "info",
+    "message": "[2026-11-19 22:11:16] [info]: End of fan-out."
+   },
+   {
+    "at": 1795097478664,
+    "level": "info",
+    "message": "[2026-11-19 22:11:18] [info]: PCB Score: 871.205831"
+   },
+   {
+    "at": 1795097481437,
+    "level": "info",
+    "message": "[2026-11-19 22:11:21] [info]: PCB Score: 871.205831"
+   }
+  ]
+ },
+ {
+  "elapsedSeconds": 99,
+  "state": {
+   "jobId": "autoroute-2",
+   "state": "running",
+   "progress": 64
+  },
+  "progress": {
+   "progress": 0.635,
+   "routabitity": 0
+  },
+  "logs": [
+   {
+    "at": 1795097502938,
+    "level": "info",
+    "message": "[2026-11-19 22:11:42] [info]: Auto fan-out running..."
+   },
+   {
+    "at": 1795097503012,
+    "level": "info",
+    "message": "[2026-11-19 22:11:43] [info]: Fan-out running time: 0.073500 s."
+   },
+   {
+    "at": 1795097503012,
+    "level": "info",
+    "message": "[2026-11-19 22:11:43] [info]: End of fan-out."
+   },
+   {
+    "at": 1795097505759,
+    "level": "info",
+    "message": "[2026-11-19 22:11:45] [info]: PCB Score: 871.205831"
+   },
+   {
+    "at": 1795097508430,
+    "level": "info",
+    "message": "[2026-11-19 22:11:48] [info]: PCB Score: 871.205831"
+   }
+  ]
+ },
+ {
+  "elapsedSeconds": 123,
+  "state": {
+   "jobId": "autoroute-2",
+   "state": "running",
+   "progress": 78
+  },
+  "progress": {
+   "progress": 0.7833333333333334,
+   "routabitity": 0.1666666716337204
+  },
+  "logs": [
+   {
+    "at": 1795097530091,
+    "level": "info",
+    "message": "[2026-11-19 22:12:10] [info]: Starting auto-routing..."
+   },
+   {
+    "at": 1795097530091,
+    "level": "info",
+    "message": "[2026-11-19 22:12:10] [info]: Auto fan-out running..."
+   },
+   {
+    "at": 1795097530168,
+    "level": "info",
+    "message": "[2026-11-19 22:12:10] [info]: Fan-out running time: 0.077500 s."
+   },
+   {
+    "at": 1795097530168,
+    "level": "info",
+    "message": "[2026-11-19 22:12:10] [info]: End of fan-out."
+   },
+   {
+    "at": 1795097532805,
+    "level": "info",
+    "message": "[2026-11-19 22:12:12] [info]: PCB Score: 871.205831"
+   }
+  ]
+ },
+ {
+  "elapsedSeconds": 147,
+  "state": {
+   "jobId": "autoroute-2",
+   "state": "running",
+   "progress": 94
+  },
+  "progress": {
+   "progress": 0.935,
+   "routabitity": 0
+  },
+  "logs": [
+   {
+    "at": 1795097551649,
+    "level": "info",
+    "message": "[2026-11-19 22:12:31] [info]: Auto fan-out running..."
+   },
+   {
+    "at": 1795097551731,
+    "level": "info",
+    "message": "[2026-11-19 22:12:31] [info]: Fan-out running time: 0.081700 s."
+   },
+   {
+    "at": 1795097551731,
+    "level": "info",
+    "message": "[2026-11-19 22:12:31] [info]: End of fan-out."
+   },
+   {
+    "at": 1795097554471,
+    "level": "info",
+    "message": "[2026-11-19 22:12:34] [info]: PCB Score: 871.205831"
+   },
+   {
+    "at": 1795097557126,
+    "level": "info",
+    "message": "[2026-11-19 22:12:37] [info]: PCB Score: 871.205831"
+   }
+  ]
+ },
+ {
+  "elapsedSeconds": 173,
+  "state": {
+   "jobId": "autoroute-2",
+   "state": "completed",
+   "progress": 100
+  },
+  "progress": {
+   "progress": 1,
+   "routabitity": 0.1666666716337204
+  },
+  "logs": [
+   {
+    "at": 1795097562550,
+    "level": "info",
+    "message": "[2026-11-19 22:12:42] [info]: Auto fan-out running..."
+   },
+   {
+    "at": 1795097562624,
+    "level": "info",
+    "message": "[2026-11-19 22:12:42] [info]: Fan-out running time: 0.074100 s."
+   },
+   {
+    "at": 1795097562624,
+    "level": "info",
+    "message": "[2026-11-19 22:12:42] [info]: End of fan-out."
+   },
+   {
+    "at": 1795097565271,
+    "level": "info",
+    "message": "[2026-11-19 22:12:45] [info]: PCB Score: 871.205831"
+   },
+   {
+    "at": 1795097567888,
+    "level": "info",
+    "message": "[2026-11-19 22:12:47] [info]: PCB Score: 871.205831"
+   }
+  ]
+ }
+]

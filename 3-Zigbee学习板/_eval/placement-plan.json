@@ -1,0 +1,440 @@
+{
+  "boardMm": [
+    82,
+    40
+  ],
+  "origin": "datum bottom left; positive x east, positive y north",
+  "method": "人工功能分区，65 个位置独立规划。轮廓取本工程嵌入封装的焊盘、装配、丝印和外形图元，不含动态位号文本。",
+  "placements": [
+    {
+      "ref": "OLED1",
+      "xMil": 885.8268,
+      "yMil": 1488.189,
+      "rotation": 0.0
+    },
+    {
+      "ref": "C26",
+      "xMil": 267.7165,
+      "yMil": 1181.1024,
+      "rotation": 90.0
+    },
+    {
+      "ref": "P1",
+      "xMil": 1889.7638,
+      "yMil": 1362.2047,
+      "rotation": 180.0
+    },
+    {
+      "ref": "R10",
+      "xMil": 2086.6142,
+      "yMil": 1129.9213,
+      "rotation": 0.0
+    },
+    {
+      "ref": "C24",
+      "xMil": 2259.8425,
+      "yMil": 1108.2677,
+      "rotation": 90.0
+    },
+    {
+      "ref": "USB1",
+      "xMil": 1870.0787,
+      "yMil": 212.5984,
+      "rotation": 0.0
+    },
+    {
+      "ref": "R1",
+      "xMil": 2141.7323,
+      "yMil": 330.7087,
+      "rotation": 0.0
+    },
+    {
+      "ref": "R2",
+      "xMil": 1586.6142,
+      "yMil": 399.6063,
+      "rotation": 0.0
+    },
+    {
+      "ref": "U2",
+      "xMil": 1937.0079,
+      "yMil": 559.0551,
+      "rotation": 0.0
+    },
+    {
+      "ref": "C3",
+      "xMil": 1870.0787,
+      "yMil": 775.5906,
+      "rotation": 90.0
+    },
+    {
+      "ref": "C4",
+      "xMil": 2007.874,
+      "yMil": 775.5906,
+      "rotation": 90.0
+    },
+    {
+      "ref": "U1",
+      "xMil": 1622.0472,
+      "yMil": 629.9213,
+      "rotation": 270.0
+    },
+    {
+      "ref": "C1",
+      "xMil": 1732.2835,
+      "yMil": 389.7638,
+      "rotation": 0.0
+    },
+    {
+      "ref": "C2",
+      "xMil": 1586.6142,
+      "yMil": 854.3307,
+      "rotation": 0.0
+    },
+    {
+      "ref": "BUZZER1",
+      "xMil": 165.3543,
+      "yMil": 669.2913,
+      "rotation": 0.0
+    },
+    {
+      "ref": "D1",
+      "xMil": 177.1654,
+      "yMil": 503.937,
+      "rotation": 0.0
+    },
+    {
+      "ref": "Q1",
+      "xMil": 177.1654,
+      "yMil": 381.8898,
+      "rotation": 0.0
+    },
+    {
+      "ref": "R6",
+      "xMil": 279.5276,
+      "yMil": 314.9606,
+      "rotation": 90.0
+    },
+    {
+      "ref": "R7",
+      "xMil": 303.1496,
+      "yMil": 468.5039,
+      "rotation": 90.0
+    },
+    {
+      "ref": "R8",
+      "xMil": 62.9921,
+      "yMil": 381.8898,
+      "rotation": 90.0
+    },
+    {
+      "ref": "C5",
+      "xMil": 169.2913,
+      "yMil": 826.7717,
+      "rotation": 0.0
+    },
+    {
+      "ref": "R17",
+      "xMil": 137.7953,
+      "yMil": 1035.4331,
+      "rotation": 0.0
+    },
+    {
+      "ref": "R16",
+      "xMil": 299.2126,
+      "yMil": 1015.748,
+      "rotation": 90.0
+    },
+    {
+      "ref": "U4",
+      "xMil": 3094.4882,
+      "yMil": 1094.4882,
+      "rotation": 90.0
+    },
+    {
+      "ref": "C25",
+      "xMil": 2952.7559,
+      "yMil": 1129.9213,
+      "rotation": 90.0
+    },
+    {
+      "ref": "R11",
+      "xMil": 2874.0157,
+      "yMil": 1177.1654,
+      "rotation": 90.0
+    },
+    {
+      "ref": "R12",
+      "xMil": 2980.315,
+      "yMil": 976.378,
+      "rotation": 0.0
+    },
+    {
+      "ref": "LED1",
+      "xMil": 2393.7008,
+      "yMil": 1484.252,
+      "rotation": 0.0
+    },
+    {
+      "ref": "LED2",
+      "xMil": 2610.2362,
+      "yMil": 1484.252,
+      "rotation": 0.0
+    },
+    {
+      "ref": "LED3",
+      "xMil": 2826.7717,
+      "yMil": 1484.252,
+      "rotation": 0.0
+    },
+    {
+      "ref": "R3",
+      "xMil": 2393.7008,
+      "yMil": 1393.7008,
+      "rotation": 0.0
+    },
+    {
+      "ref": "R4",
+      "xMil": 2610.2362,
+      "yMil": 1393.7008,
+      "rotation": 0.0
+    },
+    {
+      "ref": "R5",
+      "xMil": 2826.7717,
+      "yMil": 1393.7008,
+      "rotation": 0.0
+    },
+    {
+      "ref": "SW1",
+      "xMil": 531.4961,
+      "yMil": 208.6614,
+      "rotation": 180.0
+    },
+    {
+      "ref": "SW2",
+      "xMil": 976.378,
+      "yMil": 208.6614,
+      "rotation": 180.0
+    },
+    {
+      "ref": "SW3",
+      "xMil": 1417.3228,
+      "yMil": 208.6614,
+      "rotation": 180.0
+    },
+    {
+      "ref": "R13",
+      "xMil": 531.4961,
+      "yMil": 385.8268,
+      "rotation": 0.0
+    },
+    {
+      "ref": "R14",
+      "xMil": 976.378,
+      "yMil": 385.8268,
+      "rotation": 0.0
+    },
+    {
+      "ref": "R15",
+      "xMil": 1366.1417,
+      "yMil": 385.8268,
+      "rotation": 0.0
+    },
+    {
+      "ref": "U3",
+      "xMil": 2409.4488,
+      "yMil": 787.4016,
+      "rotation": 315.0
+    },
+    {
+      "ref": "RF1",
+      "xMil": 3122.0472,
+      "yMil": 606.2992,
+      "rotation": 0.0
+    },
+    {
+      "ref": "C7",
+      "xMil": 2673.2283,
+      "yMil": 649.6063,
+      "rotation": 0.0
+    },
+    {
+      "ref": "C8",
+      "xMil": 2673.2283,
+      "yMil": 547.2441,
+      "rotation": 0.0
+    },
+    {
+      "ref": "L2",
+      "xMil": 2807.0866,
+      "yMil": 651.5748,
+      "rotation": 0.0
+    },
+    {
+      "ref": "C10",
+      "xMil": 2807.0866,
+      "yMil": 547.2441,
+      "rotation": 0.0
+    },
+    {
+      "ref": "C11",
+      "xMil": 2952.7559,
+      "yMil": 606.2992,
+      "rotation": 0.0
+    },
+    {
+      "ref": "C9",
+      "xMil": 2732.2835,
+      "yMil": 771.6535,
+      "rotation": 90.0
+    },
+    {
+      "ref": "L3",
+      "xMil": 2732.2835,
+      "yMil": 417.3228,
+      "rotation": 90.0
+    },
+    {
+      "ref": "X1",
+      "xMil": 2417.3228,
+      "yMil": 417.3228,
+      "rotation": 90.0
+    },
+    {
+      "ref": "C20",
+      "xMil": 2295.2756,
+      "yMil": 444.8819,
+      "rotation": 90.0
+    },
+    {
+      "ref": "C21",
+      "xMil": 2539.3701,
+      "yMil": 448.8189,
+      "rotation": 90.0
+    },
+    {
+      "ref": "X2",
+      "xMil": 2700.7874,
+      "yMil": 964.5669,
+      "rotation": 0.0
+    },
+    {
+      "ref": "C22",
+      "xMil": 2633.8583,
+      "yMil": 1114.1732,
+      "rotation": 90.0
+    },
+    {
+      "ref": "C23",
+      "xMil": 2834.6457,
+      "yMil": 944.8819,
+      "rotation": 90.0
+    },
+    {
+      "ref": "R9",
+      "xMil": 2948.8189,
+      "yMil": 858.2677,
+      "rotation": 0.0
+    },
+    {
+      "ref": "L1",
+      "xMil": 2137.7953,
+      "yMil": 956.6929,
+      "rotation": 0.0
+    },
+    {
+      "ref": "C12",
+      "xMil": 2137.7953,
+      "yMil": 1035.4331,
+      "rotation": 0.0
+    },
+    {
+      "ref": "C13",
+      "xMil": 2641.7323,
+      "yMil": 757.874,
+      "rotation": 90.0
+    },
+    {
+      "ref": "C14",
+      "xMil": 2818.8976,
+      "yMil": 755.9055,
+      "rotation": 90.0
+    },
+    {
+      "ref": "C15",
+      "xMil": 2173.2283,
+      "yMil": 807.0866,
+      "rotation": 90.0
+    },
+    {
+      "ref": "C16",
+      "xMil": 2275.5906,
+      "yMil": 557.0866,
+      "rotation": 0.0
+    },
+    {
+      "ref": "C17",
+      "xMil": 2539.3701,
+      "yMil": 557.0866,
+      "rotation": 0.0
+    },
+    {
+      "ref": "C18",
+      "xMil": 2523.622,
+      "yMil": 1068.8976,
+      "rotation": 90.0
+    },
+    {
+      "ref": "C19",
+      "xMil": 2385.8268,
+      "yMil": 1114.1732,
+      "rotation": 0.0
+    },
+    {
+      "ref": "C6",
+      "xMil": 2385.8268,
+      "yMil": 1037.4016,
+      "rotation": 0.0
+    }
+  ],
+  "reservedHoles": [
+    {
+      "ref": "SCREW3",
+      "xMil": 157.4803,
+      "yMil": 157.4803,
+      "clearRadiusMm": 3
+    },
+    {
+      "ref": "SCREW4",
+      "xMil": 3070.8661,
+      "yMil": 157.4803,
+      "clearRadiusMm": 3
+    },
+    {
+      "ref": "SCREW1",
+      "xMil": 157.4803,
+      "yMil": 1417.3228,
+      "clearRadiusMm": 3
+    },
+    {
+      "ref": "SCREW2",
+      "xMil": 3070.8661,
+      "yMil": 1417.3228,
+      "clearRadiusMm": 3
+    }
+  ],
+  "estimatedClearanceMm": {
+    "minAcrossFootprintBoxes": 0.276,
+    "pair": [
+      "C19",
+      "C6"
+    ],
+    "minToHoleKeepout": 0.468,
+    "minToBoardEdgeExceptRF1": 0.298
+  },
+  "notes": [
+    "GPIO、USB、RF、晶振等最终以原生布线、DRC 及重开回读验收。",
+    "R3 圆角范围内四个角均留出半径 3 mm 的安装空间。RF1 单独核对边线参考，其外侧本体允许超出板框。",
+    "U3 315°，左侧 OLED 排针原点，USB1 从下边插入。OLED 外形调装配层、位号避让、传感器槽与用户指定的锁定状态需在工程内单项核验。"
+  ]
+}

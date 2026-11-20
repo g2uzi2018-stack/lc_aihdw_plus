@@ -1,0 +1,88 @@
+{
+  "props": {
+    "RoutingNets": [
+      "CC1",
+      "CC2",
+      "Q1_B",
+      "Q1_C",
+      "Q1_E",
+      "LED1_A",
+      "LED2_A",
+      "LED3_A",
+      "RBIAS",
+      "DCOUPL"
+    ],
+    "layers": [
+      1
+    ],
+    "cornerStyle": 0,
+    "existingPrimitiveMode": "keep",
+    "optimization": 0,
+    "ignoreNets": [
+      "+3V3",
+      "GND",
+      "P0_0",
+      "P0_1",
+      "P0_2",
+      "P0_3",
+      "P0_4",
+      "P0_6",
+      "P0_7",
+      "P1_0",
+      "P1_1",
+      "P1_2",
+      "P1_3",
+      "P1_4",
+      "P1_5",
+      "P1_6",
+      "P2_0",
+      "P2_1",
+      "P2_2",
+      "RESET",
+      "RF_COMB",
+      "RF_N",
+      "RF_N_MATCH",
+      "RF_P",
+      "RF_P_MATCH",
+      "SMA_FEED",
+      "USB_D+",
+      "USB_D-",
+      "VBUS",
+      "VDD",
+      "XOSC32K_Q1",
+      "XOSC32K_Q2",
+      "XOSC_Q1",
+      "XOSC_Q2"
+    ]
+  },
+  "start": {
+    "ok": true,
+    "value": {
+      "jobId": "autoroute-4"
+    },
+    "logs": [],
+    "durationMs": 13
+  },
+  "observations": [
+    {
+      "ok": true,
+      "value": {
+        "jobId": "autoroute-4",
+        "state": "running",
+        "progress": 43
+      },
+      "logs": [],
+      "durationMs": 3
+    },
+    {
+      "ok": true,
+      "value": {
+        "jobId": "autoroute-4",
+        "state": "completed",
+        "progress": 100
+      },
+      "logs": [],
+      "durationMs": 1
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "project": "3-Zigbee学习板",
+  "singleProjectCount": 1,
+  "placed": 69,
+  "allTop": true,
+  "maxPoseErrorMilOrDeg": 4.547473508864641e-13,
+  "boardOutline": {
+    "id": "06bf6d5071462681",
+    "layer": 11,
+    "width": 10,
+    "locked": true,
+    "path": [
+      "R",
+      0,
+      1574.8031,
+      3228.3465,
+      1574.8031,
+      0,
+      118.1102
+    ]
+  },
+  "copperLayerIds": [
+    1,
+    2
+  ],
+  "rulesFinal": {
+    "configAndClassesUnchanged": true,
+    "removedSelectorOnly": "NC",
+    "reason": "悬空脚纠正，删除了错误网络"
+  },
+  "nativeTraces": 104,
+  "nativeVias": 0,
+  "signalLayers": [
+    "1"
+  ],
+  "netCount": 44,
+  "netsWithoutRatlines": [
+    "CC1",
+    "CC2",
+    "DCOUPL",
+    "LED1_A",
+    "LED2_A",
+    "LED3_A",
+    "P0_2",
+    "P0_3",
+    "Q1_B",
+    "Q1_C",
+    "Q1_E",
+    "RBIAS",
+    "RF_COMB",
+    "RF_N",
+    "RF_N_MATCH",
+    "RF_P",
+    "RF_P_MATCH",
+    "SMA_FEED",
+    "USB_D+",
+    "USB_D-",
+    "XOSC32K_Q1",
+    "XOSC32K_Q2",
+    "XOSC_Q1",
+    "XOSC_Q2"
+  ],
+  "remainingRatlines": {
+    "+3V3": 26,
+    "VBUS": 3,
+    "GND": 4,
+    "VDD": 16,
+    "P1_0": 1,
+    "P1_1": 1,
+    "P1_5": 1,
+    "P1_6": 1,
+    "P1_4": 1,
+    "P1_3": 1,
+    "P1_2": 1,
+    "P2_2": 2,
+    "P2_1": 1,
+    "RESET": 4,
+    "P0_4": 1,
+    "P0_7": 2,
+    "P0_6": 2,
+    "P0_0": 3,
+    "P2_0": 3,
+    "P0_1": 2
+  },
+  "remainingRatlineCount": 76,
+  "restrictedTopNets": [
+    "USB_D+",
+    "USB_D-",
+    "P0_2",
+    "P0_3",
+    "XOSC_Q1",
+    "XOSC_Q2",
+    "XOSC32K_Q1",
+    "XOSC32K_Q2",
+    "RF_N",
+    "RF_P",
+    "RF_N_MATCH",
+    "RF_P_MATCH",
+    "RF_COMB",
+    "SMA_FEED"
+  ],
+  "pours": {
+    "borders": [
+      {
+        "id": "fb856b2cd8dcec0a",
+        "net": "GND",
+        "layer": 1
+      },
+      {
+        "id": "1646eee009da61f9",
+        "net": "GND",
+        "layer": 2
+      }
+    ],
+    "fills": [
+      {
+        "id": "fb856b2cd8dcec0a",
+        "layer": 1,
+        "count": 152
+      },
+      {
+        "id": "1646eee009da61f9",
+        "layer": 2,
+        "count": 31
+      }
+    ]
+  },
+  "pcbDrc": {
+    "state": "failed",
+    "total": 99,
+    "detailsByType": {
+      "No Connection": 98,
+      "Netlist Error": 1
+    },
+    "groups": [
+      {
+        "name": "Clearance Error",
+        "count": 0
+      },
+      {
+        "name": "Clearance Error in the same footprint",
+        "count": 0
+      },
+      {
+        "name": "Physical Error",
+        "count": 0
+      },
+      {
+        "name": "Differential Pair Error",
+        "count": 0
+      },
+      {
+        "name": "Connection Error",
+        "count": 20
+      },
+      {
+        "name": "Netlist Error",
+        "count": 1
+      },
+      {
+        "name": "Creepage Error",
+        "count": 0
+      }
+    ]
+  },
+  "schDrc": []
+}

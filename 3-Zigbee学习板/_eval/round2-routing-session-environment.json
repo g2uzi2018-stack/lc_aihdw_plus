@@ -1,0 +1,17 @@
+{
+ "doc": {
+  "documentType": 3,
+  "uuid": "0d423a3a93f1744c",
+  "tabId": "0d423a3a93f1744c@cca2f43ef988075e75d9fa44f0b99f7df28ef2946b32f8736fe738b0bca791c8",
+  "parentProjectUuid": "cca2f43ef988075e75d9fa44f0b99f7df28ef2946b32f8736fe738b0bca791c8"
+ },
+ "isOnline": false,
+ "isHalfOffline": true,
+ "hasAccountUuid": true,
+ "personalLibraryUuid": null,
+ "job": {
+  "jobId": "autoroute-1",
+  "state": "running",
+  "progress": 4
+ }
+}

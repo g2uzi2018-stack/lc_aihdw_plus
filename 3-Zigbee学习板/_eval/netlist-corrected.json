@@ -1,0 +1,1046 @@
+{
+  "version": "2.0.0",
+  "projectId": "cca2f43ef988075e75d9fa44f0b99f7df28ef2946b32f8736fe738b0bca791c8",
+  "parts": [
+    {
+      "ref": "BUZZER1",
+      "name": "={Value}",
+      "device": "MLT-5020",
+      "footprint": "BUZ-SMD_L5.0-W5.5-P4.60",
+      "pins": {
+        "1": "+3V3",
+        "2": "Q1_C",
+        "3": ""
+      }
+    },
+    {
+      "ref": "C1",
+      "name": "={Value}",
+      "device": "TAJA106K010RNJ",
+      "footprint": "CASE-A_3216",
+      "pins": {
+        "1": "VBUS",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C2",
+      "name": "={Value}",
+      "device": "TAJA106K010RNJ",
+      "footprint": "CASE-A_3216",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C3",
+      "name": "={Value}",
+      "device": "CL10B104KB8NNNC",
+      "footprint": "C0603",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C4",
+      "name": "={Value}",
+      "device": "CL10B104KB8NNNC",
+      "footprint": "C0603",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C5",
+      "name": "={Value}",
+      "device": "CL10B104KB8NNNC",
+      "footprint": "C0603",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C6",
+      "name": "={Value}",
+      "device": "CL10A105KB8NNNC",
+      "footprint": "C0603",
+      "pins": {
+        "1": "DCOUPL",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C7",
+      "name": "={Value}",
+      "device": "CL10C180JB8NNNC",
+      "footprint": "C0603",
+      "pins": {
+        "1": "RF_N",
+        "2": "RF_N_MATCH"
+      }
+    },
+    {
+      "ref": "C8",
+      "name": "={Value}",
+      "device": "CL10C180JB8NNNC",
+      "footprint": "C0603",
+      "pins": {
+        "1": "RF_P",
+        "2": "RF_P_MATCH"
+      }
+    },
+    {
+      "ref": "C9",
+      "name": "={Value}",
+      "device": "0603CG1R0C500NT",
+      "footprint": "C0603",
+      "pins": {
+        "1": "RF_N_MATCH",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C10",
+      "name": "={Value}",
+      "device": "0603CG1R0C500NT",
+      "footprint": "C0603",
+      "pins": {
+        "1": "RF_P_MATCH",
+        "2": "RF_COMB"
+      }
+    },
+    {
+      "ref": "C11",
+      "name": "={Value}",
+      "device": "0603CG2R2C500NT",
+      "footprint": "C0603",
+      "pins": {
+        "1": "RF_COMB",
+        "2": "SMA_FEED"
+      }
+    },
+    {
+      "ref": "C12",
+      "name": "={Value}",
+      "device": "CL10A225KO8NNNC",
+      "footprint": "C0603",
+      "pins": {
+        "1": "VDD",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C13",
+      "name": "={Value}",
+      "device": "CL10A225KO8NNNC",
+      "footprint": "C0603",
+      "pins": {
+        "1": "VDD",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C14",
+      "name": "={Value}",
+      "device": "CL10B104KB8NNNC",
+      "footprint": "C0603",
+      "pins": {
+        "1": "VDD",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C15",
+      "name": "={Value}",
+      "device": "CL10B104KB8NNNC",
+      "footprint": "C0603",
+      "pins": {
+        "1": "VDD",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C16",
+      "name": "={Value}",
+      "device": "CL10B104KB8NNNC",
+      "footprint": "C0603",
+      "pins": {
+        "1": "VDD",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C17",
+      "name": "={Value}",
+      "device": "CL10B104KB8NNNC",
+      "footprint": "C0603",
+      "pins": {
+        "1": "VDD",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C18",
+      "name": "={Value}",
+      "device": "CL10B104KB8NNNC",
+      "footprint": "C0603",
+      "pins": {
+        "1": "VDD",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C19",
+      "name": "={Value}",
+      "device": "CL10B104KB8NNNC",
+      "footprint": "C0603",
+      "pins": {
+        "1": "VDD",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C20",
+      "name": "={Value}",
+      "device": "CL10C180JB8NNNC",
+      "footprint": "C0603",
+      "pins": {
+        "1": "XOSC_Q1",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C21",
+      "name": "={Value}",
+      "device": "CL10C180JB8NNNC",
+      "footprint": "C0603",
+      "pins": {
+        "1": "XOSC_Q2",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C22",
+      "name": "={Value}",
+      "device": "CL10C180JB8NNNC",
+      "footprint": "C0603",
+      "pins": {
+        "1": "XOSC32K_Q1",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C23",
+      "name": "={Value}",
+      "device": "CL10C180JB8NNNC",
+      "footprint": "C0603",
+      "pins": {
+        "1": "XOSC32K_Q2",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C24",
+      "name": "={Value}",
+      "device": "CL10B104KB8NNNC",
+      "footprint": "C0603",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C25",
+      "name": "={Value}",
+      "device": "CL10B104KB8NNNC",
+      "footprint": "C0603",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C26",
+      "name": "={Value}",
+      "device": "CL10B104KB8NNNC",
+      "footprint": "C0603",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "D1",
+      "name": "={Manufacturer Part}",
+      "device": "1N5819W_C963381",
+      "footprint": "SOD-123_L2.7-W1.6-LS3.7-RD",
+      "pins": {
+        "1": "+3V3",
+        "2": "Q1_C"
+      }
+    },
+    {
+      "ref": "L1",
+      "name": "={Value}",
+      "device": "VHF160808H2N0ST",
+      "footprint": "L0603",
+      "pins": {
+        "1": "+3V3",
+        "2": "VDD"
+      }
+    },
+    {
+      "ref": "L2",
+      "name": "={Value}",
+      "device": "VHF160808H2N0ST",
+      "footprint": "L0603",
+      "pins": {
+        "1": "RF_N_MATCH",
+        "2": "RF_COMB"
+      }
+    },
+    {
+      "ref": "L3",
+      "name": "={Value}",
+      "device": "VHF160808H2N0ST",
+      "footprint": "L0603",
+      "pins": {
+        "1": "RF_P_MATCH",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "LED1",
+      "name": "={Manufacturer Part}",
+      "device": "NCD0603R1_C84263",
+      "footprint": "LED0603-RD_RED",
+      "pins": {
+        "1": "GND",
+        "2": "LED1_A"
+      }
+    },
+    {
+      "ref": "LED2",
+      "name": "={Manufacturer Part}",
+      "device": "NCD0603G1",
+      "footprint": "LED0603-RD_1",
+      "pins": {
+        "1": "P1_0",
+        "2": "LED2_A"
+      }
+    },
+    {
+      "ref": "LED3",
+      "name": "={Manufacturer Part}",
+      "device": "NCD0603G1",
+      "footprint": "LED0603-RD_1",
+      "pins": {
+        "1": "P1_1",
+        "2": "LED3_A"
+      }
+    },
+    {
+      "ref": "OLED1",
+      "name": "={Manufacturer Part}",
+      "device": "HS96L01B4S03",
+      "footprint": "OLED-TH_HS96L01B4S03",
+      "pins": {
+        "1": "GND",
+        "2": "+3V3",
+        "3": "P1_5",
+        "4": "P1_6",
+        "5": "P1_4",
+        "6": "P1_3",
+        "7": "P1_2"
+      }
+    },
+    {
+      "ref": "P1",
+      "name": "={Manufacturer Part}",
+      "device": "2.54-2*5P简牛",
+      "footprint": "IDC-TH_10P-P2.54_C5665",
+      "pins": {
+        "1": "GND",
+        "2": "+3V3",
+        "3": "P2_2",
+        "4": "P2_1",
+        "5": "",
+        "6": "",
+        "7": "RESET",
+        "8": "",
+        "9": "",
+        "10": ""
+      }
+    },
+    {
+      "ref": "Q1",
+      "name": "={Manufacturer Part}",
+      "device": "S8050_C20069125",
+      "footprint": "SOT-23-3_L2.9-W1.3-P1.90-LS2.3-BR",
+      "pins": {
+        "1": "Q1_B",
+        "2": "Q1_E",
+        "3": "Q1_C"
+      }
+    },
+    {
+      "ref": "R1",
+      "name": "={Value}",
+      "device": "0603WAF5101T5E",
+      "footprint": "R0603",
+      "pins": {
+        "1": "CC2",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R2",
+      "name": "={Value}",
+      "device": "0603WAF5101T5E",
+      "footprint": "R0603",
+      "pins": {
+        "1": "CC1",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R3",
+      "name": "={Value}",
+      "device": "0603WAF1001T5E",
+      "footprint": "R0603",
+      "pins": {
+        "1": "+3V3",
+        "2": "LED1_A"
+      }
+    },
+    {
+      "ref": "R4",
+      "name": "={Value}",
+      "device": "0603WAF1001T5E",
+      "footprint": "R0603",
+      "pins": {
+        "1": "+3V3",
+        "2": "LED2_A"
+      }
+    },
+    {
+      "ref": "R5",
+      "name": "={Value}",
+      "device": "0603WAF1001T5E",
+      "footprint": "R0603",
+      "pins": {
+        "1": "+3V3",
+        "2": "LED3_A"
+      }
+    },
+    {
+      "ref": "R6",
+      "name": "={Value}",
+      "device": "0603WAF1001T5E",
+      "footprint": "R0603",
+      "pins": {
+        "1": "P0_4",
+        "2": "Q1_B"
+      }
+    },
+    {
+      "ref": "R7",
+      "name": "={Value}",
+      "device": "0603WAF1002T5E",
+      "footprint": "R0603",
+      "pins": {
+        "1": "Q1_B",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R8",
+      "name": "={Value}",
+      "device": "0603WAF1000T5E",
+      "footprint": "R0603",
+      "pins": {
+        "1": "Q1_E",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R9",
+      "name": "={Value}",
+      "device": "0603WAF5602T5E",
+      "footprint": "R0603",
+      "pins": {
+        "1": "RBIAS",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R10",
+      "name": "={Value}",
+      "device": "0603WAF1002T5E",
+      "footprint": "R0603",
+      "pins": {
+        "1": "+3V3",
+        "2": "P2_2"
+      }
+    },
+    {
+      "ref": "R11",
+      "name": "={Value}",
+      "device": "0603WAF1002T5E",
+      "footprint": "R0603",
+      "pins": {
+        "1": "+3V3",
+        "2": "P0_7"
+      }
+    },
+    {
+      "ref": "R12",
+      "name": "={Value}",
+      "device": "0603WAF1002T5E",
+      "footprint": "R0603",
+      "pins": {
+        "1": "+3V3",
+        "2": "P0_6"
+      }
+    },
+    {
+      "ref": "R13",
+      "name": "={Value}",
+      "device": "0603WAF1002T5E",
+      "footprint": "R0603",
+      "pins": {
+        "1": "+3V3",
+        "2": "RESET"
+      }
+    },
+    {
+      "ref": "R14",
+      "name": "={Value}",
+      "device": "0603WAF1002T5E",
+      "footprint": "R0603",
+      "pins": {
+        "1": "+3V3",
+        "2": "P0_0"
+      }
+    },
+    {
+      "ref": "R15",
+      "name": "={Value}",
+      "device": "0603WAF1002T5E",
+      "footprint": "R0603",
+      "pins": {
+        "1": "+3V3",
+        "2": "P2_0"
+      }
+    },
+    {
+      "ref": "R16",
+      "name": "={Value}",
+      "device": "0603WAF1002T5E",
+      "footprint": "R0603",
+      "pins": {
+        "1": "+3V3",
+        "2": "P0_1"
+      }
+    },
+    {
+      "ref": "R17",
+      "name": "={Manufacturer Part}",
+      "device": "GT36516",
+      "footprint": "RES-SMD_L3.6-W2.4",
+      "pins": {
+        "1": "P0_1",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "RF1",
+      "name": "={Value}",
+      "device": "BWSMA-KE-P001",
+      "footprint": "SMA-SMD_BWSMA-KE-P001",
+      "pins": {
+        "1": "GND",
+        "2": "GND",
+        "3": "GND",
+        "4": "GND",
+        "5": "SMA_FEED"
+      }
+    },
+    {
+      "ref": "SW1",
+      "name": "={Manufacturer Part}",
+      "device": "TC-6601-5.0-260-8.3",
+      "footprint": "SW-SMD_4P-L6.0-W6.0-P4.50-LS8.2",
+      "pins": {
+        "1": "GND",
+        "2": "GND",
+        "3": "RESET",
+        "4": "RESET"
+      }
+    },
+    {
+      "ref": "SW2",
+      "name": "={Manufacturer Part}",
+      "device": "TC-6601-5.0-260-8.3",
+      "footprint": "SW-SMD_4P-L6.0-W6.0-P4.50-LS8.2",
+      "pins": {
+        "1": "GND",
+        "2": "GND",
+        "3": "P0_0",
+        "4": "P0_0"
+      }
+    },
+    {
+      "ref": "SW3",
+      "name": "={Manufacturer Part}",
+      "device": "TC-6601-5.0-260-8.3",
+      "footprint": "SW-SMD_4P-L6.0-W6.0-P4.50-LS8.2",
+      "pins": {
+        "1": "GND",
+        "2": "GND",
+        "3": "P2_0",
+        "4": "P2_0"
+      }
+    },
+    {
+      "ref": "U1",
+      "name": "={Manufacturer Part}",
+      "device": "AMS1117-3.3_C347222",
+      "footprint": "SOT-223-4_L6.5-W3.5-P2.30-LS7.0-BR",
+      "pins": {
+        "1": "GND",
+        "2": "+3V3",
+        "3": "VBUS",
+        "4": "+3V3"
+      }
+    },
+    {
+      "ref": "U2",
+      "name": "={Manufacturer Part}",
+      "device": "CH340N",
+      "footprint": "SOP-8_L4.9-W3.9-P1.27-LS6.0-BL",
+      "pins": {
+        "1": "USB_D+",
+        "2": "USB_D-",
+        "3": "GND",
+        "4": "",
+        "5": "+3V3",
+        "6": "P0_2",
+        "7": "P0_3",
+        "8": "+3V3"
+      }
+    },
+    {
+      "ref": "U3",
+      "name": "={Manufacturer Part}",
+      "device": "CC2530F256RHAR",
+      "footprint": "QFN-40_L6.0-W6.0-P0.50-TL-EP4.1",
+      "pins": {
+        "1": "GND",
+        "2": "GND",
+        "3": "GND",
+        "4": "GND",
+        "5": "P1_5",
+        "6": "P1_4",
+        "7": "P1_3",
+        "8": "P1_2",
+        "9": "P1_1",
+        "10": "VDD",
+        "11": "P1_0",
+        "12": "P0_7",
+        "13": "P0_6",
+        "14": "",
+        "15": "P0_4",
+        "16": "P0_3",
+        "17": "P0_2",
+        "18": "P0_1",
+        "19": "P0_0",
+        "20": "RESET",
+        "21": "VDD",
+        "22": "XOSC_Q1",
+        "23": "XOSC_Q2",
+        "24": "VDD",
+        "25": "RF_P",
+        "26": "RF_N",
+        "27": "VDD",
+        "28": "VDD",
+        "29": "VDD",
+        "30": "RBIAS",
+        "31": "VDD",
+        "32": "XOSC32K_Q1",
+        "33": "XOSC32K_Q2",
+        "34": "P2_2",
+        "35": "P2_1",
+        "36": "P2_0",
+        "37": "",
+        "38": "P1_6",
+        "39": "VDD",
+        "40": "DCOUPL",
+        "41": "GND"
+      }
+    },
+    {
+      "ref": "U4",
+      "name": "={Manufacturer Part}",
+      "device": "AHT20",
+      "footprint": "SENSOR-SMD_L3.0-W3.0-P1.00-BR",
+      "pins": {
+        "1": "",
+        "2": "+3V3",
+        "3": "P0_7",
+        "4": "P0_6",
+        "5": "GND",
+        "6": ""
+      }
+    },
+    {
+      "ref": "USB1",
+      "name": "={Manufacturer Part}",
+      "device": "TYPE-C 16PIN 2MD(073)",
+      "footprint": "USB-C-SMD_TYPE-C-16PIN-2MD-073",
+      "pins": {
+        "13": "GND",
+        "14": "GND",
+        "A1B12": "GND",
+        "A4B9": "VBUS",
+        "B8": "",
+        "A5": "CC1",
+        "B7": "USB_D-",
+        "A6": "USB_D+",
+        "A7": "USB_D-",
+        "B6": "USB_D+",
+        "A8": "",
+        "B5": "CC2",
+        "B4A9": "VBUS",
+        "B1A12": "GND"
+      }
+    },
+    {
+      "ref": "X1",
+      "name": "={Value}",
+      "device": "X322532MOB4SI",
+      "footprint": "CRYSTAL-SMD_4P-L3.2-W2.5-BL",
+      "pins": {
+        "1": "XOSC_Q1",
+        "2": "GND",
+        "3": "XOSC_Q2",
+        "4": "GND"
+      }
+    },
+    {
+      "ref": "X2",
+      "name": "={Value}",
+      "device": "XKXGI-SUA-32.768K",
+      "footprint": "CRYSTAL-SMD_L3.2-W1.5-1",
+      "pins": {
+        "1": "XOSC32K_Q1",
+        "2": "XOSC32K_Q2"
+      }
+    }
+  ],
+  "nets": {
+    "+3V3": [
+      "BUZZER1.1",
+      "C2.1",
+      "C24.1",
+      "C25.1",
+      "C26.1",
+      "C3.1",
+      "C4.1",
+      "C5.1",
+      "D1.1",
+      "L1.1",
+      "OLED1.2",
+      "P1.2",
+      "R10.1",
+      "R11.1",
+      "R12.1",
+      "R13.1",
+      "R14.1",
+      "R15.1",
+      "R16.1",
+      "R3.1",
+      "R4.1",
+      "R5.1",
+      "U1.2",
+      "U1.4",
+      "U2.5",
+      "U2.8",
+      "U4.2"
+    ],
+    "CC1": [
+      "R2.1",
+      "USB1.A5"
+    ],
+    "CC2": [
+      "R1.1",
+      "USB1.B5"
+    ],
+    "DCOUPL": [
+      "C6.1",
+      "U3.40"
+    ],
+    "GND": [
+      "C1.2",
+      "C12.2",
+      "C13.2",
+      "C14.2",
+      "C15.2",
+      "C16.2",
+      "C17.2",
+      "C18.2",
+      "C19.2",
+      "C2.2",
+      "C20.2",
+      "C21.2",
+      "C22.2",
+      "C23.2",
+      "C24.2",
+      "C25.2",
+      "C26.2",
+      "C3.2",
+      "C4.2",
+      "C5.2",
+      "C6.2",
+      "C9.2",
+      "L3.2",
+      "LED1.1",
+      "OLED1.1",
+      "P1.1",
+      "R1.2",
+      "R17.2",
+      "R2.2",
+      "R7.2",
+      "R8.2",
+      "R9.2",
+      "RF1.1",
+      "RF1.2",
+      "RF1.3",
+      "RF1.4",
+      "SW1.1",
+      "SW1.2",
+      "SW2.1",
+      "SW2.2",
+      "SW3.1",
+      "SW3.2",
+      "U1.1",
+      "U2.3",
+      "U3.1",
+      "U3.2",
+      "U3.3",
+      "U3.4",
+      "U3.41",
+      "U4.5",
+      "USB1.13",
+      "USB1.14",
+      "USB1.A1B12",
+      "USB1.B1A12",
+      "X1.2",
+      "X1.4"
+    ],
+    "LED1_A": [
+      "LED1.2",
+      "R3.2"
+    ],
+    "LED2_A": [
+      "LED2.2",
+      "R4.2"
+    ],
+    "LED3_A": [
+      "LED3.2",
+      "R5.2"
+    ],
+    "P0_0": [
+      "R14.2",
+      "SW2.3",
+      "SW2.4",
+      "U3.19"
+    ],
+    "P0_1": [
+      "R16.2",
+      "R17.1",
+      "U3.18"
+    ],
+    "P0_2": [
+      "U2.6",
+      "U3.17"
+    ],
+    "P0_3": [
+      "U2.7",
+      "U3.16"
+    ],
+    "P0_4": [
+      "R6.1",
+      "U3.15"
+    ],
+    "P0_6": [
+      "R12.2",
+      "U3.13",
+      "U4.4"
+    ],
+    "P0_7": [
+      "R11.2",
+      "U3.12",
+      "U4.3"
+    ],
+    "P1_0": [
+      "LED2.1",
+      "U3.11"
+    ],
+    "P1_1": [
+      "LED3.1",
+      "U3.9"
+    ],
+    "P1_2": [
+      "OLED1.7",
+      "U3.8"
+    ],
+    "P1_3": [
+      "OLED1.6",
+      "U3.7"
+    ],
+    "P1_4": [
+      "OLED1.5",
+      "U3.6"
+    ],
+    "P1_5": [
+      "OLED1.3",
+      "U3.5"
+    ],
+    "P1_6": [
+      "OLED1.4",
+      "U3.38"
+    ],
+    "P2_0": [
+      "R15.2",
+      "SW3.3",
+      "SW3.4",
+      "U3.36"
+    ],
+    "P2_1": [
+      "P1.4",
+      "U3.35"
+    ],
+    "P2_2": [
+      "P1.3",
+      "R10.2",
+      "U3.34"
+    ],
+    "Q1_B": [
+      "Q1.1",
+      "R6.2",
+      "R7.1"
+    ],
+    "Q1_C": [
+      "BUZZER1.2",
+      "D1.2",
+      "Q1.3"
+    ],
+    "Q1_E": [
+      "Q1.2",
+      "R8.1"
+    ],
+    "RBIAS": [
+      "R9.1",
+      "U3.30"
+    ],
+    "RESET": [
+      "P1.7",
+      "R13.2",
+      "SW1.3",
+      "SW1.4",
+      "U3.20"
+    ],
+    "RF_COMB": [
+      "C10.2",
+      "C11.1",
+      "L2.2"
+    ],
+    "RF_N": [
+      "C7.1",
+      "U3.26"
+    ],
+    "RF_N_MATCH": [
+      "C7.2",
+      "C9.1",
+      "L2.1"
+    ],
+    "RF_P": [
+      "C8.1",
+      "U3.25"
+    ],
+    "RF_P_MATCH": [
+      "C10.1",
+      "C8.2",
+      "L3.1"
+    ],
+    "SMA_FEED": [
+      "C11.2",
+      "RF1.5"
+    ],
+    "USB_D+": [
+      "U2.1",
+      "USB1.A6",
+      "USB1.B6"
+    ],
+    "USB_D-": [
+      "U2.2",
+      "USB1.A7",
+      "USB1.B7"
+    ],
+    "VBUS": [
+      "C1.1",
+      "U1.3",
+      "USB1.A4B9",
+      "USB1.B4A9"
+    ],
+    "VDD": [
+      "C12.1",
+      "C13.1",
+      "C14.1",
+      "C15.1",
+      "C16.1",
+      "C17.1",
+      "C18.1",
+      "C19.1",
+      "L1.2",
+      "U3.10",
+      "U3.21",
+      "U3.24",
+      "U3.27",
+      "U3.28",
+      "U3.29",
+      "U3.31",
+      "U3.39"
+    ],
+    "XOSC32K_Q1": [
+      "C22.1",
+      "U3.32",
+      "X2.1"
+    ],
+    "XOSC32K_Q2": [
+      "C23.1",
+      "U3.33",
+      "X2.2"
+    ],
+    "XOSC_Q1": [
+      "C20.1",
+      "U3.22",
+      "X1.1"
+    ],
+    "XOSC_Q2": [
+      "C21.1",
+      "U3.23",
+      "X1.3"
+    ]
+  },
+  "stats": {
+    "parts": 65,
+    "pins": 219,
+    "nets": 44
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "props": {
+    "RoutingNets": [
+      "USB_D+",
+      "USB_D-",
+      "P0_2",
+      "P0_3",
+      "XOSC_Q1",
+      "XOSC_Q2",
+      "XOSC32K_Q1",
+      "XOSC32K_Q2",
+      "RF_N",
+      "RF_P",
+      "RF_N_MATCH",
+      "RF_P_MATCH",
+      "RF_COMB",
+      "SMA_FEED"
+    ],
+    "layers": [
+      1
+    ],
+    "cornerStyle": 0,
+    "existingPrimitiveMode": "keep",
+    "optimization": 1
+  },
+  "start": {
+    "ok": true,
+    "value": {
+      "jobId": "autoroute-1"
+    },
+    "logs": [],
+    "durationMs": 18
+  },
+  "observations": [
+    {
+      "ok": true,
+      "value": {
+        "jobId": "autoroute-1",
+        "state": "running",
+        "progress": 0
+      },
+      "logs": [],
+      "durationMs": 2
+    },
+    {
+      "ok": true,
+      "value": {
+        "jobId": "autoroute-1",
+        "state": "running",
+        "progress": 2
+      },
+      "logs": [],
+      "durationMs": 1
+    },
+    {
+      "ok": true,
+      "value": {
+        "jobId": "autoroute-1",
+        "state": "running",
+        "progress": 3
+      },
+      "logs": [],
+      "durationMs": 2
+    },
+    {
+      "ok": true,
+      "value": {
+        "jobId": "autoroute-1",
+        "state": "running",
+        "progress": 3
+      },
+      "logs": [],
+      "durationMs": 2
+    },
+    {
+      "ok": true,
+      "value": {
+        "jobId": "autoroute-1",
+        "state": "running",
+        "progress": 3
+      },
+      "logs": [],
+      "durationMs": 1
+    },
+    {
+      "ok": true,
+      "value": {
+        "jobId": "autoroute-1",
+        "state": "running",
+        "progress": 3
+      },
+      "logs": [],
+      "durationMs": 2
+    },
+    {
+      "ok": true,
+      "value": {
+        "jobId": "autoroute-1",
+        "state": "running",
+        "progress": 3
+      },
+      "logs": [],
+      "durationMs": 2
+    },
+    {
+      "ok": true,
+      "value": {
+        "jobId": "autoroute-1",
+        "state": "running",
+        "progress": 3
+      },
+      "logs": [],
+      "durationMs": 2
+    },
+    {
+      "ok": true,
+      "value": {
+        "jobId": "autoroute-1",
+        "state": "canceled",
+        "progress": 3
+      },
+      "logs": [],
+      "durationMs": 3
+    }
+  ]
+}

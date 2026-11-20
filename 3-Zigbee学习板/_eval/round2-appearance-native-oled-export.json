@@ -1,0 +1,181 @@
+{
+  "ok": true,
+  "value": {
+    "present": true,
+    "type": "zip",
+    "name": "appearance-native.epro2",
+    "size": 135453,
+    "nativeDocumentMember": "appearance-native.epru",
+    "memberSha256": "80b80825354d83567ab2830a3fbb5dc20e6d5ad9a42a55f5264d53591ae72ad3",
+    "exportedOledAgainstBaseline": {
+      "outline": [
+        [
+          "e1",
+          9,
+          true
+        ],
+        [
+          "e2",
+          9,
+          true
+        ],
+        [
+          "e3",
+          9,
+          true
+        ],
+        [
+          "e4",
+          9,
+          true
+        ],
+        [
+          "e5",
+          9,
+          true
+        ],
+        [
+          "e6",
+          9,
+          true
+        ],
+        [
+          "e7",
+          9,
+          true
+        ],
+        [
+          "e8",
+          9,
+          true
+        ]
+      ],
+      "pads": [
+        [
+          "e13",
+          "1",
+          true
+        ],
+        [
+          "e14",
+          "2",
+          true
+        ],
+        [
+          "e15",
+          "3",
+          true
+        ],
+        [
+          "e16",
+          "4",
+          true
+        ],
+        [
+          "e17",
+          "5",
+          true
+        ],
+        [
+          "e18",
+          "6",
+          true
+        ],
+        [
+          "e19",
+          "7",
+          true
+        ]
+      ],
+      "holes": [
+        [
+          "e9",
+          [
+            "CIRCLE",
+            -458.66,
+            -19.69,
+            45.276
+          ],
+          true
+        ],
+        [
+          "e10",
+          [
+            "CIRCLE",
+            458.66,
+            -19.69,
+            45.276
+          ],
+          true
+        ],
+        [
+          "e11",
+          [
+            "CIRCLE",
+            458.66,
+            -956.69,
+            45.276
+          ],
+          true
+        ],
+        [
+          "e12",
+          [
+            "CIRCLE",
+            -458.66,
+            -956.69,
+            45.276
+          ],
+          true
+        ]
+      ],
+      "legend": [
+        [
+          "GND",
+          "Arial",
+          45,
+          3
+        ],
+        [
+          "VCC",
+          "Arial",
+          45,
+          3
+        ],
+        [
+          "SCL",
+          "Arial",
+          45,
+          3
+        ],
+        [
+          "SDA",
+          "Arial",
+          45,
+          3
+        ],
+        [
+          "RES",
+          "Arial",
+          45,
+          3
+        ],
+        [
+          "DC",
+          "Arial",
+          45,
+          3
+        ],
+        [
+          "CS",
+          "Arial",
+          45,
+          3
+        ]
+      ],
+      "otherRecordChanges": []
+    }
+  },
+  "logs": [],
+  "durationMs": 118
+}

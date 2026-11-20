@@ -1,0 +1,21 @@
+{
+  "source": "Pre-save. P1 unchanged since before-content.zip. For PCB all original records for the 34 appearance operations were recovered using the original library sections, including removed body record and insertion position, with all other bytes from the latest routed PCB. The latest raw length independently observed before applying matched 1225806. Re-applying the exact patch in memory must reproduce the patched native files byte-for-byte.",
+  "files": [
+    {
+      "file": "sch/Schematic1/P1.esch2",
+      "changed": 49,
+      "originalSha256": "3f5921bd0aeeee559868ca9f5f1aae631a1b2d1f18fed5b507b4cbadd9c8e95a",
+      "forwardReplaySha256": "028cad7dd7bd6be64ac6f1f4f744de4f543407b1732f86544eb3abab5cef638f",
+      "actualSha256": "028cad7dd7bd6be64ac6f1f4f744de4f543407b1732f86544eb3abab5cef638f",
+      "byteIdentical": true
+    },
+    {
+      "file": "pcb/PCB1.epcb2",
+      "changed": 34,
+      "originalSha256": "0ac620573a9f92a1299663d34a178f97c44a436e20522b873e71abefac6aee9e",
+      "forwardReplaySha256": "a35f305a732954d99d8e7b865e3daef2d05aba591ba50c1a8599a0fdfd93d157",
+      "actualSha256": "a35f305a732954d99d8e7b865e3daef2d05aba591ba50c1a8599a0fdfd93d157",
+      "byteIdentical": true
+    }
+  ]
+}

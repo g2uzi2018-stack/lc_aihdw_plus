@@ -1,0 +1,72 @@
+[
+  {
+    "pdf": 1,
+    "library": "A1B12",
+    "net": "GND"
+  },
+  {
+    "pdf": 2,
+    "library": "A4B9",
+    "net": "VBUS"
+  },
+  {
+    "pdf": 3,
+    "library": "B8",
+    "net": "NC"
+  },
+  {
+    "pdf": 4,
+    "library": "A5",
+    "net": "CC1"
+  },
+  {
+    "pdf": 5,
+    "library": "B7",
+    "net": "USB_D-"
+  },
+  {
+    "pdf": 6,
+    "library": "A6",
+    "net": "USB_D+"
+  },
+  {
+    "pdf": 7,
+    "library": "A7",
+    "net": "USB_D-"
+  },
+  {
+    "pdf": 8,
+    "library": "B6",
+    "net": "USB_D+"
+  },
+  {
+    "pdf": 9,
+    "library": "A8",
+    "net": "NC"
+  },
+  {
+    "pdf": 10,
+    "library": "B5",
+    "net": "CC2"
+  },
+  {
+    "pdf": 11,
+    "library": "B4A9",
+    "net": "VBUS"
+  },
+  {
+    "pdf": 12,
+    "library": "B1A12",
+    "net": "GND"
+  },
+  {
+    "pdf": 13,
+    "library": "13",
+    "net": "GND"
+  },
+  {
+    "pdf": 14,
+    "library": "14",
+    "net": "GND"
+  }
+]

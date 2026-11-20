@@ -1,0 +1,12 @@
+{
+  "peer": "peer-coworkers / Antigravity CLI 1.5.12 / Gemini 4 Argon High",
+  "review": "只读复核原生 PCB 网表诊断",
+  "handoffSha256": "a4074e533b674d43bce365d59ea5fba563a0cad87f10b28a36a9deefbc78bd8d",
+  "manualVerification": [
+    "实测 PCB1 导出含 69 位号、223 个逻辑引脚，与上轮原理图引脚无差异。",
+    "PCB 的四个 M3 实例子属性里缺少单列 Footprint，但已有实际焊盘与孔，未认定该表示法是错误。",
+    "原生文件含空名 NET 条目；缺少原生差异证据，不能据此认定告警成因。",
+    "应区分原生文件逐脚电气对比、内置网表对比重载与 DRC 的导入变更比较。"
+  ],
+  "peerToolScope": "并行在同一工作区新增了补丁和证据，工具的整仓变更检查未通过。本次由主代理对照实际文件和客户端结果人工复核。"
+}

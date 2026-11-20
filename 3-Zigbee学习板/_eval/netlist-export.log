@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "value": {
+    "out": "C:\\Zzkuang\\workspace\\lc_aihdw_plus\\3-Zigbee学习板\\_eval\\netlist.json",
+    "parts": 65,
+    "pins": 219,
+    "nets": 45
+  }
+}

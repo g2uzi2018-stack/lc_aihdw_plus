@@ -1,0 +1,113 @@
+{
+  "ok": true,
+  "value": {
+    "iteration": 1,
+    "progress": {
+      "progress": 0.02341269841269841,
+      "routabitity": 0.6904761904761905
+    },
+    "examples": [
+      {
+        "id": 0,
+        "location": [
+          67.30959999999982,
+          21.752099999999984
+        ],
+        "net": "P0_6",
+        "size": [
+          0.61,
+          0.305
+        ]
+      },
+      {
+        "id": 1,
+        "location": [
+          57.6869668906353,
+          18.16673310936448
+        ],
+        "net": "P0_6",
+        "size": [
+          0.61,
+          0.305
+        ]
+      }
+    ],
+    "viaNets": [
+      "P0_6",
+      "P0_6",
+      "P2_0",
+      "P2_0",
+      "P2_0",
+      "P2_0",
+      "P0_0",
+      "P0_0",
+      "P0_1",
+      "P0_1",
+      "P0_7",
+      "P0_7",
+      "P0_4",
+      "P0_4",
+      "P2_1",
+      "P2_1",
+      "P2_1",
+      "P2_1",
+      "P2_1",
+      "P1_1",
+      "P1_1",
+      "P1_1",
+      "P1_1",
+      "P2_2",
+      "P1_0",
+      "P1_0",
+      "VDD",
+      "VDD",
+      "VDD",
+      "VDD",
+      "VDD",
+      "VDD",
+      "VDD",
+      "VDD",
+      "VDD",
+      "P1_2",
+      "P1_2",
+      "P1_3",
+      "P1_4",
+      "P1_5",
+      "P1_6",
+      "+3V3",
+      "+3V3",
+      "RESET",
+      "RESET",
+      "RESET"
+    ],
+    "logs": [
+      {
+        "at": 1795064490507,
+        "level": "info",
+        "message": "Congest cost: 33"
+      },
+      {
+        "at": 1795064490507,
+        "level": "info",
+        "message": "Total time-consuming: 133.323 s"
+      },
+      {
+        "at": 1795064490507,
+        "level": "info",
+        "message": "Progress: 0.0234127"
+      },
+      {
+        "at": 1795064490507,
+        "level": "info",
+        "message": "Routing iter: 9 / 14 (Phase 2)"
+      },
+      {
+        "at": 1795064511355,
+        "level": "info",
+        "message": "Penalty: 60.817"
+      }
+    ]
+  },
+  "logs": [],
+  "durationMs": 2
+}
